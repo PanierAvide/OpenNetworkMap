@@ -1,0 +1,66 @@
+/* General style information */
+meta {
+	author: "Adrien PAVIE";
+	title: "OpenNetworkMap Power CSS";
+	shorttitle: "OpenNetworkMap Power";
+	version: "0.0.1";
+}
+
+/* General grid style */
+grid {
+	node-margins: 70;
+}
+
+/* Default node style */
+node {
+	stroke: #000;
+	stroke-width: 2;
+	font-size: 6;
+	font-color: #000;
+}
+
+/* Generator nodes */
+node[type=first] {
+	width: 15;
+	shape: lozenge;
+	fill: #FFFF00;
+}
+
+/* Substation nodes */
+node[type=second] {
+	width: 10;
+	shape: circle;
+	fill: #dddddd;
+}
+
+/* Lines connection nodes */
+node[type=third] {
+	width: 8;
+	shape: circle;
+	fill: #000;
+}
+
+/* Default link style */
+link {
+	stroke-width: 1;
+	font-size: 6;
+	font-color: #000;
+}
+
+link[type=first], link[type=second] {
+	width: 5;
+	fill: #FF8C00;
+}
+
+link[type=first], link[type=third] {
+	stroke: #00FFEA;
+}
+
+link[type=second] {
+	stroke: #524D30;
+}
+
+link[type=third] {
+	width: 2;
+	fill: #F7FF00;
+}

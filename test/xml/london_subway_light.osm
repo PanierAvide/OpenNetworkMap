@@ -1,0 +1,1441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-51686' visible='true' lat='51.5836935' lon='-0.0718118' />
+  <node id='-51526' visible='true' lat='51.5821795' lon='-0.0751789' />
+  <node id='-51525' visible='true' lat='51.5817189' lon='-0.076239' />
+  <node id='-51523' visible='true' lat='51.5824003' lon='-0.0746692' />
+  <node id='-51522' visible='true' lat='51.5831039' lon='-0.0730103' />
+  <node id='-51521' visible='true' lat='51.5834937' lon='-0.0721357'>
+    <tag k='railway' v='switch' />
+  </node>
+  <node id='-51512' visible='true' lat='51.5836035' lon='-0.0716599' />
+  <node id='-51510' visible='true' lat='51.515658' lon='-0.1420128'>
+    <tag k='construction' v='yes' />
+    <tag k='line' v='Bakerloo' />
+    <tag k='name' v='Oxford Circus' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stop' />
+    <tag k='wikipedia' v='en:Oxford Circus tube station' />
+  </node>
+  <node id='-51463' visible='true' lat='51.5834588' lon='-0.0727884' />
+  <node id='-51462' visible='true' lat='51.5827261' lon='-0.0745028' />
+  <node id='-51461' visible='true' lat='51.5824478' lon='-0.0751139' />
+  <node id='-51460' visible='true' lat='51.5814729' lon='-0.0767917'>
+    <tag k='railway' v='switch' />
+  </node>
+  <node id='-51458' visible='true' lat='51.5799756' lon='-0.0796348' />
+  <node id='-51456' visible='true' lat='51.5793669' lon='-0.0807738' />
+  <node id='-51455' visible='true' lat='51.57891' lon='-0.0815917' />
+  <node id='-51454' visible='true' lat='51.5781944' lon='-0.0825543' />
+  <node id='-51453' visible='true' lat='51.5755556' lon='-0.0852117' />
+  <node id='-51452' visible='true' lat='51.5750234' lon='-0.0858377' />
+  <node id='-51451' visible='true' lat='51.5745243' lon='-0.0864696' />
+  <node id='-51450' visible='true' lat='51.5740288' lon='-0.0871665' />
+  <node id='-51449' visible='true' lat='51.5736177' lon='-0.0879755' />
+  <node id='-51448' visible='true' lat='51.573236' lon='-0.0889499' />
+  <node id='-51447' visible='true' lat='51.5709279' lon='-0.0956396' />
+  <node id='-51446' visible='true' lat='51.5705918' lon='-0.0969937' />
+  <node id='-51445' visible='true' lat='51.570218' lon='-0.0988524' />
+  <node id='-51444' visible='true' lat='51.5695198' lon='-0.103358' />
+  <node id='-51443' visible='true' lat='51.5693329' lon='-0.1040512' />
+  <node id='-51442' visible='true' lat='51.5690993' lon='-0.1046358' />
+  <node id='-51441' visible='true' lat='51.5688242' lon='-0.1051112' />
+  <node id='-51440' visible='true' lat='51.5685306' lon='-0.1054655' />
+  <node id='-51439' visible='true' lat='51.5681561' lon='-0.1057608' />
+  <node id='-51438' visible='true' lat='51.5673585' lon='-0.106125' />
+  <node id='-51437' visible='true' lat='51.5655988' lon='-0.1065998' />
+  <node id='-51436' visible='true' lat='51.5622605' lon='-0.1070482' />
+  <node id='-51435' visible='true' lat='51.5610564' lon='-0.1074652' />
+  <node id='-51434' visible='true' lat='51.5603756' lon='-0.1077135' />
+  <node id='-51433' visible='true' lat='51.5596816' lon='-0.107783' />
+  <node id='-51432' visible='true' lat='51.5591071' lon='-0.1078204' />
+  <node id='-51431' visible='true' lat='51.5584994' lon='-0.1078017' />
+  <node id='-51430' visible='true' lat='51.5580444' lon='-0.1077029' />
+  <node id='-51429' visible='true' lat='51.5567011' lon='-0.1072729' />
+  <node id='-51428' visible='true' lat='51.5543697' lon='-0.1065012' />
+  <node id='-51427' visible='true' lat='51.5526714' lon='-0.1058556' />
+  <node id='-51426' visible='true' lat='51.5481328' lon='-0.1040999' />
+  <node id='-51425' visible='true' lat='51.5475064' lon='-0.1039103'>
+    <tag k='public_transport' v='stop_position' />
+    <tag k='subway' v='yes' />
+  </node>
+  <node id='-51424' visible='true' lat='51.5467941' lon='-0.1036984' />
+  <node id='-51423' visible='true' lat='51.5463143' lon='-0.1035535' />
+  <node id='-51422' visible='true' lat='51.5458422' lon='-0.1033721' />
+  <node id='-51421' visible='true' lat='51.5450042' lon='-0.1031766' />
+  <node id='-51420' visible='true' lat='51.544101' lon='-0.1030187' />
+  <node id='-51418' visible='true' lat='51.5427158' lon='-0.1029069' />
+  <node id='-51417' visible='true' lat='51.54163' lon='-0.1029853' />
+  <node id='-51416' visible='true' lat='51.5407735' lon='-0.103167' />
+  <node id='-51415' visible='true' lat='51.5401221' lon='-0.1034767' />
+  <node id='-51414' visible='true' lat='51.539671' lon='-0.1037894' />
+  <node id='-51413' visible='true' lat='51.5391798' lon='-0.104296' />
+  <node id='-51412' visible='true' lat='51.538769' lon='-0.1048295' />
+  <node id='-51410' visible='true' lat='51.5382972' lon='-0.1055657' />
+  <node id='-51409' visible='true' lat='51.5316565' lon='-0.1197395' />
+  <node id='-51407' visible='true' lat='51.5311881' lon='-0.1208822' />
+  <node id='-51406' visible='true' lat='51.5309643' lon='-0.1216069'>
+    <tag k='layer' v='-3' />
+    <tag k='name' v='King&apos;s Cross St. Pancras' />
+    <tag k='name:ru' v='Кингс-Кросс Сент-Панкрасс' />
+    <tag k='network' v='London Underground' />
+    <tag k='public_transport' v='stop_position' />
+  </node>
+  <node id='-51405' visible='true' lat='51.5308426' lon='-0.1220478' />
+  <node id='-51404' visible='true' lat='51.5307343' lon='-0.1224641' />
+  <node id='-51403' visible='true' lat='51.5306048' lon='-0.1229436' />
+  <node id='-51402' visible='true' lat='51.530405' lon='-0.1237215' />
+  <node id='-51401' visible='true' lat='51.5302433' lon='-0.1245337' />
+  <node id='-51400' visible='true' lat='51.5300589' lon='-0.1255839' />
+  <node id='-51399' visible='true' lat='51.5298876' lon='-0.1268072' />
+  <node id='-51398' visible='true' lat='51.5297392' lon='-0.127719' />
+  <node id='-51397' visible='true' lat='51.5296029' lon='-0.12842' />
+  <node id='-51395' visible='true' lat='51.5294367' lon='-0.1291599' />
+  <node id='-51394' visible='true' lat='51.5292382' lon='-0.1299311' />
+  <node id='-51392' visible='true' lat='51.5290805' lon='-0.1304706' />
+  <node id='-51391' visible='true' lat='51.5289223' lon='-0.1309935' />
+  <node id='-51390' visible='true' lat='51.528764' lon='-0.131492' />
+  <node id='-51389' visible='true' lat='51.5285438' lon='-0.1322216'>
+    <tag k='name' v='Euston (Victoria)' />
+  </node>
+  <node id='-51388' visible='true' lat='51.5283627' lon='-0.1328103' />
+  <node id='-51387' visible='true' lat='51.5282074' lon='-0.1332093' />
+  <node id='-51386' visible='true' lat='51.5280167' lon='-0.1336345' />
+  <node id='-51384' visible='true' lat='51.5278552' lon='-0.1339879' />
+  <node id='-51383' visible='true' lat='51.52763' lon='-0.134407' />
+  <node id='-51382' visible='true' lat='51.5271367' lon='-0.1353419' />
+  <node id='-51381' visible='true' lat='51.5270204' lon='-0.1355746' />
+  <node id='-51380' visible='true' lat='51.5268952' lon='-0.1357967' />
+  <node id='-51379' visible='true' lat='51.5265365' lon='-0.1363409' />
+  <node id='-51378' visible='true' lat='51.5262123' lon='-0.1368105' />
+  <node id='-51376' visible='true' lat='51.525864' lon='-0.1372501' />
+  <node id='-51375' visible='true' lat='51.5245953' lon='-0.1391568'>
+    <tag k='line' v='Northern, Victoria' />
+    <tag k='name' v='Warren Street' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stopping_point' />
+    <tag k='wheelchair' v='no' />
+  </node>
+  <node id='-51374' visible='true' lat='51.5241402' lon='-0.1396897' />
+  <node id='-51373' visible='true' lat='51.5236103' lon='-0.140337' />
+  <node id='-51372' visible='true' lat='51.5230568' lon='-0.1408861' />
+  <node id='-51371' visible='true' lat='51.5223722' lon='-0.1415236' />
+  <node id='-51370' visible='true' lat='51.5217836' lon='-0.1419204' />
+  <node id='-51369' visible='true' lat='51.5211998' lon='-0.1421492' />
+  <node id='-51368' visible='true' lat='51.520649' lon='-0.1422987' />
+  <node id='-51367' visible='true' lat='51.5199544' lon='-0.1424223' />
+  <node id='-51365' visible='true' lat='51.5186845' lon='-0.1425335' />
+  <node id='-51363' visible='true' lat='51.5176537' lon='-0.142623' />
+  <node id='-51362' visible='true' lat='51.5171316' lon='-0.1426252' />
+  <node id='-51361' visible='true' lat='51.5166083' lon='-0.1425939' />
+  <node id='-51360' visible='true' lat='51.5161274' lon='-0.1424533' />
+  <node id='-51359' visible='true' lat='51.5156081' lon='-0.1422972'>
+    <tag k='construction' v='yes' />
+    <tag k='line' v='Victoria' />
+    <tag k='name' v='Oxford Circus' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stop' />
+  </node>
+  <node id='-51358' visible='true' lat='51.5151266' lon='-0.1421576' />
+  <node id='-51357' visible='true' lat='51.5143572' lon='-0.1420502' />
+  <node id='-51157' visible='true' lat='51.5138721' lon='-0.1415398' />
+  <node id='-51156' visible='true' lat='51.5143448' lon='-0.1414978' />
+  <node id='-51155' visible='true' lat='51.5152272' lon='-0.1416426' />
+  <node id='-51154' visible='true' lat='51.5156576' lon='-0.1417687'>
+    <tag k='construction' v='yes' />
+    <tag k='line' v='Victoria' />
+    <tag k='name' v='Oxford Circus' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stop' />
+    <tag k='wikipedia' v='http://en.wikipedia.org/wiki/Oxford_Circus_tube_station' />
+  </node>
+  <node id='-51153' visible='true' lat='51.5160712' lon='-0.1418921' />
+  <node id='-51152' visible='true' lat='51.516644' lon='-0.1420837' />
+  <node id='-51151' visible='true' lat='51.5171332' lon='-0.1421951' />
+  <node id='-51149' visible='true' lat='51.5176523' lon='-0.142227' />
+  <node id='-51148' visible='true' lat='51.5186879' lon='-0.1422086' />
+  <node id='-51147' visible='true' lat='51.5199282' lon='-0.1421439' />
+  <node id='-51146' visible='true' lat='51.5206318' lon='-0.142015' />
+  <node id='-51145' visible='true' lat='51.5211734' lon='-0.1418858' />
+  <node id='-51144' visible='true' lat='51.5217379' lon='-0.1417368' />
+  <node id='-51143' visible='true' lat='51.5223942' lon='-0.1415186' />
+  <node id='-51142' visible='true' lat='51.5231408' lon='-0.1410944' />
+  <node id='-51141' visible='true' lat='51.5237482' lon='-0.1406333' />
+  <node id='-51140' visible='true' lat='51.5242991' lon='-0.1401015' />
+  <node id='-51139' visible='true' lat='51.5247904' lon='-0.1394484' />
+  <node id='-51138' visible='true' lat='51.5259942' lon='-0.1376343' />
+  <node id='-51137' visible='true' lat='51.5262985' lon='-0.1371076' />
+  <node id='-51136' visible='true' lat='51.5267019' lon='-0.1365151' />
+  <node id='-51135' visible='true' lat='51.5271405' lon='-0.1357835' />
+  <node id='-51134' visible='true' lat='51.5272812' lon='-0.1355352' />
+  <node id='-51133' visible='true' lat='51.5277363' lon='-0.1345376' />
+  <node id='-51132' visible='true' lat='51.5279614' lon='-0.1341323' />
+  <node id='-51131' visible='true' lat='51.5280708' lon='-0.1338759' />
+  <node id='-51130' visible='true' lat='51.5282066' lon='-0.1335572' />
+  <node id='-51129' visible='true' lat='51.5282945' lon='-0.1333154' />
+  <node id='-51128' visible='true' lat='51.5283897' lon='-0.1330011' />
+  <node id='-51127' visible='true' lat='51.5284457' lon='-0.1327972'>
+    <tag k='name' v='Euston (Victoria)' />
+  </node>
+  <node id='-51126' visible='true' lat='51.5288355' lon='-0.1315304' />
+  <node id='-51125' visible='true' lat='51.5289886' lon='-0.1310578' />
+  <node id='-51124' visible='true' lat='51.5291696' lon='-0.1305176' />
+  <node id='-51123' visible='true' lat='51.5293469' lon='-0.1299724' />
+  <node id='-51122' visible='true' lat='51.5295575' lon='-0.1292366' />
+  <node id='-51121' visible='true' lat='51.5297542' lon='-0.1284599' />
+  <node id='-51120' visible='true' lat='51.5298879' lon='-0.1277473' />
+  <node id='-51119' visible='true' lat='51.5300368' lon='-0.1268297' />
+  <node id='-51118' visible='true' lat='51.5302451' lon='-0.1254551' />
+  <node id='-51117' visible='true' lat='51.5303748' lon='-0.1245739' />
+  <node id='-51116' visible='true' lat='51.5304743' lon='-0.1240429' />
+  <node id='-51115' visible='true' lat='51.5306809' lon='-0.1232202' />
+  <node id='-51114' visible='true' lat='51.5308751' lon='-0.1225351' />
+  <node id='-51112' visible='true' lat='51.5313319' lon='-0.1210137' />
+  <node id='-51111' visible='true' lat='51.5317376' lon='-0.1198566' />
+  <node id='-51110' visible='true' lat='51.5383992' lon='-0.1057007' />
+  <node id='-51109' visible='true' lat='51.5388121' lon='-0.1049031' />
+  <node id='-51108' visible='true' lat='51.5391662' lon='-0.1042927' />
+  <node id='-51107' visible='true' lat='51.539602' lon='-0.1037083' />
+  <node id='-51106' visible='true' lat='51.5400705' lon='-0.1032224' />
+  <node id='-51105' visible='true' lat='51.5407174' lon='-0.1027767' />
+  <node id='-51104' visible='true' lat='51.5415315' lon='-0.1023915' />
+  <node id='-51103' visible='true' lat='51.5421714' lon='-0.1021689' />
+  <node id='-51102' visible='true' lat='51.5430769' lon='-0.1020294' />
+  <node id='-51101' visible='true' lat='51.5439573' lon='-0.1020149' />
+  <node id='-51100' visible='true' lat='51.5445996' lon='-0.1021366' />
+  <node id='-51099' visible='true' lat='51.5451453' lon='-0.1023458' />
+  <node id='-51098' visible='true' lat='51.5457697' lon='-0.1026424' />
+  <node id='-51097' visible='true' lat='51.546136' lon='-0.1028986' />
+  <node id='-51096' visible='true' lat='51.5467285' lon='-0.1032298' />
+  <node id='-51095' visible='true' lat='51.5468257' lon='-0.1032773'>
+    <tag k='public_transport' v='stop_position' />
+    <tag k='train' v='yes' />
+  </node>
+  <node id='-51094' visible='true' lat='51.5474861' lon='-0.1035813' />
+  <node id='-51093' visible='true' lat='51.5481647' lon='-0.1039132' />
+  <node id='-51092' visible='true' lat='51.5527101' lon='-0.1056553'>
+    <tag k='note' v='Victoria Line sub-station' />
+  </node>
+  <node id='-51091' visible='true' lat='51.5543922' lon='-0.1062924' />
+  <node id='-51089' visible='true' lat='51.5567189' lon='-0.1070272' />
+  <node id='-51088' visible='true' lat='51.5580746' lon='-0.1075274' />
+  <node id='-51087' visible='true' lat='51.5585013' lon='-0.1076109' />
+  <node id='-51086' visible='true' lat='51.5591052' lon='-0.1075746' />
+  <node id='-51084' visible='true' lat='51.5596646' lon='-0.107362' />
+  <node id='-51083' visible='true' lat='51.5621856' lon='-0.1065955' />
+  <node id='-51082' visible='true' lat='51.5628074' lon='-0.106435'>
+    <tag k='created_by' v='JOSM' />
+  </node>
+  <node id='-51081' visible='true' lat='51.5635983' lon='-0.1062272' />
+  <node id='-51079' visible='true' lat='51.5655617' lon='-0.1060126' />
+  <node id='-51078' visible='true' lat='51.5673774' lon='-0.105779' />
+  <node id='-51077' visible='true' lat='51.5680606' lon='-0.1055312' />
+  <node id='-51076' visible='true' lat='51.5684487' lon='-0.1052448' />
+  <node id='-51075' visible='true' lat='51.5687202' lon='-0.1049143' />
+  <node id='-51074' visible='true' lat='51.5689969' lon='-0.1044654' />
+  <node id='-51073' visible='true' lat='51.5692174' lon='-0.1039349' />
+  <node id='-51072' visible='true' lat='51.5693998' lon='-0.1032607' />
+  <node id='-51071' visible='true' lat='51.5701041' lon='-0.098779' />
+  <node id='-51070' visible='true' lat='51.5705185' lon='-0.096897' />
+  <node id='-51069' visible='true' lat='51.5708457' lon='-0.0955821' />
+  <node id='-51068' visible='true' lat='51.5731215' lon='-0.0888298' />
+  <node id='-51067' visible='true' lat='51.5735131' lon='-0.0878851' />
+  <node id='-51066' visible='true' lat='51.5739396' lon='-0.0870317' />
+  <node id='-51065' visible='true' lat='51.5744557' lon='-0.0863091' />
+  <node id='-51064' visible='true' lat='51.5749591' lon='-0.0856643' />
+  <node id='-51063' visible='true' lat='51.5755214' lon='-0.0850983' />
+  <node id='-51062' visible='true' lat='51.5781403' lon='-0.0823807' />
+  <node id='-51061' visible='true' lat='51.578835' lon='-0.0814314' />
+  <node id='-51060' visible='true' lat='51.5792676' lon='-0.0806482' />
+  <node id='-51058' visible='true' lat='51.5796031' lon='-0.0800042' />
+  <node id='-51057' visible='true' lat='51.5798808' lon='-0.0794712' />
+  <node id='-51056' visible='true' lat='51.5816008' lon='-0.0760568' />
+  <node id='-51055' visible='true' lat='51.5824307' lon='-0.0741898' />
+  <node id='-51054' visible='true' lat='51.5826745' lon='-0.073633'>
+    <tag k='line' v='Victoria' />
+    <tag k='name' v='Seven Sisters' />
+    <tag k='naptan:AtcoCode' v='9100SEVNSIS' />
+    <tag k='network' v='National Rail;London Underground' />
+    <tag k='operator' v='London Underground' />
+    <tag k='platforms' v='3' />
+    <tag k='railway' v='station' />
+  </node>
+  <node id='-51053' visible='true' lat='51.5833671' lon='-0.0720425'>
+    <tag k='railway' v='switch' />
+  </node>
+  <node id='-50983' visible='true' lat='51.5303842' lon='-0.1234907' />
+  <node id='-50982' visible='true' lat='51.5302642' lon='-0.1236064' />
+  <node id='-50981' visible='true' lat='51.5301593' lon='-0.1237559' />
+  <node id='-50980' visible='true' lat='51.5300818' lon='-0.1239172' />
+  <node id='-50979' visible='true' lat='51.5300343' lon='-0.1240779' />
+  <node id='-50978' visible='true' lat='51.5299972' lon='-0.1242678' />
+  <node id='-50977' visible='true' lat='51.5299716' lon='-0.1244895' />
+  <node id='-50976' visible='true' lat='51.5299672' lon='-0.1247552' />
+  <node id='-50975' visible='true' lat='51.5299834' lon='-0.1250697' />
+  <node id='-50974' visible='true' lat='51.5300171' lon='-0.1253822' />
+  <node id='-50973' visible='true' lat='51.5300769' lon='-0.1257029' />
+  <node id='-50972' visible='true' lat='51.5301473' lon='-0.1259495' />
+  <node id='-50971' visible='true' lat='51.5302567' lon='-0.1262682' />
+  <node id='-50970' visible='true' lat='51.530338' lon='-0.1265482' />
+  <node id='-50969' visible='true' lat='51.5303834' lon='-0.1268237' />
+  <node id='-50968' visible='true' lat='51.5303949' lon='-0.1271186' />
+  <node id='-50967' visible='true' lat='51.5303768' lon='-0.1275682' />
+  <node id='-50931' visible='true' lat='51.517611' lon='-0.119707'>
+    <tag k='line' v='Piccadilly,Central' />
+    <tag k='name' v='Holborn' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stopping_point' />
+    <tag k='wikipedia' v='http://en.wikipedia.org/wiki/Holborn_tube_station' />
+  </node>
+  <node id='-50929' visible='true' lat='51.5156748' lon='-0.1191123' />
+  <node id='-50928' visible='true' lat='51.5157518' lon='-0.119143' />
+  <node id='-50927' visible='true' lat='51.5159481' lon='-0.1191884' />
+  <node id='-50926' visible='true' lat='51.5160456' lon='-0.1192306' />
+  <node id='-50925' visible='true' lat='51.5173667' lon='-0.1201167' />
+  <node id='-50924' visible='true' lat='51.5177101' lon='-0.1203337' />
+  <node id='-48434' visible='true' lat='51.5137969' lon='-0.1230305' />
+  <node id='-48433' visible='true' lat='51.5140058' lon='-0.122707' />
+  <node id='-48431' visible='true' lat='51.5143206' lon='-0.1221909' />
+  <node id='-48430' visible='true' lat='51.5144953' lon='-0.1220049' />
+  <node id='-48429' visible='true' lat='51.5148755' lon='-0.1217382' />
+  <node id='-48428' visible='true' lat='51.5150096' lon='-0.1215985' />
+  <node id='-48427' visible='true' lat='51.5158825' lon='-0.1203569' />
+  <node id='-48426' visible='true' lat='51.5160821' lon='-0.1200047' />
+  <node id='-48425' visible='true' lat='51.5161884' lon='-0.1198567' />
+  <node id='-48424' visible='true' lat='51.5162899' lon='-0.1197552' />
+  <node id='-48423' visible='true' lat='51.5164133' lon='-0.1196987' />
+  <node id='-48422' visible='true' lat='51.5165335' lon='-0.1196893' />
+  <node id='-48421' visible='true' lat='51.5166837' lon='-0.1197108' />
+  <node id='-48420' visible='true' lat='51.5168205' lon='-0.1197582' />
+  <node id='-48419' visible='true' lat='51.5173851' lon='-0.1200551'>
+    <tag k='line' v='Piccadilly,Central' />
+    <tag k='name' v='Holborn' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='stopping_point' />
+    <tag k='wikipedia' v='http://en.wikipedia.org/wiki/Holborn_tube_station' />
+  </node>
+  <node id='-48418' visible='true' lat='51.5177745' lon='-0.1202484' />
+  <node id='-48417' visible='true' lat='51.5182355' lon='-0.1205416' />
+  <node id='-48416' visible='true' lat='51.5184938' lon='-0.1207026' />
+  <node id='-48415' visible='true' lat='51.5187717' lon='-0.1209214' />
+  <node id='-48414' visible='true' lat='51.5189777' lon='-0.1210842' />
+  <node id='-48413' visible='true' lat='51.5191982' lon='-0.1213034' />
+  <node id='-48411' visible='true' lat='51.5201934' lon='-0.1225539' />
+  <node id='-48410' visible='true' lat='51.5212198' lon='-0.1237669' />
+  <node id='-48409' visible='true' lat='51.5213654' lon='-0.1239121' />
+  <node id='-48408' visible='true' lat='51.5215253' lon='-0.124046' />
+  <node id='-48407' visible='true' lat='51.5216771' lon='-0.1241556' />
+  <node id='-48406' visible='true' lat='51.5218397' lon='-0.1242349' />
+  <node id='-48405' visible='true' lat='51.5220062' lon='-0.1242736' />
+  <node id='-48403' visible='true' lat='51.5300507' lon='-0.123547' />
+  <node id='-48402' visible='true' lat='51.5295395' lon='-0.1236241' />
+  <node id='-48400' visible='true' lat='51.5332109' lon='-0.1227394' />
+  <node id='-48399' visible='true' lat='51.5325344' lon='-0.1228073' />
+  <node id='-48398' visible='true' lat='51.5318756' lon='-0.1229145' />
+  <node id='-48397' visible='true' lat='51.5315733' lon='-0.1230086' />
+  <node id='-48396' visible='true' lat='51.5311106' lon='-0.1231917' />
+  <node id='-48395' visible='true' lat='51.5308424' lon='-0.1233142' />
+  <node id='-48394' visible='true' lat='51.5305198' lon='-0.123414' />
+  <node id='-48393' visible='true' lat='51.5302365' lon='-0.1235044' />
+  <node id='-48392' visible='true' lat='51.5294922' lon='-0.1237518' />
+  <node id='-48391' visible='true' lat='51.5290547' lon='-0.1239123' />
+  <node id='-48390' visible='true' lat='51.5265377' lon='-0.125235' />
+  <node id='-48389' visible='true' lat='51.526335' lon='-0.1253378' />
+  <node id='-48388' visible='true' lat='51.5261479' lon='-0.1254127' />
+  <node id='-48387' visible='true' lat='51.5259302' lon='-0.1254651' />
+  <node id='-48386' visible='true' lat='51.5257952' lon='-0.1254795' />
+  <node id='-48385' visible='true' lat='51.5256503' lon='-0.1254747' />
+  <node id='-48384' visible='true' lat='51.5254724' lon='-0.1254469' />
+  <node id='-48383' visible='true' lat='51.5253248' lon='-0.1253919' />
+  <node id='-48382' visible='true' lat='51.5250121' lon='-0.1252144' />
+  <node id='-48381' visible='true' lat='51.5237145' lon='-0.1244775' />
+  <node id='-48380' visible='true' lat='51.52353' lon='-0.1243814' />
+  <node id='-48379' visible='true' lat='51.5233459' lon='-0.1243174' />
+  <node id='-48378' visible='true' lat='51.5231449' lon='-0.1242903' />
+  <node id='-48377' visible='true' lat='51.5222271' lon='-0.1243694' />
+  <node id='-48376' visible='true' lat='51.5220016' lon='-0.1243674' />
+  <node id='-48375' visible='true' lat='51.5218306' lon='-0.124328' />
+  <node id='-48374' visible='true' lat='51.5216572' lon='-0.1242527' />
+  <node id='-48373' visible='true' lat='51.5214933' lon='-0.1241381' />
+  <node id='-48372' visible='true' lat='51.5213276' lon='-0.1239936' />
+  <node id='-48371' visible='true' lat='51.5211841' lon='-0.123831' />
+  <node id='-48370' visible='true' lat='51.5191713' lon='-0.1213778' />
+  <node id='-48369' visible='true' lat='51.5189726' lon='-0.1211475' />
+  <node id='-48368' visible='true' lat='51.5187707' lon='-0.1209434' />
+  <node id='-48367' visible='true' lat='51.5185025' lon='-0.1207566' />
+  <node id='-48366' visible='true' lat='51.518265' lon='-0.1206405' />
+  <node id='-48365' visible='true' lat='51.5180454' lon='-0.1205602' />
+  <node id='-48364' visible='true' lat='51.517013' lon='-0.1201512' />
+  <node id='-48363' visible='true' lat='51.5168054' lon='-0.1200893' />
+  <node id='-48362' visible='true' lat='51.5165866' lon='-0.1200507' />
+  <node id='-48361' visible='true' lat='51.5164047' lon='-0.120047' />
+  <node id='-48360' visible='true' lat='51.516209' lon='-0.1201136' />
+  <node id='-48359' visible='true' lat='51.515905' lon='-0.1203838' />
+  <node id='-48358' visible='true' lat='51.5150322' lon='-0.1216752' />
+  <node id='-48357' visible='true' lat='51.5149054' lon='-0.1218048' />
+  <node id='-48356' visible='true' lat='51.5145159' lon='-0.1220789' />
+  <node id='-48355' visible='true' lat='51.5143455' lon='-0.1222491' />
+  <node id='-48353' visible='true' lat='51.5222283' lon='-0.1242735' />
+  <node id='-48352' visible='true' lat='51.5231453' lon='-0.1242034' />
+  <node id='-48351' visible='true' lat='51.5233526' lon='-0.1242324' />
+  <node id='-48350' visible='true' lat='51.5235409' lon='-0.1242994' />
+  <node id='-48349' visible='true' lat='51.5237325' lon='-0.1243996' />
+  <node id='-48348' visible='true' lat='51.5253411' lon='-0.1253179' />
+  <node id='-48347' visible='true' lat='51.52548' lon='-0.1253707' />
+  <node id='-48346' visible='true' lat='51.5256527' lon='-0.1253969' />
+  <node id='-48345' visible='true' lat='51.5257947' lon='-0.125402' />
+  <node id='-48344' visible='true' lat='51.5259257' lon='-0.1253879' />
+  <node id='-48343' visible='true' lat='51.526138' lon='-0.1253373' />
+  <node id='-48342' visible='true' lat='51.5263241' lon='-0.125264' />
+  <node id='-48341' visible='true' lat='51.5265223' lon='-0.125164' />
+  <node id='-48340' visible='true' lat='51.5290409' lon='-0.1238458' />
+  <node id='-48339' visible='true' lat='51.5293544' lon='-0.1236738' />
+  <node id='-48338' visible='true' lat='51.5300273' lon='-0.1232607' />
+  <node id='-48337' visible='true' lat='51.5307605' lon='-0.1229038' />
+  <node id='-48336' visible='true' lat='51.5315357' lon='-0.1226649'>
+    <tag k='layer' v='-4' />
+    <tag k='name' v='King&apos;s Cross St. Pancras' />
+    <tag k='name:ru' v='Кингс-Кросс Сент-Панкрасс' />
+    <tag k='network' v='London Underground' />
+    <tag k='public_transport' v='stop_position' />
+  </node>
+  <node id='-48335' visible='true' lat='51.5318597' lon='-0.1226145' />
+  <node id='-48334' visible='true' lat='51.5332029' lon='-0.1225421' />
+  <node id='-48333' visible='true' lat='51.5368233' lon='-0.1225324' />
+  <node id='-48332' visible='true' lat='51.5383675' lon='-0.1225283' />
+  <node id='-48331' visible='true' lat='51.5392521' lon='-0.1224582' />
+  <node id='-48330' visible='true' lat='51.5405876' lon='-0.1224145' />
+  <node id='-48329' visible='true' lat='51.5415952' lon='-0.1221516' />
+  <node id='-48328' visible='true' lat='51.5425427' lon='-0.1218298' />
+  <node id='-48327' visible='true' lat='51.5441074' lon='-0.1210627' />
+  <node id='-48326' visible='true' lat='51.5459022' lon='-0.1201132' />
+  <node id='-48325' visible='true' lat='51.5483735' lon='-0.1183672' />
+  <node id='-48324' visible='true' lat='51.54921' lon='-0.1177561'>
+    <tag k='created_by' v='JOSM' />
+  </node>
+  <node id='-48323' visible='true' lat='51.5504802' lon='-0.1163828'>
+    <tag k='created_by' v='JOSM' />
+  </node>
+  <node id='-48322' visible='true' lat='51.5527303' lon='-0.1130087'>
+    <tag k='line' v='Piccadilly' />
+    <tag k='name' v='Holloway Road' />
+    <tag k='network' v='London Underground' />
+    <tag k='operator' v='London Underground' />
+    <tag k='platforms' v='2' />
+    <tag k='railway' v='station' />
+    <tag k='website' v='http://www.tfl.gov.uk/gettingaround/stations/1000114.aspx' />
+    <tag k='wikipedia' v='en:Holloway Road tube station' />
+  </node>
+  <node id='-48321' visible='true' lat='51.5536412' lon='-0.1118446' />
+  <node id='-48319' visible='true' lat='51.5554466' lon='-0.1100542' />
+  <node id='-48318' visible='true' lat='51.5568928' lon='-0.1087324' />
+  <node id='-48317' visible='true' lat='51.5587178' lon='-0.1078741'>
+    <tag k='name' v='Arsenal' />
+    <tag k='operator' v='London Underground' />
+    <tag k='platforms' v='2' />
+    <tag k='railway' v='station' />
+  </node>
+  <node id='-48316' visible='true' lat='51.5597991' lon='-0.1074985' />
+  <node id='-48315' visible='true' lat='51.5621967' lon='-0.1067313' />
+  <node id='-48314' visible='true' lat='51.5628233' lon='-0.1065896' />
+  <node id='-48313' visible='true' lat='51.5636107' lon='-0.1064448' />
+  <node id='-48312' visible='true' lat='51.5655798' lon='-0.1062394' />
+  <node id='-48311' visible='true' lat='51.5662183' lon='-0.106123' />
+  <node id='-48310' visible='true' lat='51.5670874' lon='-0.1058597' />
+  <node id='-48309' visible='true' lat='51.5676336' lon='-0.1055147' />
+  <node id='-48308' visible='true' lat='51.5680937' lon='-0.1050861' />
+  <node id='-48307' visible='true' lat='51.5683895' lon='-0.1046414' />
+  <node id='-48306' visible='true' lat='51.5686262' lon='-0.1040942' />
+  <node id='-48305' visible='true' lat='51.5687966' lon='-0.1034291' />
+  <node id='-48304' visible='true' lat='51.568889' lon='-0.1027499' />
+  <node id='-48303' visible='true' lat='51.5689383' lon='-0.1018519' />
+  <node id='-48302' visible='true' lat='51.5689583' lon='-0.1003284' />
+  <node id='-48301' visible='true' lat='51.5689977' lon='-0.0995286' />
+  <node id='-48300' visible='true' lat='51.5690717' lon='-0.0988913' />
+  <node id='-48299' visible='true' lat='51.5691871' lon='-0.0983082' />
+  <node id='-48298' visible='true' lat='51.5693681' lon='-0.0978393' />
+  <node id='-48297' visible='true' lat='51.5696005' lon='-0.0973994' />
+  <node id='-48296' visible='true' lat='51.5698673' lon='-0.0969563' />
+  <node id='-48295' visible='true' lat='51.5703213' lon='-0.0963841'>
+    <tag k='line' v='Piccadilly' />
+    <tag k='name' v='Manor House' />
+    <tag k='network' v='London Underground' />
+    <tag k='operator' v='London Underground' />
+    <tag k='platforms' v='2' />
+    <tag k='railway' v='station' />
+  </node>
+  <node id='-48294' visible='true' lat='51.5710473' lon='-0.0955342' />
+  <node id='-48293' visible='true' lat='51.5713227' lon='-0.0953341' />
+  <node id='-48292' visible='true' lat='51.5716201' lon='-0.0952024' />
+  <node id='-48291' visible='true' lat='51.5719132' lon='-0.095148' />
+  <node id='-48290' visible='true' lat='51.5722959' lon='-0.095163' />
+  <node id='-48289' visible='true' lat='51.5726987' lon='-0.0952805' />
+  <node id='-48288' visible='true' lat='51.5731025' lon='-0.0954787' />
+  <node id='-48287' visible='true' lat='51.5734064' lon='-0.0956726' />
+  <node id='-48286' visible='true' lat='51.5736984' lon='-0.095914' />
+  <node id='-48285' visible='true' lat='51.5748381' lon='-0.0967831' />
+  <node id='-48284' visible='true' lat='51.5765843' lon='-0.0981875' />
+  <node id='-48283' visible='true' lat='51.576954' lon='-0.0984621' />
+  <node id='-48282' visible='true' lat='51.5773304' lon='-0.0986552' />
+  <node id='-48281' visible='true' lat='51.5776501' lon='-0.0987411' />
+  <node id='-48280' visible='true' lat='51.582893' lon='-0.0996048' />
+  <node id='-48279' visible='true' lat='51.5839787' lon='-0.0998515' />
+  <node id='-48278' visible='true' lat='51.585138' lon='-0.1001213' />
+  <node id='-48277' visible='true' lat='51.586429' lon='-0.1006374' />
+  <node id='-48276' visible='true' lat='51.5875383' lon='-0.1012992' />
+  <node id='-48275' visible='true' lat='51.5883926' lon='-0.1018182' />
+  <node id='-48274' visible='true' lat='51.5890821' lon='-0.1022711' />
+  <node id='-48273' visible='true' lat='51.5893525' lon='-0.10241' />
+  <node id='-48272' visible='true' lat='51.5903482' lon='-0.1028465'>
+    <tag k='line' v='Piccadilly' />
+    <tag k='name' v='Turnpike Lane' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='station' />
+  </node>
+  <node id='-48271' visible='true' lat='51.5915177' lon='-0.1034045' />
+  <node id='-48270' visible='true' lat='51.5918254' lon='-0.1036077' />
+  <node id='-48269' visible='true' lat='51.5922268' lon='-0.1039279' />
+  <way id='-51685' action='modify' visible='true'>
+    <nd ref='-51521' />
+    <nd ref='-51686' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='yard' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51524' visible='true'>
+    <nd ref='-51460' />
+    <nd ref='-51525' />
+    <nd ref='-51526' />
+    <nd ref='-51523' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='yard' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51517' action='modify' visible='true'>
+    <nd ref='-51521' />
+    <nd ref='-51522' />
+    <nd ref='-51523' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='yard' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51511' action='modify' visible='true'>
+    <nd ref='-51053' />
+    <nd ref='-51512' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='yard' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51459' action='modify' visible='true'>
+    <nd ref='-51458' />
+    <nd ref='-51460' />
+    <nd ref='-51461' />
+    <nd ref='-51462' />
+    <nd ref='-51463' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line Northbound' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51457' visible='true'>
+    <nd ref='-51456' />
+    <nd ref='-51458' />
+    <tag k='electrified' v='rail' />
+    <tag k='fixme' v='to be fixed - temporary hack to join lines' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line Northbound' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51419' visible='true'>
+    <nd ref='-51418' />
+    <nd ref='-51420' />
+    <nd ref='-51421' />
+    <nd ref='-51422' />
+    <nd ref='-51423' />
+    <nd ref='-51424' />
+    <nd ref='-51425' />
+    <nd ref='-51426' />
+    <nd ref='-51427' />
+    <nd ref='-51428' />
+    <nd ref='-51429' />
+    <nd ref='-51430' />
+    <nd ref='-51431' />
+    <nd ref='-51432' />
+    <nd ref='-51433' />
+    <nd ref='-51434' />
+    <nd ref='-51435' />
+    <nd ref='-51436' />
+    <nd ref='-51437' />
+    <nd ref='-51438' />
+    <nd ref='-51439' />
+    <nd ref='-51440' />
+    <nd ref='-51441' />
+    <nd ref='-51442' />
+    <nd ref='-51443' />
+    <nd ref='-51444' />
+    <nd ref='-51445' />
+    <nd ref='-51446' />
+    <nd ref='-51447' />
+    <nd ref='-51448' />
+    <nd ref='-51449' />
+    <nd ref='-51450' />
+    <nd ref='-51451' />
+    <nd ref='-51452' />
+    <nd ref='-51453' />
+    <nd ref='-51454' />
+    <nd ref='-51455' />
+    <nd ref='-51456' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-2' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='operator' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source:route:crompton_avenue' v='http://www.islington.gov.uk/publicrecords/documents/Environment/Pdf/ldf_pack/Autumn_2011/Site_Allocations_PS_low_res.pdf' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51411' visible='true'>
+    <nd ref='-51410' />
+    <nd ref='-51412' />
+    <nd ref='-51413' />
+    <nd ref='-51414' />
+    <nd ref='-51415' />
+    <nd ref='-51416' />
+    <nd ref='-51417' />
+    <nd ref='-51418' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='operator' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source:route:crompton_avenue' v='http://www.islington.gov.uk/publicrecords/documents/Environment/Pdf/ldf_pack/Autumn_2011/Site_Allocations_PS_low_res.pdf' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51408' visible='true'>
+    <nd ref='-51407' />
+    <nd ref='-51409' />
+    <nd ref='-51410' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-2' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='operator' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source:route:crompton_avenue' v='http://www.islington.gov.uk/publicrecords/documents/Environment/Pdf/ldf_pack/Autumn_2011/Site_Allocations_PS_low_res.pdf' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51396' visible='true'>
+    <nd ref='-51395' />
+    <nd ref='-51397' />
+    <nd ref='-51398' />
+    <nd ref='-51399' />
+    <nd ref='-51400' />
+    <nd ref='-51401' />
+    <nd ref='-51402' />
+    <nd ref='-51403' />
+    <nd ref='-51404' />
+    <nd ref='-51405' />
+    <nd ref='-51406' />
+    <nd ref='-51407' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51393' visible='true'>
+    <nd ref='-51392' />
+    <nd ref='-51394' />
+    <nd ref='-51395' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51385' visible='true'>
+    <nd ref='-51384' />
+    <nd ref='-51386' />
+    <nd ref='-51387' />
+    <nd ref='-51388' />
+    <nd ref='-51389' />
+    <nd ref='-51390' />
+    <nd ref='-51391' />
+    <nd ref='-51392' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51377' visible='true'>
+    <nd ref='-51376' />
+    <nd ref='-51378' />
+    <nd ref='-51379' />
+    <nd ref='-51380' />
+    <nd ref='-51381' />
+    <nd ref='-51382' />
+    <nd ref='-51383' />
+    <nd ref='-51384' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51366' visible='true'>
+    <nd ref='-51365' />
+    <nd ref='-51367' />
+    <nd ref='-51368' />
+    <nd ref='-51369' />
+    <nd ref='-51370' />
+    <nd ref='-51371' />
+    <nd ref='-51372' />
+    <nd ref='-51373' />
+    <nd ref='-51374' />
+    <nd ref='-51375' />
+    <nd ref='-51376' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51364' visible='true'>
+    <nd ref='-51363' />
+    <nd ref='-51365' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51349' action='modify' visible='true'>
+    <nd ref='-51357' />
+    <nd ref='-51358' />
+    <nd ref='-51359' />
+    <nd ref='-51360' />
+    <nd ref='-51361' />
+    <nd ref='-51362' />
+    <nd ref='-51363' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line Northbound' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51150' action='modify' visible='true'>
+    <nd ref='-51149' />
+    <nd ref='-51151' />
+    <nd ref='-51152' />
+    <nd ref='-51153' />
+    <nd ref='-51154' />
+    <nd ref='-51155' />
+    <nd ref='-51156' />
+    <nd ref='-51157' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line Southbound' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51113' visible='true'>
+    <nd ref='-51112' />
+    <nd ref='-51114' />
+    <nd ref='-51115' />
+    <nd ref='-51116' />
+    <nd ref='-51117' />
+    <nd ref='-51118' />
+    <nd ref='-51119' />
+    <nd ref='-51120' />
+    <nd ref='-51121' />
+    <nd ref='-51122' />
+    <nd ref='-51123' />
+    <nd ref='-51124' />
+    <nd ref='-51125' />
+    <nd ref='-51126' />
+    <nd ref='-51127' />
+    <nd ref='-51128' />
+    <nd ref='-51129' />
+    <nd ref='-51130' />
+    <nd ref='-51131' />
+    <nd ref='-51132' />
+    <nd ref='-51133' />
+    <nd ref='-51134' />
+    <nd ref='-51135' />
+    <nd ref='-51136' />
+    <nd ref='-51137' />
+    <nd ref='-51138' />
+    <nd ref='-51139' />
+    <nd ref='-51140' />
+    <nd ref='-51141' />
+    <nd ref='-51142' />
+    <nd ref='-51143' />
+    <nd ref='-51144' />
+    <nd ref='-51145' />
+    <nd ref='-51146' />
+    <nd ref='-51147' />
+    <nd ref='-51148' />
+    <nd ref='-51149' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51090' visible='true'>
+    <nd ref='-51089' />
+    <nd ref='-51091' />
+    <nd ref='-51092' />
+    <nd ref='-51093' />
+    <nd ref='-51094' />
+    <nd ref='-51095' />
+    <nd ref='-51096' />
+    <nd ref='-51097' />
+    <nd ref='-51098' />
+    <nd ref='-51099' />
+    <nd ref='-51100' />
+    <nd ref='-51101' />
+    <nd ref='-51102' />
+    <nd ref='-51103' />
+    <nd ref='-51104' />
+    <nd ref='-51105' />
+    <nd ref='-51106' />
+    <nd ref='-51107' />
+    <nd ref='-51108' />
+    <nd ref='-51109' />
+    <nd ref='-51110' />
+    <nd ref='-51111' />
+    <nd ref='-51112' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-2' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='operator' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source:route:crompton_avenue' v='http://www.islington.gov.uk/publicrecords/documents/Environment/Pdf/ldf_pack/Autumn_2011/Site_Allocations_PS_low_res.pdf' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51085' visible='true'>
+    <nd ref='-51084' />
+    <nd ref='-51086' />
+    <nd ref='-51087' />
+    <nd ref='-51088' />
+    <nd ref='-51089' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-1' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51080' visible='true'>
+    <nd ref='-51079' />
+    <nd ref='-51081' />
+    <nd ref='-51082' />
+    <nd ref='-51083' />
+    <nd ref='-51084' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51059' visible='true'>
+    <nd ref='-51058' />
+    <nd ref='-51060' />
+    <nd ref='-51061' />
+    <nd ref='-51062' />
+    <nd ref='-51063' />
+    <nd ref='-51064' />
+    <nd ref='-51065' />
+    <nd ref='-51066' />
+    <nd ref='-51067' />
+    <nd ref='-51068' />
+    <nd ref='-51069' />
+    <nd ref='-51070' />
+    <nd ref='-51071' />
+    <nd ref='-51072' />
+    <nd ref='-51073' />
+    <nd ref='-51074' />
+    <nd ref='-51075' />
+    <nd ref='-51076' />
+    <nd ref='-51077' />
+    <nd ref='-51078' />
+    <nd ref='-51079' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-51033' action='modify' visible='true'>
+    <nd ref='-51053' />
+    <nd ref='-51054' />
+    <nd ref='-51055' />
+    <nd ref='-51056' />
+    <nd ref='-51057' />
+    <nd ref='-51058' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Victoria' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Victoria Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-50966' visible='true'>
+    <nd ref='-50967' />
+    <nd ref='-50968' />
+    <nd ref='-50969' />
+    <nd ref='-50970' />
+    <nd ref='-50971' />
+    <nd ref='-50972' />
+    <nd ref='-50973' />
+    <nd ref='-50974' />
+    <nd ref='-50975' />
+    <nd ref='-50976' />
+    <nd ref='-50977' />
+    <nd ref='-50978' />
+    <nd ref='-50979' />
+    <nd ref='-50980' />
+    <nd ref='-50981' />
+    <nd ref='-50982' />
+    <nd ref='-50983' />
+    <nd ref='-48394' />
+    <tag k='access' v='private' />
+    <tag k='alt_name' v='King&apos;s Cross Curve' />
+    <tag k='comment' v='Reverse from KXSTP Northbound Piccadilly into Northbound Northern Euston platofrm' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Northern;Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='King&apos;s Cross Loop' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='no' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='spur' />
+    <tag k='tracks' v='1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='url' v='http://www.davros.org/rail/culg/northern.html#connections' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-50923' action='modify' visible='true'>
+    <nd ref='-48365' />
+    <nd ref='-50924' />
+    <nd ref='-50925' />
+    <nd ref='-50926' />
+    <nd ref='-50927' />
+    <nd ref='-50928' />
+    <nd ref='-50929' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='name' v='Piccadilly Line (Aldwych Branch)' />
+    <tag k='network' v='London Underground' />
+    <tag k='passenger' v='no' />
+    <tag k='railway' v='subway' />
+    <tag k='tracks' v='1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48432' action='modify' visible='true'>
+    <nd ref='-48431' />
+    <nd ref='-48433' />
+    <nd ref='-48434' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='oneway' v='yes' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48412' visible='true'>
+    <nd ref='-48411' />
+    <nd ref='-48413' />
+    <nd ref='-48414' />
+    <nd ref='-48415' />
+    <nd ref='-48416' />
+    <nd ref='-48417' />
+    <nd ref='-48418' />
+    <nd ref='-48419' />
+    <nd ref='-48420' />
+    <nd ref='-48421' />
+    <nd ref='-48422' />
+    <nd ref='-48423' />
+    <nd ref='-48424' />
+    <nd ref='-48425' />
+    <nd ref='-48426' />
+    <nd ref='-48427' />
+    <nd ref='-48428' />
+    <nd ref='-48429' />
+    <nd ref='-48430' />
+    <nd ref='-48431' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-4' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tracks' v='1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48404' visible='true'>
+    <nd ref='-48353' />
+    <nd ref='-48405' />
+    <nd ref='-48406' />
+    <nd ref='-48407' />
+    <nd ref='-48408' />
+    <nd ref='-48409' />
+    <nd ref='-48410' />
+    <nd ref='-48411' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source:2' v='Bartholomew 1908' />
+    <tag k='tracks' v='1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48401' visible='true'>
+    <nd ref='-48339' />
+    <nd ref='-48402' />
+    <nd ref='-48403' />
+    <nd ref='-48393' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='service' v='crossover' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48354' visible='true'>
+    <nd ref='-48355' />
+    <nd ref='-48356' />
+    <nd ref='-48357' />
+    <nd ref='-48358' />
+    <nd ref='-48359' />
+    <nd ref='-48360' />
+    <nd ref='-48361' />
+    <nd ref='-48362' />
+    <nd ref='-48363' />
+    <nd ref='-48364' />
+    <nd ref='-48365' />
+    <nd ref='-48366' />
+    <nd ref='-48367' />
+    <nd ref='-48368' />
+    <nd ref='-48369' />
+    <nd ref='-48370' />
+    <nd ref='-48371' />
+    <nd ref='-48372' />
+    <nd ref='-48373' />
+    <nd ref='-48374' />
+    <nd ref='-48375' />
+    <nd ref='-48376' />
+    <nd ref='-48377' />
+    <nd ref='-48378' />
+    <nd ref='-48379' />
+    <nd ref='-48380' />
+    <nd ref='-48381' />
+    <nd ref='-48382' />
+    <nd ref='-48383' />
+    <nd ref='-48384' />
+    <nd ref='-48385' />
+    <nd ref='-48386' />
+    <nd ref='-48387' />
+    <nd ref='-48388' />
+    <nd ref='-48389' />
+    <nd ref='-48390' />
+    <nd ref='-48391' />
+    <nd ref='-48392' />
+    <nd ref='-48393' />
+    <nd ref='-48394' />
+    <nd ref='-48395' />
+    <nd ref='-48396' />
+    <nd ref='-48397' />
+    <nd ref='-48398' />
+    <nd ref='-48399' />
+    <nd ref='-48400' />
+    <nd ref='-48332' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source' v='Bartholomew 1908' />
+    <tag k='tracks' v='1' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48320' visible='true'>
+    <nd ref='-48319' />
+    <nd ref='-48321' />
+    <nd ref='-48322' />
+    <nd ref='-48323' />
+    <nd ref='-48324' />
+    <nd ref='-48325' />
+    <nd ref='-48326' />
+    <nd ref='-48327' />
+    <nd ref='-48328' />
+    <nd ref='-48329' />
+    <nd ref='-48330' />
+    <nd ref='-48331' />
+    <nd ref='-48332' />
+    <nd ref='-48333' />
+    <nd ref='-48334' />
+    <nd ref='-48335' />
+    <nd ref='-48336' />
+    <nd ref='-48337' />
+    <nd ref='-48338' />
+    <nd ref='-48339' />
+    <nd ref='-48340' />
+    <nd ref='-48341' />
+    <nd ref='-48342' />
+    <nd ref='-48343' />
+    <nd ref='-48344' />
+    <nd ref='-48345' />
+    <nd ref='-48346' />
+    <nd ref='-48347' />
+    <nd ref='-48348' />
+    <nd ref='-48349' />
+    <nd ref='-48350' />
+    <nd ref='-48351' />
+    <nd ref='-48352' />
+    <nd ref='-48353' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='source' v='Bartholomew 1908' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <way id='-48235' action='modify' visible='true'>
+    <nd ref='-48269' />
+    <nd ref='-48270' />
+    <nd ref='-48271' />
+    <nd ref='-48272' />
+    <nd ref='-48273' />
+    <nd ref='-48274' />
+    <nd ref='-48275' />
+    <nd ref='-48276' />
+    <nd ref='-48277' />
+    <nd ref='-48278' />
+    <nd ref='-48279' />
+    <nd ref='-48280' />
+    <nd ref='-48281' />
+    <nd ref='-48282' />
+    <nd ref='-48283' />
+    <nd ref='-48284' />
+    <nd ref='-48285' />
+    <nd ref='-48286' />
+    <nd ref='-48287' />
+    <nd ref='-48288' />
+    <nd ref='-48289' />
+    <nd ref='-48290' />
+    <nd ref='-48291' />
+    <nd ref='-48292' />
+    <nd ref='-48293' />
+    <nd ref='-48294' />
+    <nd ref='-48295' />
+    <nd ref='-48296' />
+    <nd ref='-48297' />
+    <nd ref='-48298' />
+    <nd ref='-48299' />
+    <nd ref='-48300' />
+    <nd ref='-48301' />
+    <nd ref='-48302' />
+    <nd ref='-48303' />
+    <nd ref='-48304' />
+    <nd ref='-48305' />
+    <nd ref='-48306' />
+    <nd ref='-48307' />
+    <nd ref='-48308' />
+    <nd ref='-48309' />
+    <nd ref='-48310' />
+    <nd ref='-48311' />
+    <nd ref='-48312' />
+    <nd ref='-48313' />
+    <nd ref='-48314' />
+    <nd ref='-48315' />
+    <nd ref='-48316' />
+    <nd ref='-48317' />
+    <nd ref='-48318' />
+    <nd ref='-48319' />
+    <tag k='electrified' v='rail' />
+    <tag k='frequency' v='0' />
+    <tag k='gauge' v='1435' />
+    <tag k='layer' v='-3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='loading_gauge' v='deep-tube' />
+    <tag k='name' v='Piccadilly Line' />
+    <tag k='network' v='London Underground' />
+    <tag k='railway' v='subway' />
+    <tag k='tunnel' v='yes' />
+    <tag k='voltage' v='630' />
+  </way>
+  <relation id='-48079' action='modify' visible='true'>
+    <member type='way' ref='-51033' role='forward' />
+    <member type='way' ref='-51059' role='forward' />
+    <member type='way' ref='-51080' role='forward' />
+    <member type='way' ref='-51085' role='forward' />
+    <member type='way' ref='-51090' role='forward' />
+    <member type='way' ref='-51113' role='forward' />
+    <member type='way' ref='-51150' role='forward' />
+    <member type='way' ref='-51349' role='forward' />
+    <member type='way' ref='-51364' role='forward' />
+    <member type='way' ref='-51366' role='forward' />
+    <member type='way' ref='-51377' role='forward' />
+    <member type='way' ref='-51385' role='forward' />
+    <member type='way' ref='-51393' role='forward' />
+    <member type='way' ref='-51396' role='forward' />
+    <member type='way' ref='-51408' role='forward' />
+    <member type='way' ref='-51411' role='forward' />
+    <member type='way' ref='-51419' role='forward' />
+    <member type='way' ref='-51457' role='forward' />
+    <member type='way' ref='-51459' role='forward' />
+    <member type='node' ref='-51510' role='stop' />
+    <member type='way' ref='-51511' role='' />
+    <member type='way' ref='-51517' role='' />
+    <member type='way' ref='-51524' role='' />
+    <member type='way' ref='-51685' role='' />
+    <member type='node' ref='-51359' role='stop' />
+    <member type='node' ref='-51154' role='stop' />
+    <member type='node' ref='-51375' role='stop' />
+    <member type='node' ref='-51127' role='stop' />
+    <member type='node' ref='-51389' role='stop' />
+    <member type='node' ref='-51406' role='stop' />
+    <member type='node' ref='-51054' role='stop' />
+    <member type='node' ref='-51425' role='' />
+    <member type='node' ref='-51095' role='stop' />
+    <tag k='color' v='#0a9cda' />
+    <tag k='colour' v='#0a9cda' />
+    <tag k='line' v='Victoria' />
+    <tag k='name' v='Victoria' />
+    <tag k='name:en' v='Victoria' />
+    <tag k='name:ru' v='Линия Виктория' />
+    <tag k='name:uk' v='Лінія Вікторія' />
+    <tag k='operator' v='Transport for London' />
+    <tag k='ref' v='Victoria' />
+    <tag k='route' v='subway' />
+    <tag k='type' v='route' />
+    <tag k='wikipedia' v='https://en.wikipedia.org/wiki/Victoria_line' />
+  </relation>
+  <relation id='-48078' action='modify' visible='true'>
+    <member type='way' ref='-48235' role='route' />
+    <member type='way' ref='-48320' role='route' />
+    <member type='way' ref='-48354' role='forward' />
+    <member type='way' ref='-48401' role='crossover' />
+    <member type='way' ref='-48404' role='route' />
+    <member type='way' ref='-48412' role='route' />
+    <member type='way' ref='-48432' role='route' />
+    <member type='way' ref='-50923' role='' />
+    <member type='node' ref='-50931' role='' />
+    <member type='way' ref='-50966' role='' />
+    <member type='node' ref='-48419' role='' />
+    <tag k='color' v='#094fa3' />
+    <tag k='colour' v='#094fa3' />
+    <tag k='line' v='Piccadilly' />
+    <tag k='media:commons' v='https://commons.wikimedia.org/wiki/Category:Piccadilly_Line' />
+    <tag k='name' v='Piccadilly' />
+    <tag k='name:en' v='Piccadilly' />
+    <tag k='name:ru' v='Линия Пикадилли' />
+    <tag k='name:uk' v='Лінія Пікадиллі' />
+    <tag k='operator' v='Transport for London' />
+    <tag k='ref' v='Piccadilly' />
+    <tag k='route' v='subway' />
+    <tag k='type' v='route' />
+    <tag k='wikipedia' v='https://en.wikipedia.org/wiki/Piccadilly_line' />
+  </relation>
+</osm>

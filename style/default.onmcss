@@ -1,0 +1,48 @@
+/* General style information */
+meta {
+	author: "Adrien PAVIE";
+	title: "OpenNetworkMap CSS example";
+	shorttitle: "OpenNetworkMap";
+	version: "0.0.1";
+}
+
+/* General grid style */
+grid {
+	node-margins: 70;
+}
+
+/* Default node style */
+node {
+	width: 10;
+	shape: circle; /* Available shapes: square, circle, lozenge */
+	fill: #efefef;
+	stroke: #f00;
+	stroke-width: 2;
+	font: Arial;
+	font-size: 12;
+	font-color: #000;
+}
+
+/* Node style with a tag, here type=first */
+node[type=first] {
+	width: 15;
+	shape: lozenge;
+	fill: #222;
+	stroke: #000;
+	stroke-width: 2;
+}
+
+/* Default link style */
+link {
+	width: 3;
+	fill: #00ff00;
+	stroke: #0000ff;
+	stroke-width: 1;
+	font: Arial;
+	font-size: 6;
+	font-color: #000;
+}
+
+link[type=second] {
+	stroke: #ff0000;
+}

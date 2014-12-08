@@ -1,0 +1,38 @@
+/* General style information */
+meta {
+	author: "Adrien PAVIE";
+	title: "OpenNetworkMap Subway CSS";
+	shorttitle: "OpenNetworkMap Subway";
+	version: "0.0.1";
+}
+
+/* General grid style */
+grid {
+	node-margins: 70;
+}
+
+/* Default node style */
+node {
+	width: 10;
+	shape: circle; /* Available shapes: square, circle, lozenge */
+	fill: #ffffff;
+	stroke: #000;
+	stroke-width: 2;
+	font-size: 12;
+	font-color: #000;
+}
+
+/* Node style with a tag, here type=first */
+node[type=third] {
+	width: 0;
+	stroke-width: 0;
+}
+
+/* Default link style */
+link {
+	width: 3;
+	fill: #ff0000;
+	stroke-width: 0;
+	font-size: 6;
+	font-color: #0000ff;
+}

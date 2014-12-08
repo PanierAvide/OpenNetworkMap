@@ -1,0 +1,2140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenNetworkMap</title>
+	<meta charset="UTF-8">
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		#container {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script src="./sigma.min.js"></script>
+	<script>
+		var s = new sigma('container');
+		s.graph.addNode({
+		id: 'n0',
+		label: 'Beaulieu Chimie',
+		x: 19,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n1',
+		label: 'Hôtel-Dieu/Lesage',
+		x: 11,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n2',
+		label: 'Musée Beaux Arts',
+		x: 11,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n3',
+		label: 'Hôtel de Région',
+		x: 16,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n4',
+		label: 'Félix Eboué',
+		x: 1,
+		y: -1,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n5',
+		label: 'Villebois-Mareuil',
+		x: 20,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n6',
+		label: 'Horizons',
+		x: 5,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n7',
+		label: 'Saint-Laurent',
+		x: 16,
+		y: -23,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n8',
+		label: 'Raison',
+		x: 19,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n9',
+		label: 'Liberté TNB',
+		x: 11,
+		y: -9,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n10',
+		label: 'Touche Annette',
+		x: 30,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n11',
+		label: 'Lycée Descartes',
+		x: 20,
+		y: -1,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n12',
+		label: 'Pigeon Blanc',
+		x: 1,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n13',
+		label: 'Foyer Rennais',
+		x: 5,
+		y: -7,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n14',
+		label: 'Pont de Nantes',
+		x: 6,
+		y: -8,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n15',
+		label: 'Rosa Parks',
+		x: 31,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n16',
+		label: 'Gares',
+		x: 13,
+		y: -7,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n17',
+		label: 'Henri Fréville',
+		x: 9,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n18',
+		label: 'Rochester',
+		x: 16,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n19',
+		label: 'Mouézy',
+		x: 18,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n20',
+		label: 'La Salle',
+		x: 3,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n21',
+		label: 'Villejean-Université',
+		x: 2,
+		y: -17,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n22',
+		label: 'Laënnec',
+		x: 14,
+		y: -7,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n23',
+		label: 'Sainte-Anne',
+		x: 9,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n24',
+		label: 'Gare Sud Féval',
+		x: 9,
+		y: -8,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n25',
+		label: 'Gayeulles Piscine',
+		x: 18,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n26',
+		label: 'Monts d&quote;Arrée',
+		x: 16,
+		y: -24,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n27',
+		label: 'Boberil',
+		x: 1,
+		y: -0,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n28',
+		label: 'Bellangerais',
+		x: 14,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n29',
+		label: 'Grand Quartier',
+		x: 6,
+		y: -23,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n30',
+		label: 'Thabor',
+		x: 13,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n31',
+		label: 'Donzelot',
+		x: 21,
+		y: -18,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n32',
+		label: 'IUT',
+		x: 19,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n33',
+		label: 'CARSAT',
+		x: 23,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n34',
+		label: 'Domaine',
+		x: 22,
+		y: -4,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n35',
+		label: 'Hallouvry',
+		x: 28,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n36',
+		label: 'Vitré Danton',
+		x: 19,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n37',
+		label: 'Châteaudun',
+		x: 14,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n38',
+		label: 'Sacrés Cœurs',
+		x: 7,
+		y: -6,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n39',
+		label: 'Champs Blancs',
+		x: 27,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n40',
+		label: 'Deux Ruisseaux',
+		x: 28,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n41',
+		label: 'Beaulieu INSA',
+		x: 18,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n42',
+		label: 'Charles de Gaulle',
+		x: 9,
+		y: -9,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n43',
+		label: 'Pressoirs',
+		x: 0,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n44',
+		label: 'Piré',
+		x: 16,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n45',
+		label: 'Ronceray',
+		x: 22,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n46',
+		label: 'Pont de Châteaudun',
+		x: 13,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n47',
+		label: 'Canada',
+		x: 6,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n48',
+		label: 'Cimetière Nord',
+		x: 11,
+		y: -18,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n49',
+		label: 'Champs Manceaux',
+		x: 6,
+		y: -4,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n50',
+		label: 'Loges',
+		x: 25,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n51',
+		label: 'Patton',
+		x: 17,
+		y: -25,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n52',
+		label: 'Landry',
+		x: 21,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n53',
+		label: 'Le Mail',
+		x: 6,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n54',
+		label: 'Bourgeois',
+		x: 17,
+		y: -4,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n55',
+		label: 'Suède',
+		x: 6,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n56',
+		label: 'République',
+		x: 9,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n57',
+		label: 'Champ Jacquet',
+		x: 8,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n58',
+		label: 'Docteur Quentin',
+		x: 19,
+		y: -17,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n59',
+		label: 'Durafour',
+		x: 17,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n60',
+		label: 'La Plesse',
+		x: 7,
+		y: -23,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n61',
+		label: 'Clos Courtel',
+		x: 20,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n62',
+		label: 'Olympe de Gouges',
+		x: 2,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n63',
+		label: 'Berger',
+		x: 2,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n64',
+		label: 'Joliot Curie',
+		x: 18,
+		y: -18,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n65',
+		label: 'Sévigné',
+		x: 11,
+		y: -14,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n66',
+		label: 'Marbeuf',
+		x: 3,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n67',
+		label: 'Gériatrie',
+		x: 29,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n68',
+		label: 'Plaine de Baud',
+		x: 16,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n69',
+		label: 'Plélo Colombier',
+		x: 7,
+		y: -9,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n70',
+		label: 'Volney',
+		x: 14,
+		y: -18,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n71',
+		label: 'Bourgueil',
+		x: 23,
+		y: -1,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n72',
+		label: 'Les Lices',
+		x: 6,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n73',
+		label: 'Chantepie Mairie',
+		x: 26,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n74',
+		label: 'Houx Cité U',
+		x: 16,
+		y: -21,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n75',
+		label: 'Hôtel-Dieu/Antrain',
+		x: 10,
+		y: -14,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n76',
+		label: 'Préfecture',
+		x: 4,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n77',
+		label: 'Bouzat',
+		x: 23,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n78',
+		label: 'Brno/Gros Chêne',
+		x: 15,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n79',
+		label: 'Héronière',
+		x: 17,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n80',
+		label: 'Painlevé',
+		x: 15,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n81',
+		label: 'IUFM',
+		x: 7,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n82',
+		label: 'Mermoz',
+		x: 4,
+		y: -6,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n83',
+		label: 'Le Blizz',
+		x: 18,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n84',
+		label: 'Frères Moines (ex Le Brix)',
+		x: 6,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n85',
+		label: 'Lycée Mendès France',
+		x: 9,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n86',
+		label: 'Donelière',
+		x: 9,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n87',
+		label: 'Gallets',
+		x: 22,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n88',
+		label: 'Université',
+		x: 2,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n89',
+		label: 'Gohier',
+		x: 23,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n90',
+		label: 'Bourgogne',
+		x: 29,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n91',
+		label: 'Chèques Postaux',
+		x: 5,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n92',
+		label: 'Paul Bert',
+		x: 12,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n93',
+		label: 'Beaulieu Restau U',
+		x: 17,
+		y: -14,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n94',
+		label: 'Les Préales',
+		x: 17,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n95',
+		label: 'Brest Verdun',
+		x: 4,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n96',
+		label: 'Ginguené',
+		x: 9,
+		y: -7,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n97',
+		label: 'Turmel',
+		x: 17,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n98',
+		label: 'Calmette',
+		x: 18,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n99',
+		label: 'République Nemours',
+		x: 8,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n100',
+		label: 'Cucillé',
+		x: 3,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n101',
+		label: 'Saint-Martin',
+		x: 9,
+		y: -17,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n102',
+		label: 'Jeanne d&quote;Arc',
+		x: 18,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n103',
+		label: 'Mirabeau',
+		x: 20,
+		y: -17,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n104',
+		label: 'Croix Saint-Hélier',
+		x: 15,
+		y: -6,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n105',
+		label: 'La Touche',
+		x: 5,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n106',
+		label: 'Gayeulles',
+		x: 18,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n107',
+		label: 'Trois Croix',
+		x: 9,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n108',
+		label: 'La Poterie',
+		x: 21,
+		y: -0,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n109',
+		label: 'Pont de Strasbourg',
+		x: 15,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n110',
+		label: 'Pilate',
+		x: 3,
+		y: -5,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n111',
+		label: 'Anatole France',
+		x: 6,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n112',
+		label: 'Morbihan',
+		x: 15,
+		y: -22,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n113',
+		label: 'Cesson Hôpital Privé',
+		x: 25,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n114',
+		label: 'Robidou',
+		x: 14,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n115',
+		label: 'Sauvaie',
+		x: 24,
+		y: -3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n116',
+		label: 'Oberthür',
+		x: 16,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n117',
+		label: 'Monnet',
+		x: 22,
+		y: -0,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n118',
+		label: 'Monsieur Vincent',
+		x: 19,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n119',
+		label: 'Beauregard',
+		x: 4,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n120',
+		label: 'Léonard (ex Beauregard)',
+		x: 5,
+		y: -20,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n121',
+		label: 'IRTS',
+		x: 2,
+		y: -18,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n122',
+		label: 'Rectorat',
+		x: 12,
+		y: -16,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n123',
+		label: 'Place de Bretagne',
+		x: 7,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n124',
+		label: 'Chêne Germain',
+		x: 26,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n125',
+		label: 'Chantepie Eglise',
+		x: 27,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n126',
+		label: 'Longs Champs',
+		x: 24,
+		y: -19,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n127',
+		label: 'Alma',
+		x: 7,
+		y: -2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n128',
+		label: 'Place Pasteur',
+		x: 12,
+		y: -12,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n129',
+		label: 'Champs Libres',
+		x: 12,
+		y: -8,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n130',
+		label: 'Haut Sancé',
+		x: 24,
+		y: -4,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n131',
+		label: 'Neruda',
+		x: 15,
+		y: -24,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n132',
+		label: 'Guilloux',
+		x: 4,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n133',
+		label: 'Tournebride',
+		x: 18,
+		y: -11,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n134',
+		label: 'Lycée Bréquigny',
+		x: 2,
+		y: -0,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n135',
+		label: 'Fac de Droit',
+		x: 12,
+		y: -14,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n136',
+		label: 'Cité Judiciaire',
+		x: 6,
+		y: -9,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n137',
+		label: 'Condate',
+		x: 14,
+		y: -23,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n138',
+		label: 'Metz Volney',
+		x: 14,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n139',
+		label: 'Les Halles',
+		x: 8,
+		y: -10,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n140',
+		label: 'Assomption',
+		x: 16,
+		y: -15,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n141',
+		label: 'Guéhenno (ex Duchesse Anne)',
+		x: 13,
+		y: -14,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n142',
+		label: 'Jules Ferry',
+		x: 13,
+		y: -17,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n143',
+		label: 'Saint-Yves',
+		x: 2,
+		y: -4,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n144',
+		label: 'Garigliano',
+		x: 6,
+		y: -6,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n145',
+		label: 'Jacques Cartier',
+		x: 9,
+		y: -6,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n146',
+		label: 'Saint-Vincent',
+		x: 15,
+		y: -13,
+		size: 10,
+		color: '#-16777216'
+		}).addEdge({
+		id: 'e0',
+		label: '4',
+		source: 'n92',
+		target: 'n2',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e1',
+		label: '4',
+		source: 'n32',
+		target: 'n93',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e2',
+		label: '5',
+		source: 'n12',
+		target: 'n43',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e3',
+		label: '2',
+		source: 'n98',
+		target: 'n54',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e4',
+		label: '1',
+		source: 'n77',
+		target: 'n126',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e5',
+		label: '1',
+		source: 'n126',
+		target: 'n113',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e6',
+		label: '4',
+		source: 'n41',
+		target: 'n0',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e7',
+		label: '3',
+		source: 'n55',
+		target: 'n47',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e8',
+		label: '3',
+		source: 'n58',
+		target: 'n36',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e9',
+		label: '2',
+		source: 'n105',
+		target: 'n111',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e10',
+		label: '4',
+		source: 'n133',
+		target: 'n94',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e11',
+		label: '3',
+		source: 'n127',
+		target: 'n17',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e12',
+		label: '2',
+		source: 'n130',
+		target: 'n33',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e13',
+		label: '2',
+		source: 'n9',
+		target: 'n56',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e14',
+		label: '5',
+		source: 'n142',
+		target: 'n122',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e15',
+		label: '5',
+		source: 'n51',
+		target: 'n26',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e16',
+		label: '1',
+		source: 'n33',
+		target: 'n34',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e17',
+		label: '2',
+		source: 'n118',
+		target: 'n98',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e18',
+		label: '2',
+		source: 'n33',
+		target: 'n45',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e19',
+		label: '1',
+		source: 'n5',
+		target: 'n8',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e20',
+		label: '2',
+		source: 'n101',
+		target: 'n48',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e21',
+		label: '3',
+		source: 'n30',
+		target: 'n128',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e22',
+		label: '1',
+		source: 'n73',
+		target: 'n50',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e23',
+		label: '3',
+		source: 'n38',
+		target: 'n144',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e24',
+		label: '5',
+		source: 'n27',
+		target: 'n134',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e25',
+		label: '2',
+		source: 'n71',
+		target: 'n117',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e26',
+		label: '3',
+		source: 'n96',
+		target: 'n145',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e27',
+		label: '3',
+		source: 'n37',
+		target: 'n30',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e28',
+		label: '4',
+		source: 'n21',
+		target: 'n121',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e29',
+		label: '2',
+		source: 'n86',
+		target: 'n85',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e30',
+		label: '1',
+		source: 'n22',
+		target: 'n16',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e31',
+		label: '2',
+		source: 'n48',
+		target: 'n107',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e32',
+		label: '2',
+		source: 'n81',
+		target: 'n101',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e33',
+		label: '1',
+		source: 'n75',
+		target: 'n65',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e34',
+		label: '1',
+		source: 'n80',
+		target: 'n140',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e35',
+		label: '5',
+		source: 'n28',
+		target: 'n112',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e36',
+		label: '4',
+		source: 'n93',
+		target: 'n41',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e37',
+		label: '2',
+		source: 'n117',
+		target: 'n108',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e38',
+		label: '3',
+		source: 'n49',
+		target: 'n55',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e39',
+		label: '4',
+		source: 'n123',
+		target: 'n53',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e40',
+		label: '4',
+		source: 'n66',
+		target: 'n20',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e41',
+		label: '3',
+		source: 'n79',
+		target: 'n25',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e42',
+		label: '4',
+		source: 'n61',
+		target: 'n32',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e43',
+		label: '1',
+		source: 'n10',
+		target: 'n67',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e44',
+		label: '5',
+		source: 'n78',
+		target: 'n70',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e45',
+		label: '3',
+		source: 'n84',
+		target: 'n49',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e46',
+		label: '1',
+		source: 'n15',
+		target: 'n10',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e47',
+		label: '1',
+		source: 'n97',
+		target: 'n103',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e48',
+		label: '1',
+		source: 'n34',
+		target: 'n52',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e49',
+		label: '5',
+		source: 'n4',
+		target: 'n27',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e50',
+		label: '2',
+		source: 'n72',
+		target: 'n6',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e51',
+		label: '1',
+		source: 'n113',
+		target: 'n124',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e52',
+		label: '2',
+		source: 'n104',
+		target: 'n22',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e53',
+		label: '2',
+		source: 'n60',
+		target: 'n29',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e54',
+		label: '4',
+		source: 'n63',
+		target: 'n88',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e55',
+		label: '1',
+		source: 'n90',
+		target: 'n35',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e56',
+		label: '4',
+		source: 'n76',
+		target: 'n120',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e57',
+		label: '1',
+		source: 'n104',
+		target: 'n22',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e58',
+		label: '1',
+		source: 'n87',
+		target: 'n77',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e59',
+		label: '5',
+		source: 'n110',
+		target: 'n143',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e60',
+		label: '5',
+		source: 'n122',
+		target: 'n1',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e61',
+		label: '1',
+		source: 'n19',
+		target: 'n104',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e62',
+		label: '5',
+		source: 'n14',
+		target: 'n13',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e63',
+		label: '1',
+		source: 'n141',
+		target: 'n138',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e64',
+		label: '1',
+		source: 'n139',
+		target: 'n99',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e65',
+		label: '4',
+		source: 'n94',
+		target: 'n68',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e66',
+		label: '2',
+		source: 'n45',
+		target: 'n89',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e67',
+		label: '3',
+		source: 'n145',
+		target: 'n38',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e68',
+		label: '4',
+		source: 'n62',
+		target: 'n100',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e69',
+		label: '4',
+		source: 'n53',
+		target: 'n91',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e70',
+		label: '4',
+		source: 'n2',
+		target: 'n56',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e71',
+		label: '3',
+		source: 'n128',
+		target: 'n56',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e72',
+		label: '1',
+		source: 'n35',
+		target: 'n125',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e73',
+		label: '3',
+		source: 'n144',
+		target: 'n84',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e74',
+		label: '5',
+		source: 'n69',
+		target: 'n136',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e75',
+		label: '4',
+		source: 'n109',
+		target: 'n114',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e76',
+		label: '3',
+		source: 'n7',
+		target: 'n3',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e77',
+		label: '2',
+		source: 'n123',
+		target: 'n72',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e78',
+		label: '1',
+		source: 'n99',
+		target: 'n57',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e79',
+		label: '5',
+		source: 'n136',
+		target: 'n14',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e80',
+		label: '5',
+		source: 'n137',
+		target: 'n28',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e81',
+		label: '5',
+		source: 'n18',
+		target: 'n78',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e82',
+		label: '4',
+		source: 'n100',
+		target: 'n76',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e83',
+		label: '5',
+		source: 'n26',
+		target: 'n131',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e84',
+		label: '4',
+		source: 'n114',
+		target: 'n46',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e85',
+		label: '2',
+		source: 'n6',
+		target: 'n95',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e86',
+		label: '2',
+		source: 'n16',
+		target: 'n129',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e87',
+		label: '2',
+		source: 'n56',
+		target: 'n123',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e88',
+		label: '4',
+		source: 'n91',
+		target: 'n132',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e89',
+		label: '3',
+		source: 'n102',
+		target: 'n59',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e90',
+		label: '5',
+		source: 'n13',
+		target: 'n82',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e91',
+		label: '5',
+		source: 'n23',
+		target: 'n57',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e92',
+		label: '4',
+		source: 'n88',
+		target: 'n21',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e93',
+		label: '4',
+		source: 'n56',
+		target: 'n123',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e94',
+		label: '1',
+		source: 'n9',
+		target: 'n139',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e95',
+		label: '4',
+		source: 'n120',
+		target: 'n119',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e96',
+		label: '3',
+		source: 'n56',
+		target: 'n42',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e97',
+		label: '5',
+		source: 'n143',
+		target: 'n12',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e98',
+		label: '1',
+		source: 'n125',
+		target: 'n73',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e99',
+		label: '1',
+		source: 'n103',
+		target: 'n31',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e100',
+		label: '1',
+		source: 'n57',
+		target: 'n23',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e101',
+		label: '2',
+		source: 'n89',
+		target: 'n71',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e102',
+		label: '1',
+		source: 'n16',
+		target: 'n129',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e103',
+		label: '2',
+		source: 'n22',
+		target: 'n16',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e104',
+		label: '2',
+		source: 'n44',
+		target: 'n104',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e105',
+		label: '2',
+		source: 'n85',
+		target: 'n60',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e106',
+		label: '1',
+		source: 'n124',
+		target: 'n39',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e107',
+		label: '5',
+		source: 'n82',
+		target: 'n110',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e108',
+		label: '3',
+		source: 'n36',
+		target: 'n102',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e109',
+		label: '4',
+		source: 'n68',
+		target: 'n109',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e110',
+		label: '3',
+		source: 'n83',
+		target: 'n106',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e111',
+		label: '4',
+		source: 'n132',
+		target: 'n66',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e112',
+		label: '5',
+		source: 'n99',
+		target: 'n139',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e113',
+		label: '5',
+		source: 'n131',
+		target: 'n137',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e114',
+		label: '2',
+		source: 'n95',
+		target: 'n105',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e115',
+		label: '1',
+		source: 'n65',
+		target: 'n135',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e116',
+		label: '3',
+		source: 'n24',
+		target: 'n96',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e117',
+		label: '3',
+		source: 'n59',
+		target: 'n116',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e118',
+		label: '3',
+		source: 'n64',
+		target: 'n58',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e119',
+		label: '1',
+		source: 'n135',
+		target: 'n141',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e120',
+		label: '1',
+		source: 'n23',
+		target: 'n75',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e121',
+		label: '5',
+		source: 'n1',
+		target: 'n23',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e122',
+		label: '3',
+		source: 'n47',
+		target: 'n127',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e123',
+		label: '2',
+		source: 'n129',
+		target: 'n9',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e124',
+		label: '1',
+		source: 'n115',
+		target: 'n33',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e125',
+		label: '3',
+		source: 'n106',
+		target: 'n64',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e126',
+		label: '2',
+		source: 'n11',
+		target: 'n118',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e127',
+		label: '4',
+		source: 'n121',
+		target: 'n62',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e128',
+		label: '4',
+		source: 'n20',
+		target: 'n63',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e129',
+		label: '5',
+		source: 'n74',
+		target: 'n18',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e130',
+		label: '3',
+		source: 'n116',
+		target: 'n146',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e131',
+		label: '2',
+		source: 'n111',
+		target: 'n81',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e132',
+		label: '1',
+		source: 'n40',
+		target: 'n90',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e133',
+		label: '1',
+		source: 'n140',
+		target: 'n97',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e134',
+		label: '1',
+		source: 'n8',
+		target: 'n19',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e135',
+		label: '1',
+		source: 'n129',
+		target: 'n9',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e136',
+		label: '4',
+		source: 'n0',
+		target: 'n133',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e137',
+		label: '1',
+		source: 'n31',
+		target: 'n87',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e138',
+		label: '3',
+		source: 'n3',
+		target: 'n79',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e139',
+		label: '5',
+		source: 'n43',
+		target: 'n4',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e140',
+		label: '5',
+		source: 'n57',
+		target: 'n99',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e141',
+		label: '2',
+		source: 'n107',
+		target: 'n86',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e142',
+		label: '1',
+		source: 'n67',
+		target: 'n40',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e143',
+		label: '1',
+		source: 'n52',
+		target: 'n5',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e144',
+		label: '1',
+		source: 'n50',
+		target: 'n115',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e145',
+		label: '5',
+		source: 'n112',
+		target: 'n74',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e146',
+		label: '2',
+		source: 'n108',
+		target: 'n11',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e147',
+		label: '1',
+		source: 'n138',
+		target: 'n80',
+		size: 3,
+		color: '#-6832371'
+		}).addEdge({
+		id: 'e148',
+		label: '3',
+		source: 'n42',
+		target: 'n24',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e149',
+		label: '4',
+		source: 'n46',
+		target: 'n92',
+		size: 3,
+		color: '#-9496706'
+		}).addEdge({
+		id: 'e150',
+		label: '5',
+		source: 'n139',
+		target: 'n69',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e151',
+		label: '2',
+		source: 'n54',
+		target: 'n44',
+		size: 3,
+		color: '#-16743475'
+		}).addEdge({
+		id: 'e152',
+		label: '3',
+		source: 'n146',
+		target: 'n37',
+		size: 3,
+		color: '#-16743370'
+		}).addEdge({
+		id: 'e153',
+		label: '5',
+		source: 'n70',
+		target: 'n142',
+		size: 3,
+		color: '#-1148160'
+		}).addEdge({
+		id: 'e154',
+		label: '3',
+		source: 'n25',
+		target: 'n83',
+		size: 3,
+		color: '#-16743370'
+		});
+		s.refresh();
+	</script>
+</body>
+</html>

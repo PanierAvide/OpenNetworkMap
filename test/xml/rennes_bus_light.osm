@@ -1,0 +1,2923 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version='0.6' upload='true' generator='JOSM'>
+  <node id='-1298' visible='true' lat='48.1097943' lon='-1.6839261'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Place de Bretagne' />
+  </node>
+  <node id='-1296' visible='true' lat='48.1100855' lon='-1.6701714'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Paul Bert' />
+    <tag k='next:4' v='Musée Beaux Arts' />
+    <tag k='note' v='direction centre-ville' />
+  </node>
+  <node id='-1294' visible='true' lat='48.1167204' lon='-1.6339393' />
+  <node id='-1292' visible='true' lat='48.121728' lon='-1.6382385'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu Restau U' />
+    <tag k='next:16' v='IUT' />
+  </node>
+  <node id='-1290' visible='true' lat='48.119512' lon='-1.6353145'>
+    <tag k='bench' v='yes' />
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu INSA' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1288' visible='true' lat='48.121459' lon='-1.6381965'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu Restau U' />
+    <tag k='next:10' v='Beaulieu INSA' />
+    <tag k='next:16' v='Beaulieu INSA' />
+  </node>
+  <node id='-1286' visible='true' lat='48.1270417' lon='-1.6291216'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Clos Courtel' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1284' visible='true' lat='48.1250834' lon='-1.633022'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='IUT' />
+    <tag k='next:30' v='Clos Courtel' />
+    <tag k='next:4' v='Clos Courtel' />
+    <tag k='shelter' v='no' />
+  </node>
+  <node id='-1282' visible='true' lat='48.1247814' lon='-1.6338669'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='IUT' />
+    <tag k='next:30' v='Beaulieu Restau U' />
+    <tag k='next:4' v='Beaulieu Restau U' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1280' visible='true' lat='48.1279692' lon='-1.7027735'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Olympe de Gouges' />
+    <tag k='next:30' v='Cucillé' />
+    <tag k='next:4' v='Cucillé' />
+  </node>
+  <node id='-1278' visible='true' lat='48.1283696' lon='-1.6940812'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Préfecture' />
+    <tag k='next:30' v='Cucillé' />
+    <tag k='next:4' v='Cucillé' />
+  </node>
+  <node id='-1276' visible='true' lat='48.1281957' lon='-1.6940022'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Préfecture' />
+    <tag k='next:30' v='Beauregard' />
+    <tag k='next:4' v='Beauregard' />
+  </node>
+  <node id='-1274' visible='true' lat='48.1169897' lon='-1.6338535'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu Chimie' />
+  </node>
+  <node id='-1272' visible='true' lat='48.1098339' lon='-1.6745417'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Musée Beaux Arts' />
+    <tag k='next:50' v='Robidou' />
+    <tag k='next:6' v='Paul Bert' />
+    <tag k='next:64' v='Robidou' />
+  </node>
+  <node id='-1270' visible='true' lat='48.1098766' lon='-1.6750233'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Musée Beaux Arts' />
+    <tag k='note' v='direction centre-ville' />
+  </node>
+  <node id='-1268' visible='true' lat='48.1190302' lon='-1.6352076'>
+    <tag k='bench' v='yes' />
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu INSA' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1266' visible='true' lat='48.1140275' lon='-1.6361899'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Tournebride' />
+    <tag k='note' v='vers l&apos;Est' />
+  </node>
+  <node id='-1264' visible='true' lat='48.1286097' lon='-1.6989871'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Cucillé' />
+    <tag k='next:30' v='Olympe de Gouges' />
+    <tag k='next:4' v='Olympe de Gouges' />
+  </node>
+  <node id='-1262' visible='true' lat='48.1285371' lon='-1.6986574'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Cucillé' />
+    <tag k='next:30' v='Préfecture' />
+    <tag k='next:4' v='Préfecture' />
+  </node>
+  <node id='-1260' visible='true' lat='48.1097745' lon='-1.6786718'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='République' />
+    <tag k='next:4' v='Musée Beaux Arts' />
+    <tag k='next:40ex' v='Musée Beaux Arts' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1258' visible='true' lat='48.116709' lon='-1.6339696'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Beaulieu Chimie' />
+  </node>
+  <node id='-1256' visible='true' lat='48.1124408' lon='-1.6428845'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Plaine de Baud' />
+    <tag k='next:4' v='Tournebride' />
+    <tag k='note' v='vers l&apos;Est' />
+  </node>
+  <node id='-1254' visible='true' lat='48.1101481' lon='-1.6604777'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Robidou' />
+    <tag k='next:4' v='Pont de Châteaudun' />
+    <tag k='next:6' v='Pont de Châteaudun' />
+  </node>
+  <node id='-1252' visible='true' lat='48.1100138' lon='-1.6690153'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Paul Bert' />
+    <tag k='next:4' v='Pont de Châteaudun' />
+    <tag k='note' v='direction Beaulieu' />
+  </node>
+  <node id='-1250' visible='true' lat='48.1100138' lon='-1.6659334'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Pont de Châteaudun' />
+    <tag k='next:4' v='Robidou' />
+    <tag k='note' v='vers Beaulieu' />
+  </node>
+  <node id='-1248' visible='true' lat='48.1098964' lon='-1.6786764'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='République' />
+    <tag k='next:2' v='Place de Bretagne' />
+    <tag k='next:4' v='Place de Bretagne' />
+    <tag k='shelter' v='yes' />
+  </node>
+  <node id='-1246' visible='true' lat='48.1141063' lon='-1.6374049'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Tournebride' />
+    <tag k='note' v='vers le centre-ville' />
+  </node>
+  <node id='-1244' visible='true' lat='48.1101391' lon='-1.6667219'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Pont de Châteaudun' />
+    <tag k='next:4' v='Paul Bert' />
+    <tag k='note' v='vers le centre-ville' />
+  </node>
+  <node id='-1242' visible='true' lat='48.1097765' lon='-1.6845576' />
+  <node id='-1240' visible='true' lat='48.1097822' lon='-1.6842354' />
+  <node id='-1238' visible='true' lat='48.1098926' lon='-1.6708525' />
+  <node id='-1236' visible='true' lat='48.1098886' lon='-1.6714031' />
+  <node id='-1234' visible='true' lat='48.1100998' lon='-1.6564278' />
+  <node id='-1232' visible='true' lat='48.1101079' lon='-1.6557448' />
+  <node id='-1230' visible='true' lat='48.1100977' lon='-1.6583965' />
+  <node id='-1228' visible='true' lat='48.1100877' lon='-1.6583441'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-1226' visible='true' lat='48.1100243' lon='-1.6579995' />
+  <node id='-1224' visible='true' lat='48.110009' lon='-1.6576719' />
+  <node id='-1222' visible='true' lat='48.1100129' lon='-1.6574889' />
+  <node id='-1220' visible='true' lat='48.1142836' lon='-1.7000747' />
+  <node id='-1218' visible='true' lat='48.1143763' lon='-1.7'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-1216' visible='true' lat='48.1117683' lon='-1.7020174'>
+    <tag k='created_by' v='JOSM' />
+  </node>
+  <node id='-1214' visible='true' lat='48.1114299' lon='-1.7014392' />
+  <node id='-1212' visible='true' lat='48.1114906' lon='-1.7012941' />
+  <node id='-1210' visible='true' lat='48.1116811' lon='-1.7016135' />
+  <node id='-1208' visible='true' lat='48.1217904' lon='-1.6385167' />
+  <node id='-1206' visible='true' lat='48.1218326' lon='-1.6383621' />
+  <node id='-1204' visible='true' lat='48.131046' lon='-1.6918377' />
+  <node id='-1202' visible='true' lat='48.1309835' lon='-1.6918655'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1200' visible='true' lat='48.1305514' lon='-1.6920453' />
+  <node id='-1198' visible='true' lat='48.1142386' lon='-1.6339556'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-1196' visible='true' lat='48.1141739' lon='-1.6342298' />
+  <node id='-1194' visible='true' lat='48.1141735' lon='-1.6342801'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1192' visible='true' lat='48.1141707' lon='-1.6346852' />
+  <node id='-1190' visible='true' lat='48.1289271' lon='-1.6956552' />
+  <node id='-1188' visible='true' lat='48.128648' lon='-1.6949767' />
+  <node id='-1186' visible='true' lat='48.128992' lon='-1.695796'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1184' visible='true' lat='48.1290131' lon='-1.695846' />
+  <node id='-1182' visible='true' lat='48.1290582' lon='-1.6959397' />
+  <node id='-1180' visible='true' lat='48.1097835' lon='-1.684058'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-1178' visible='true' lat='48.1097872' lon='-1.6839845'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-1176' visible='true' lat='48.1098366' lon='-1.6836979' />
+  <node id='-1174' visible='true' lat='48.1098345' lon='-1.6830497'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1172' visible='true' lat='48.1098417' lon='-1.6820611'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1170' visible='true' lat='48.1098418' lon='-1.6819812' />
+  <node id='-1168' visible='true' lat='48.1101058' lon='-1.655264' />
+  <node id='-1166' visible='true' lat='48.1100173' lon='-1.6702671' />
+  <node id='-1164' visible='true' lat='48.1099546' lon='-1.6705151' />
+  <node id='-1162' visible='true' lat='48.1099107' lon='-1.6707317'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-1160' visible='true' lat='48.109892' lon='-1.6708236' />
+  <node id='-1158' visible='true' lat='48.1155329' lon='-1.6332387'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-1156' visible='true' lat='48.1144299' lon='-1.6337711' />
+  <node id='-1154' visible='true' lat='48.1098849' lon='-1.6721026' />
+  <node id='-1152' visible='true' lat='48.1098848' lon='-1.6723793' />
+  <node id='-1150' visible='true' lat='48.1098704' lon='-1.6739745' />
+  <node id='-1148' visible='true' lat='48.1098651' lon='-1.6741521' />
+  <node id='-1146' visible='true' lat='48.1098576' lon='-1.6754987' />
+  <node id='-1144' visible='true' lat='48.1098504' lon='-1.6763692' />
+  <node id='-1142' visible='true' lat='48.1098442' lon='-1.6764199' />
+  <node id='-1140' visible='true' lat='48.1100817' lon='-1.6855318' />
+  <node id='-1138' visible='true' lat='48.1097905' lon='-1.6848213' />
+  <node id='-1136' visible='true' lat='48.1129103' lon='-1.6413192'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-1134' visible='true' lat='48.1135492' lon='-1.6410426' />
+  <node id='-1132' visible='true' lat='48.1135749' lon='-1.6410321'>
+    <tag k='highway' v='bus_stop' />
+    <tag k='name' v='Les Préales' />
+    <tag k='note' v='vers le centre-ville' />
+  </node>
+  <node id='-1130' visible='true' lat='48.1139281' lon='-1.6408731' />
+  <node id='-1128' visible='true' lat='48.1139651' lon='-1.6408564' />
+  <node id='-1126' visible='true' lat='48.1140063' lon='-1.6407401' />
+  <node id='-1124' visible='true' lat='48.1140189' lon='-1.6398751'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1122' visible='true' lat='48.1140214' lon='-1.6397008' />
+  <node id='-1120' visible='true' lat='48.1140439' lon='-1.6385633'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1118' visible='true' lat='48.1140693' lon='-1.6370133'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1116' visible='true' lat='48.1140713' lon='-1.6368481' />
+  <node id='-1114' visible='true' lat='48.1140749' lon='-1.6366056'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1112' visible='true' lat='48.1140791' lon='-1.6361283' />
+  <node id='-1110' visible='true' lat='48.1140879' lon='-1.6350774' />
+  <node id='-1108' visible='true' lat='48.1179002' lon='-1.6345007' />
+  <node id='-1106' visible='true' lat='48.117839' lon='-1.6345054'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-1104' visible='true' lat='48.1177262' lon='-1.634521' />
+  <node id='-1102' visible='true' lat='48.1168559' lon='-1.6340236'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-1100' visible='true' lat='48.1168007' lon='-1.633989' />
+  <node id='-1098' visible='true' lat='48.1120741' lon='-1.7022766'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-1096' visible='true' lat='48.1121889' lon='-1.7020907' />
+  <node id='-1094' visible='true' lat='48.1124982' lon='-1.7016142' />
+  <node id='-1092' visible='true' lat='48.115646' lon='-1.6331802'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-1090' visible='true' lat='48.1161506' lon='-1.6334758' />
+  <node id='-1088' visible='true' lat='48.1166779' lon='-1.6337919' />
+  <node id='-1086' visible='true' lat='48.1167912' lon='-1.6338598' />
+  <node id='-1084' visible='true' lat='48.1168306' lon='-1.6338834' />
+  <node id='-1082' visible='true' lat='48.1174905' lon='-1.7047825' />
+  <node id='-1080' visible='true' lat='48.1174539' lon='-1.704741' />
+  <node id='-1078' visible='true' lat='48.1174316' lon='-1.7046809' />
+  <node id='-1076' visible='true' lat='48.1174275' lon='-1.7046125' />
+  <node id='-1074' visible='true' lat='48.1174421' lon='-1.7045474' />
+  <node id='-1072' visible='true' lat='48.117465' lon='-1.7045062' />
+  <node id='-1070' visible='true' lat='48.1174954' lon='-1.7044781' />
+  <node id='-1068' visible='true' lat='48.1175302' lon='-1.7044659' />
+  <node id='-1066' visible='true' lat='48.1175657' lon='-1.7044709' />
+  <node id='-1064' visible='true' lat='48.1175984' lon='-1.7044925' />
+  <node id='-1062' visible='true' lat='48.1176248' lon='-1.7045285' />
+  <node id='-1060' visible='true' lat='48.1176441' lon='-1.7045837' />
+  <node id='-1058' visible='true' lat='48.1176485' lon='-1.7046457' />
+  <node id='-1056' visible='true' lat='48.1176374' lon='-1.7047057' />
+  <node id='-1054' visible='true' lat='48.1176123' lon='-1.7047554'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1052' visible='true' lat='48.1175852' lon='-1.7047824' />
+  <node id='-1050' visible='true' lat='48.1175541' lon='-1.7047965' />
+  <node id='-1048' visible='true' lat='48.1175216' lon='-1.7047965' />
+  <node id='-1046' visible='true' lat='48.114536' lon='-1.7001032' />
+  <node id='-1044' visible='true' lat='48.117082' lon='-1.7046829'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1042' visible='true' lat='48.1171879' lon='-1.7046191' />
+  <node id='-1040' visible='true' lat='48.1173645' lon='-1.7045724'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-1038' visible='true' lat='48.1213517' lon='-1.704456' />
+  <node id='-1036' visible='true' lat='48.1213565' lon='-1.7045069'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1034' visible='true' lat='48.1213494' lon='-1.7045541' />
+  <node id='-1032' visible='true' lat='48.1213278' lon='-1.7046013'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1030' visible='true' lat='48.121301' lon='-1.7046281' />
+  <node id='-1028' visible='true' lat='48.1212666' lon='-1.7046398' />
+  <node id='-1026' visible='true' lat='48.1212347' lon='-1.7046329' />
+  <node id='-1024' visible='true' lat='48.1211997' lon='-1.7046017'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1022' visible='true' lat='48.1211804' lon='-1.7045629' />
+  <node id='-1020' visible='true' lat='48.1211707' lon='-1.7045068' />
+  <node id='-1018' visible='true' lat='48.1211749' lon='-1.7044589' />
+  <node id='-1016' visible='true' lat='48.1211898' lon='-1.7044159' />
+  <node id='-1014' visible='true' lat='48.1212015' lon='-1.7043969'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-1012' visible='true' lat='48.121229' lon='-1.7043713' />
+  <node id='-1010' visible='true' lat='48.1212606' lon='-1.7043614' />
+  <node id='-1008' visible='true' lat='48.1212882' lon='-1.704367' />
+  <node id='-1006' visible='true' lat='48.1213094' lon='-1.7043794' />
+  <node id='-1004' visible='true' lat='48.121332' lon='-1.7044058' />
+  <node id='-1002' visible='true' lat='48.1098332' lon='-1.6801913' />
+  <node id='-1000' visible='true' lat='48.1098356' lon='-1.6801366' />
+  <node id='-998' visible='true' lat='48.1098333' lon='-1.6800929'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-996' visible='true' lat='48.1098337' lon='-1.6792086' />
+  <node id='-994' visible='true' lat='48.1098399' lon='-1.6781982' />
+  <node id='-992' visible='true' lat='48.111049' lon='-1.7005843' />
+  <node id='-990' visible='true' lat='48.1113428' lon='-1.7010363' />
+  <node id='-988' visible='true' lat='48.1114398' lon='-1.7012054' />
+  <node id='-986' visible='true' lat='48.1091086' lon='-1.6972509' />
+  <node id='-984' visible='true' lat='48.1093002' lon='-1.6975452'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-982' visible='true' lat='48.1094584' lon='-1.6977821' />
+  <node id='-980' visible='true' lat='48.1096604' lon='-1.6981396' />
+  <node id='-978' visible='true' lat='48.1098788' lon='-1.6985262'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-976' visible='true' lat='48.1101528' lon='-1.6990048'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-974' visible='true' lat='48.1109506' lon='-1.7004143' />
+  <node id='-972' visible='true' lat='48.1110219' lon='-1.7005391' />
+  <node id='-970' visible='true' lat='48.1098408' lon='-1.6780722' />
+  <node id='-968' visible='true' lat='48.1098416' lon='-1.6779499' />
+  <node id='-966' visible='true' lat='48.1082402' lon='-1.6945148' />
+  <node id='-964' visible='true' lat='48.1083593' lon='-1.6939163' />
+  <node id='-962' visible='true' lat='48.1085658' lon='-1.6930676'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-960' visible='true' lat='48.1085963' lon='-1.6929395' />
+  <node id='-958' visible='true' lat='48.1086319' lon='-1.6927727'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-956' visible='true' lat='48.1087935' lon='-1.6919286' />
+  <node id='-954' visible='true' lat='48.1088129' lon='-1.6918407' />
+  <node id='-952' visible='true' lat='48.1088193' lon='-1.6918045' />
+  <node id='-950' visible='true' lat='48.1090166' lon='-1.6909348' />
+  <node id='-948' visible='true' lat='48.1090634' lon='-1.690728' />
+  <node id='-946' visible='true' lat='48.1092507' lon='-1.6899012' />
+  <node id='-944' visible='true' lat='48.109275' lon='-1.6897938' />
+  <node id='-942' visible='true' lat='48.1093921' lon='-1.6892765' />
+  <node id='-940' visible='true' lat='48.1094106' lon='-1.6891962' />
+  <node id='-938' visible='true' lat='48.1096755' lon='-1.6879145'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-936' visible='true' lat='48.1098332' lon='-1.6871683'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-934' visible='true' lat='48.1099196' lon='-1.6870261' />
+  <node id='-932' visible='true' lat='48.1099789' lon='-1.6867447' />
+  <node id='-930' visible='true' lat='48.1100531' lon='-1.6864055' />
+  <node id='-928' visible='true' lat='48.1100747' lon='-1.6863011'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-926' visible='true' lat='48.1100879' lon='-1.6862054' />
+  <node id='-924' visible='true' lat='48.1098687' lon='-1.671398' />
+  <node id='-922' visible='true' lat='48.1098721' lon='-1.6708441' />
+  <node id='-920' visible='true' lat='48.1098416' lon='-1.6763731' />
+  <node id='-918' visible='true' lat='48.1098487' lon='-1.6754995' />
+  <node id='-916' visible='true' lat='48.1098579' lon='-1.6742002'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-914' visible='true' lat='48.1098551' lon='-1.6741493'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-912' visible='true' lat='48.109859' lon='-1.6739716'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-910' visible='true' lat='48.1098669' lon='-1.6723889' />
+  <node id='-908' visible='true' lat='48.1098668' lon='-1.6720943' />
+  <node id='-906' visible='true' lat='48.1098716' lon='-1.6715819' />
+  <node id='-904' visible='true' lat='48.1135269' lon='-1.7007409' />
+  <node id='-902' visible='true' lat='48.1253203' lon='-1.703073' />
+  <node id='-900' visible='true' lat='48.1257199' lon='-1.7031041' />
+  <node id='-898' visible='true' lat='48.1261408' lon='-1.7031097' />
+  <node id='-896' visible='true' lat='48.1269623' lon='-1.7031281' />
+  <node id='-894' visible='true' lat='48.1278125' lon='-1.703152'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-892' visible='true' lat='48.1279187' lon='-1.7031177' />
+  <node id='-890' visible='true' lat='48.1245289' lon='-1.7030076' />
+  <node id='-888' visible='true' lat='48.1246996' lon='-1.7030073' />
+  <node id='-886' visible='true' lat='48.1247892' lon='-1.7030115'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-884' visible='true' lat='48.124973' lon='-1.7030202' />
+  <node id='-882' visible='true' lat='48.12508' lon='-1.7030346' />
+  <node id='-880' visible='true' lat='48.1251452' lon='-1.703045' />
+  <node id='-878' visible='true' lat='48.1098424' lon='-1.6778387' />
+  <node id='-876' visible='true' lat='48.1098441' lon='-1.6764753'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-874' visible='true' lat='48.109871' lon='-1.6707315'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-872' visible='true' lat='48.1098697' lon='-1.6705936' />
+  <node id='-870' visible='true' lat='48.1245205' lon='-1.70312' />
+  <node id='-868' visible='true' lat='48.1244766' lon='-1.7031239'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-866' visible='true' lat='48.1243699' lon='-1.7031369' />
+  <node id='-864' visible='true' lat='48.1243288' lon='-1.7031419' />
+  <node id='-862' visible='true' lat='48.1241201' lon='-1.7031657' />
+  <node id='-860' visible='true' lat='48.1100913' lon='-1.6858831' />
+  <node id='-858' visible='true' lat='48.1100951' lon='-1.6856021' />
+  <node id='-856' visible='true' lat='48.116603' lon='-1.7047055' />
+  <node id='-854' visible='true' lat='48.1164464' lon='-1.7047413' />
+  <node id='-852' visible='true' lat='48.1163973' lon='-1.7047538'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-850' visible='true' lat='48.1163381' lon='-1.704765' />
+  <node id='-848' visible='true' lat='48.1162866' lon='-1.7047976' />
+  <node id='-846' visible='true' lat='48.1162313' lon='-1.704854'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-844' visible='true' lat='48.1160522' lon='-1.7050903'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-842' visible='true' lat='48.1159957' lon='-1.7051543' />
+  <node id='-840' visible='true' lat='48.1246998' lon='-1.7031144' />
+  <node id='-838' visible='true' lat='48.1245635' lon='-1.7031187' />
+  <node id='-836' visible='true' lat='48.1099301' lon='-1.6557343'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-834' visible='true' lat='48.10993' lon='-1.6556752'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-832' visible='true' lat='48.1099297' lon='-1.6555568' />
+  <node id='-830' visible='true' lat='48.1099285' lon='-1.6554303' />
+  <node id='-828' visible='true' lat='48.1158599' lon='-1.704708' />
+  <node id='-826' visible='true' lat='48.1159874' lon='-1.7046902'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-824' visible='true' lat='48.1162757' lon='-1.7046954' />
+  <node id='-822' visible='true' lat='48.1164009' lon='-1.7046828'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-820' visible='true' lat='48.1159478' lon='-1.705217' />
+  <node id='-818' visible='true' lat='48.1159097' lon='-1.7052451' />
+  <node id='-816' visible='true' lat='48.1158733' lon='-1.7052574' />
+  <node id='-814' visible='true' lat='48.115832' lon='-1.7052592' />
+  <node id='-812' visible='true' lat='48.1157936' lon='-1.7052506' />
+  <node id='-810' visible='true' lat='48.1157386' lon='-1.7052096' />
+  <node id='-808' visible='true' lat='48.1156722' lon='-1.7050863'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-806' visible='true' lat='48.1156345' lon='-1.7049383'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-804' visible='true' lat='48.1153807' lon='-1.7035571'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-802' visible='true' lat='48.1153223' lon='-1.7032562' />
+  <node id='-800' visible='true' lat='48.1152436' lon='-1.7029283'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-798' visible='true' lat='48.1152023' lon='-1.7027546' />
+  <node id='-796' visible='true' lat='48.1150697' lon='-1.7022919' />
+  <node id='-794' visible='true' lat='48.1146768' lon='-1.7009985'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-792' visible='true' lat='48.1146059' lon='-1.7003456' />
+  <node id='-790' visible='true' lat='48.1147426' lon='-1.7008194' />
+  <node id='-788' visible='true' lat='48.1150893' lon='-1.7019105' />
+  <node id='-786' visible='true' lat='48.1151786' lon='-1.7022168' />
+  <node id='-784' visible='true' lat='48.1153106' lon='-1.7027325'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-782' visible='true' lat='48.115344' lon='-1.7028653'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-780' visible='true' lat='48.1154218' lon='-1.7032179' />
+  <node id='-778' visible='true' lat='48.1155041' lon='-1.7036322' />
+  <node id='-776' visible='true' lat='48.1155773' lon='-1.7040606' />
+  <node id='-774' visible='true' lat='48.1156154' lon='-1.7042397' />
+  <node id='-772' visible='true' lat='48.1156342' lon='-1.7043138' />
+  <node id='-770' visible='true' lat='48.1156567' lon='-1.7043771' />
+  <node id='-768' visible='true' lat='48.1156881' lon='-1.7044435' />
+  <node id='-766' visible='true' lat='48.1157247' lon='-1.704505' />
+  <node id='-764' visible='true' lat='48.115793' lon='-1.704602' />
+  <node id='-762' visible='true' lat='48.1145174' lon='-1.7010667'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-760' visible='true' lat='48.1119883' lon='-1.7024049'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-758' visible='true' lat='48.1242072' lon='-1.7030671' />
+  <node id='-756' visible='true' lat='48.1243128' lon='-1.7030349' />
+  <node id='-754' visible='true' lat='48.1244398' lon='-1.7030189'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-752' visible='true' lat='48.1244757' lon='-1.7030144'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-750' visible='true' lat='48.1251069' lon='-1.7031017' />
+  <node id='-748' visible='true' lat='48.1248285' lon='-1.7031104'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-746' visible='true' lat='48.1247891' lon='-1.7031116'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-744' visible='true' lat='48.1212895' lon='-1.7043336' />
+  <node id='-742' visible='true' lat='48.1213138' lon='-1.7042916'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-740' visible='true' lat='48.1213872' lon='-1.7040725'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-738' visible='true' lat='48.1214028' lon='-1.7040199' />
+  <node id='-736' visible='true' lat='48.1214098' lon='-1.7039495' />
+  <node id='-734' visible='true' lat='48.121587' lon='-1.7039449' />
+  <node id='-732' visible='true' lat='48.1215709' lon='-1.7039879' />
+  <node id='-730' visible='true' lat='48.121544' lon='-1.7040219'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-728' visible='true' lat='48.1215165' lon='-1.7040372' />
+  <node id='-726' visible='true' lat='48.1214721' lon='-1.7040346' />
+  <node id='-724' visible='true' lat='48.1214356' lon='-1.7040048' />
+  <node id='-722' visible='true' lat='48.1214037' lon='-1.7038915'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-720' visible='true' lat='48.1214109' lon='-1.703844' />
+  <node id='-718' visible='true' lat='48.1214372' lon='-1.7037904' />
+  <node id='-716' visible='true' lat='48.1214656' lon='-1.7037659' />
+  <node id='-714' visible='true' lat='48.1214981' lon='-1.7037574' />
+  <node id='-712' visible='true' lat='48.1215189' lon='-1.703761'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-710' visible='true' lat='48.1215493' lon='-1.7037803' />
+  <node id='-708' visible='true' lat='48.1215735' lon='-1.7038143' />
+  <node id='-706' visible='true' lat='48.1215826' lon='-1.7038367' />
+  <node id='-704' visible='true' lat='48.1215917' lon='-1.7038845' />
+  <node id='-702' visible='true' lat='48.1210963' lon='-1.7045381'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-700' visible='true' lat='48.1209985' lon='-1.704542' />
+  <node id='-698' visible='true' lat='48.1205425' lon='-1.7045601' />
+  <node id='-696' visible='true' lat='48.1203539' lon='-1.7045676'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-694' visible='true' lat='48.1202736' lon='-1.7045707'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-692' visible='true' lat='48.1202392' lon='-1.7045721'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-690' visible='true' lat='48.1200984' lon='-1.7045777' />
+  <node id='-688' visible='true' lat='48.1200598' lon='-1.7045792' />
+  <node id='-686' visible='true' lat='48.1194018' lon='-1.7046053' />
+  <node id='-684' visible='true' lat='48.1193875' lon='-1.7046059' />
+  <node id='-682' visible='true' lat='48.1192573' lon='-1.7046111'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-680' visible='true' lat='48.1190939' lon='-1.7046175' />
+  <node id='-678' visible='true' lat='48.118832' lon='-1.7046279'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-676' visible='true' lat='48.1187556' lon='-1.704631' />
+  <node id='-674' visible='true' lat='48.1187049' lon='-1.704633'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-672' visible='true' lat='48.1183276' lon='-1.7046479' />
+  <node id='-670' visible='true' lat='48.1179858' lon='-1.7046615'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-668' visible='true' lat='48.1321388' lon='-1.6921412' />
+  <node id='-666' visible='true' lat='48.1320976' lon='-1.6921489' />
+  <node id='-664' visible='true' lat='48.1320542' lon='-1.6921396' />
+  <node id='-662' visible='true' lat='48.132016' lon='-1.6921119' />
+  <node id='-660' visible='true' lat='48.1319546' lon='-1.6920422' />
+  <node id='-658' visible='true' lat='48.1319197' lon='-1.6919936' />
+  <node id='-656' visible='true' lat='48.1318975' lon='-1.6919564' />
+  <node id='-654' visible='true' lat='48.1318755' lon='-1.6919196' />
+  <node id='-652' visible='true' lat='48.1318606' lon='-1.6918652' />
+  <node id='-650' visible='true' lat='48.1318563' lon='-1.6917949' />
+  <node id='-648' visible='true' lat='48.1318806' lon='-1.6917058' />
+  <node id='-646' visible='true' lat='48.1319179' lon='-1.6916537' />
+  <node id='-644' visible='true' lat='48.1319609' lon='-1.6916366' />
+  <node id='-642' visible='true' lat='48.1320036' lon='-1.6916336' />
+  <node id='-640' visible='true' lat='48.1320455' lon='-1.6916466' />
+  <node id='-638' visible='true' lat='48.1320748' lon='-1.6916759' />
+  <node id='-636' visible='true' lat='48.1321247' lon='-1.6917342' />
+  <node id='-634' visible='true' lat='48.1321742' lon='-1.6918143' />
+  <node id='-632' visible='true' lat='48.1322051' lon='-1.6918752' />
+  <node id='-630' visible='true' lat='48.132225' lon='-1.691954' />
+  <node id='-628' visible='true' lat='48.1322076' lon='-1.6920538' />
+  <node id='-626' visible='true' lat='48.132174' lon='-1.6921166' />
+  <node id='-624' visible='true' lat='48.1214819' lon='-1.7040754' />
+  <node id='-622' visible='true' lat='48.1214498' lon='-1.7041276'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-620' visible='true' lat='48.1213722' lon='-1.7043337'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-618' visible='true' lat='48.1213586' lon='-1.7043894' />
+  <node id='-616' visible='true' lat='48.1216387' lon='-1.7038261'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-614' visible='true' lat='48.1221289' lon='-1.7037844'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-612' visible='true' lat='48.1221584' lon='-1.703782' />
+  <node id='-610' visible='true' lat='48.1223304' lon='-1.7037674' />
+  <node id='-608' visible='true' lat='48.1222651' lon='-1.7038759' />
+  <node id='-606' visible='true' lat='48.122278' lon='-1.7036924' />
+  <node id='-604' visible='true' lat='48.1223583' lon='-1.7037675' />
+  <node id='-602' visible='true' lat='48.1223862' lon='-1.7037674'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-600' visible='true' lat='48.1227753' lon='-1.7037687' />
+  <node id='-598' visible='true' lat='48.1229358' lon='-1.7037746' />
+  <node id='-596' visible='true' lat='48.1230555' lon='-1.7037723' />
+  <node id='-594' visible='true' lat='48.1234085' lon='-1.7037656' />
+  <node id='-592' visible='true' lat='48.1235836' lon='-1.7037341' />
+  <node id='-590' visible='true' lat='48.1237667' lon='-1.7036319' />
+  <node id='-588' visible='true' lat='48.12801' lon='-1.7029709' />
+  <node id='-586' visible='true' lat='48.1280467' lon='-1.7029731' />
+  <node id='-584' visible='true' lat='48.1280807' lon='-1.7029939' />
+  <node id='-582' visible='true' lat='48.1281079' lon='-1.703031' />
+  <node id='-580' visible='true' lat='48.128125' lon='-1.7030797' />
+  <node id='-578' visible='true' lat='48.1281299' lon='-1.7031354' />
+  <node id='-576' visible='true' lat='48.1281218' lon='-1.7031891' />
+  <node id='-574' visible='true' lat='48.1281019' lon='-1.7032354' />
+  <node id='-572' visible='true' lat='48.1280727' lon='-1.7032687' />
+  <node id='-570' visible='true' lat='48.1280302' lon='-1.7032861' />
+  <node id='-568' visible='true' lat='48.1279937' lon='-1.7032796' />
+  <node id='-566' visible='true' lat='48.1279609' lon='-1.7032548' />
+  <node id='-564' visible='true' lat='48.1279358' lon='-1.7032148' />
+  <node id='-562' visible='true' lat='48.1279213' lon='-1.7031642' />
+  <node id='-560' visible='true' lat='48.1279274' lon='-1.7030643' />
+  <node id='-558' visible='true' lat='48.1279478' lon='-1.7030185' />
+  <node id='-556' visible='true' lat='48.1279774' lon='-1.7029859' />
+  <node id='-554' visible='true' lat='48.109861' lon='-1.6738665'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-552' visible='true' lat='48.1098627' lon='-1.6728466' />
+  <node id='-550' visible='true' lat='48.1280202' lon='-1.7028954'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-548' visible='true' lat='48.1281005' lon='-1.7022997' />
+  <node id='-546' visible='true' lat='48.1281176' lon='-1.702173' />
+  <node id='-544' visible='true' lat='48.128269' lon='-1.7010506' />
+  <node id='-542' visible='true' lat='48.1282883' lon='-1.7009076'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-540' visible='true' lat='48.1283025' lon='-1.7008023' />
+  <node id='-538' visible='true' lat='48.1285001' lon='-1.6993367' />
+  <node id='-536' visible='true' lat='48.1285148' lon='-1.699228' />
+  <node id='-534' visible='true' lat='48.1285276' lon='-1.6991329'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-532' visible='true' lat='48.1286148' lon='-1.6984863'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-530' visible='true' lat='48.1286288' lon='-1.6983824' />
+  <node id='-528' visible='true' lat='48.1286429' lon='-1.698278' />
+  <node id='-526' visible='true' lat='48.1287323' lon='-1.6976152' />
+  <node id='-524' visible='true' lat='48.128822' lon='-1.69695'>
+    <tag k='created_by' v='JOSM' />
+  </node>
+  <node id='-522' visible='true' lat='48.1289015' lon='-1.6963669' />
+  <node id='-520' visible='true' lat='48.1289528' lon='-1.6962216' />
+  <node id='-518' visible='true' lat='48.1289244' lon='-1.6961906' />
+  <node id='-516' visible='true' lat='48.1289042' lon='-1.6961476' />
+  <node id='-514' visible='true' lat='48.1288942' lon='-1.6960972' />
+  <node id='-512' visible='true' lat='48.1288956' lon='-1.6960446' />
+  <node id='-510' visible='true' lat='48.1289082' lon='-1.6959955' />
+  <node id='-508' visible='true' lat='48.1289306' lon='-1.695955' />
+  <node id='-506' visible='true' lat='48.1289703' lon='-1.6959223' />
+  <node id='-504' visible='true' lat='48.1290155' lon='-1.6959168' />
+  <node id='-502' visible='true' lat='48.129081' lon='-1.6959678' />
+  <node id='-500' visible='true' lat='48.1291081' lon='-1.696053' />
+  <node id='-498' visible='true' lat='48.129099' lon='-1.6961463' />
+  <node id='-496' visible='true' lat='48.1290734' lon='-1.6961977' />
+  <node id='-494' visible='true' lat='48.1290365' lon='-1.6962302' />
+  <node id='-492' visible='true' lat='48.1289941' lon='-1.6962386' />
+  <node id='-490' visible='true' lat='48.1100802' lon='-1.6566552'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-488' visible='true' lat='48.1289347' lon='-1.6958986' />
+  <node id='-486' visible='true' lat='48.1289351' lon='-1.6958277'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-484' visible='true' lat='48.1085445' lon='-1.6964245' />
+  <node id='-482' visible='true' lat='48.1085113' lon='-1.696351' />
+  <node id='-480' visible='true' lat='48.1083797' lon='-1.6960554' />
+  <node id='-478' visible='true' lat='48.1083102' lon='-1.6958889' />
+  <node id='-476' visible='true' lat='48.1086186' lon='-1.6963942' />
+  <node id='-474' visible='true' lat='48.1086489' lon='-1.6964499' />
+  <node id='-472' visible='true' lat='48.1084143' lon='-1.6951642' />
+  <node id='-470' visible='true' lat='48.1083826' lon='-1.6955784' />
+  <node id='-468' visible='true' lat='48.1084395' lon='-1.6959411' />
+  <node id='-466' visible='true' lat='48.1280381' lon='-1.693633' />
+  <node id='-464' visible='true' lat='48.1280186' lon='-1.6936201' />
+  <node id='-462' visible='true' lat='48.1279894' lon='-1.6935898' />
+  <node id='-460' visible='true' lat='48.1279689' lon='-1.6935465' />
+  <node id='-458' visible='true' lat='48.1279592' lon='-1.6934876' />
+  <node id='-456' visible='true' lat='48.1279639' lon='-1.6934349' />
+  <node id='-454' visible='true' lat='48.1279803' lon='-1.6933878' />
+  <node id='-452' visible='true' lat='48.1280065' lon='-1.693352' />
+  <node id='-450' visible='true' lat='48.1280549' lon='-1.6933284' />
+  <node id='-448' visible='true' lat='48.1280902' lon='-1.6933344' />
+  <node id='-446' visible='true' lat='48.1281219' lon='-1.6933581' />
+  <node id='-444' visible='true' lat='48.1281545' lon='-1.6934191' />
+  <node id='-442' visible='true' lat='48.1281631' lon='-1.6934707' />
+  <node id='-440' visible='true' lat='48.1281551' lon='-1.6935414' />
+  <node id='-438' visible='true' lat='48.1281381' lon='-1.6935814' />
+  <node id='-436' visible='true' lat='48.1281072' lon='-1.6936176' />
+  <node id='-434' visible='true' lat='48.1280733' lon='-1.6936346' />
+  <node id='-432' visible='true' lat='48.1126204' lon='-1.7014948' />
+  <node id='-430' visible='true' lat='48.1128523' lon='-1.7012682'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-428' visible='true' lat='48.1131979' lon='-1.7009981' />
+  <node id='-426' visible='true' lat='48.1100684' lon='-1.6670086'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-424' visible='true' lat='48.1100805' lon='-1.6657841' />
+  <node id='-422' visible='true' lat='48.1081896' lon='-1.6947888' />
+  <node id='-420' visible='true' lat='48.1081782' lon='-1.6948617' />
+  <node id='-418' visible='true' lat='48.1081445' lon='-1.6950761' />
+  <node id='-416' visible='true' lat='48.1081847' lon='-1.6953432' />
+  <node id='-414' visible='true' lat='48.1082138' lon='-1.6954965' />
+  <node id='-412' visible='true' lat='48.1117311' lon='-1.6460661' />
+  <node id='-410' visible='true' lat='48.1117529' lon='-1.6459494'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-408' visible='true' lat='48.1120999' lon='-1.6445214' />
+  <node id='-406' visible='true' lat='48.1123078' lon='-1.6437091' />
+  <node id='-404' visible='true' lat='48.1123519' lon='-1.6435368' />
+  <node id='-402' visible='true' lat='48.122117' lon='-1.6385288'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-400' visible='true' lat='48.1221516' lon='-1.6385491' />
+  <node id='-398' visible='true' lat='48.1222164' lon='-1.6385849' />
+  <node id='-396' visible='true' lat='48.1087751' lon='-1.696869' />
+  <node id='-394' visible='true' lat='48.1085862' lon='-1.6965128' />
+  <node id='-392' visible='true' lat='48.1221905' lon='-1.6387373' />
+  <node id='-390' visible='true' lat='48.1221108' lon='-1.638696'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-388' visible='true' lat='48.1098288' lon='-1.6811924' />
+  <node id='-386' visible='true' lat='48.1250163' lon='-1.6335041' />
+  <node id='-384' visible='true' lat='48.1249963' lon='-1.6335411' />
+  <node id='-382' visible='true' lat='48.124969' lon='-1.6335655' />
+  <node id='-380' visible='true' lat='48.1249485' lon='-1.6335734' />
+  <node id='-378' visible='true' lat='48.1249168' lon='-1.6335714' />
+  <node id='-376' visible='true' lat='48.1248842' lon='-1.6335501' />
+  <node id='-374' visible='true' lat='48.1248616' lon='-1.6335166' />
+  <node id='-372' visible='true' lat='48.1248527' lon='-1.6334932' />
+  <node id='-370' visible='true' lat='48.1248451' lon='-1.633447' />
+  <node id='-368' visible='true' lat='48.1248466' lon='-1.6334108' />
+  <node id='-366' visible='true' lat='48.1248581' lon='-1.6333664' />
+  <node id='-364' visible='true' lat='48.1248727' lon='-1.6333391'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-362' visible='true' lat='48.124899' lon='-1.6333124' />
+  <node id='-360' visible='true' lat='48.1249248' lon='-1.6333016' />
+  <node id='-358' visible='true' lat='48.1249552' lon='-1.6333034'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-356' visible='true' lat='48.1249919' lon='-1.6333286' />
+  <node id='-354' visible='true' lat='48.1250134' lon='-1.6333636' />
+  <node id='-352' visible='true' lat='48.1250269' lon='-1.6334176' />
+  <node id='-350' visible='true' lat='48.125026' lon='-1.6334651' />
+  <node id='-348' visible='true' lat='48.1223696' lon='-1.6385138' />
+  <node id='-346' visible='true' lat='48.1224113' lon='-1.6385479' />
+  <node id='-344' visible='true' lat='48.1224392' lon='-1.6385932' />
+  <node id='-342' visible='true' lat='48.1224585' lon='-1.6386582' />
+  <node id='-340' visible='true' lat='48.1224586' lon='-1.6387572'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-338' visible='true' lat='48.1224393' lon='-1.6388222' />
+  <node id='-336' visible='true' lat='48.1224156' lon='-1.6388624' />
+  <node id='-334' visible='true' lat='48.1223801' lon='-1.6388959' />
+  <node id='-332' visible='true' lat='48.1223339' lon='-1.6389124' />
+  <node id='-330' visible='true' lat='48.1222867' lon='-1.6389042' />
+  <node id='-328' visible='true' lat='48.1222639' lon='-1.6388905' />
+  <node id='-326' visible='true' lat='48.1222125' lon='-1.6388225'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-324' visible='true' lat='48.1221919' lon='-1.6386662' />
+  <node id='-322' visible='true' lat='48.1222511' lon='-1.6385363' />
+  <node id='-320' visible='true' lat='48.1222873' lon='-1.6385113'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-318' visible='true' lat='48.1223345' lon='-1.6385034' />
+  <node id='-316' visible='true' lat='48.1248651' lon='-1.6335862'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-314' visible='true' lat='48.1248129' lon='-1.6336848'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-312' visible='true' lat='48.1246099' lon='-1.634021'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-310' visible='true' lat='48.1243905' lon='-1.6343948' />
+  <node id='-308' visible='true' lat='48.1230502' lon='-1.6366448' />
+  <node id='-306' visible='true' lat='48.1228287' lon='-1.6370481' />
+  <node id='-304' visible='true' lat='48.1225478' lon='-1.6379479' />
+  <node id='-302' visible='true' lat='48.1224002' lon='-1.6384205' />
+  <node id='-300' visible='true' lat='48.1271033' lon='-1.6290374' />
+  <node id='-298' visible='true' lat='48.1270727' lon='-1.6291434'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-296' visible='true' lat='48.1269231' lon='-1.6295747'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-294' visible='true' lat='48.1267542' lon='-1.6300692' />
+  <node id='-292' visible='true' lat='48.1266169' lon='-1.6304347' />
+  <node id='-290' visible='true' lat='48.1263952' lon='-1.6309208'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-288' visible='true' lat='48.1261359' lon='-1.631398'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </node>
+  <node id='-286' visible='true' lat='48.1256191' lon='-1.6322948' />
+  <node id='-284' visible='true' lat='48.1255028' lon='-1.6324848' />
+  <node id='-282' visible='true' lat='48.1251875' lon='-1.6330002' />
+  <node id='-280' visible='true' lat='48.1250401' lon='-1.6332411'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-278' visible='true' lat='48.1088405' lon='-1.6967961' />
+  <node id='-276' visible='true' lat='48.1090114' lon='-1.6971032' />
+  <node id='-274' visible='true' lat='48.1097772' lon='-1.684756' />
+  <node id='-272' visible='true' lat='48.1097759' lon='-1.6847263' />
+  <node id='-270' visible='true' lat='48.1097745' lon='-1.6846922'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-268' visible='true' lat='48.1097746' lon='-1.6846318'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-266' visible='true' lat='48.1098294' lon='-1.6811145'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-264' visible='true' lat='48.1098329' lon='-1.6802728'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-262' visible='true' lat='48.1142375' lon='-1.6336599' />
+  <node id='-260' visible='true' lat='48.1143457' lon='-1.6337381' />
+  <node id='-258' visible='true' lat='48.1142592' lon='-1.6338928' />
+  <node id='-256' visible='true' lat='48.1140879' lon='-1.634626' />
+  <node id='-254' visible='true' lat='48.1140879' lon='-1.6342748'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-252' visible='true' lat='48.1140879' lon='-1.6341816' />
+  <node id='-250' visible='true' lat='48.1140344' lon='-1.6340582'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-248' visible='true' lat='48.1216792' lon='-1.6382664' />
+  <node id='-246' visible='true' lat='48.1215093' lon='-1.6381763' />
+  <node id='-244' visible='true' lat='48.1205552' lon='-1.6376' />
+  <node id='-242' visible='true' lat='48.1203559' lon='-1.6374827' />
+  <node id='-240' visible='true' lat='48.1201304' lon='-1.63735' />
+  <node id='-238' visible='true' lat='48.1200348' lon='-1.6371481' />
+  <node id='-236' visible='true' lat='48.1200462' lon='-1.63691' />
+  <node id='-234' visible='true' lat='48.1202496' lon='-1.6361313' />
+  <node id='-232' visible='true' lat='48.1202564' lon='-1.6359929' />
+  <node id='-230' visible='true' lat='48.1202079' lon='-1.6358321' />
+  <node id='-228' visible='true' lat='48.120025' lon='-1.6357095' />
+  <node id='-226' visible='true' lat='48.1191904' lon='-1.6352573' />
+  <node id='-224' visible='true' lat='48.1191426' lon='-1.6352308'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-222' visible='true' lat='48.1139723' lon='-1.6340023' />
+  <node id='-220' visible='true' lat='48.1139569' lon='-1.633978' />
+  <node id='-218' visible='true' lat='48.1139204' lon='-1.6338668'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-216' visible='true' lat='48.1139162' lon='-1.6338024' />
+  <node id='-214' visible='true' lat='48.1139204' lon='-1.6337512' />
+  <node id='-212' visible='true' lat='48.1139502' lon='-1.6336531'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-210' visible='true' lat='48.114005' lon='-1.6335799' />
+  <node id='-208' visible='true' lat='48.1140732' lon='-1.6335468' />
+  <node id='-206' visible='true' lat='48.1141413' lon='-1.6335558' />
+  <node id='-204' visible='true' lat='48.1141924' lon='-1.6335921' />
+  <node id='-202' visible='true' lat='48.1142226' lon='-1.6336318' />
+  <node id='-200' visible='true' lat='48.1142629' lon='-1.6337439' />
+  <node id='-198' visible='true' lat='48.1142681' lon='-1.6338218'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-196' visible='true' lat='48.1141888' lon='-1.6340297' />
+  <node id='-194' visible='true' lat='48.114156' lon='-1.6340549'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-192' visible='true' lat='48.1140876' lon='-1.6340728' />
+  <node id='-190' visible='true' lat='48.1091199' lon='-1.6975562' />
+  <node id='-188' visible='true' lat='48.1089202' lon='-1.6971503' />
+  <node id='-186' visible='true' lat='48.1098419' lon='-1.6779048' />
+  <node id='-184' visible='true' lat='48.1084564' lon='-1.6960001' />
+  <node id='-182' visible='true' lat='48.1101439' lon='-1.6992068' />
+  <node id='-180' visible='true' lat='48.1100774' lon='-1.6990972'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-178' visible='true' lat='48.1097977' lon='-1.6986132'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-176' visible='true' lat='48.1097465' lon='-1.6985263'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-174' visible='true' lat='48.1095358' lon='-1.6981622' />
+  <node id='-172' visible='true' lat='48.1094391' lon='-1.6979951' />
+  <node id='-170' visible='true' lat='48.1093401' lon='-1.697824' />
+  <node id='-168' visible='true' lat='48.1092171' lon='-1.6976733'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-166' visible='true' lat='48.1270321' lon='-1.6287879'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-164' visible='true' lat='48.1270554' lon='-1.6287301' />
+  <node id='-162' visible='true' lat='48.1270985' lon='-1.6286817' />
+  <node id='-160' visible='true' lat='48.127142' lon='-1.6286643' />
+  <node id='-158' visible='true' lat='48.1272076' lon='-1.6286815' />
+  <node id='-156' visible='true' lat='48.1272446' lon='-1.6287201' />
+  <node id='-154' visible='true' lat='48.1272668' lon='-1.6287642' />
+  <node id='-152' visible='true' lat='48.1272813' lon='-1.6288281' />
+  <node id='-150' visible='true' lat='48.1272793' lon='-1.6289036' />
+  <node id='-148' visible='true' lat='48.1272763' lon='-1.6289192'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009' />
+  </node>
+  <node id='-146' visible='true' lat='48.1272434' lon='-1.6289975' />
+  <node id='-144' visible='true' lat='48.1271963' lon='-1.6290412' />
+  <node id='-142' visible='true' lat='48.1271518' lon='-1.6290523' />
+  <node id='-140' visible='true' lat='48.1270653' lon='-1.629001' />
+  <node id='-138' visible='true' lat='48.1270336' lon='-1.6289334' />
+  <node id='-136' visible='true' lat='48.1270236' lon='-1.6288676' />
+  <node id='-134' visible='true' lat='48.1178779' lon='-1.7046976' />
+  <node id='-132' visible='true' lat='48.1177003' lon='-1.7047124'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-130' visible='true' lat='48.1168808' lon='-1.6339121'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-128' visible='true' lat='48.116901' lon='-1.6339233' />
+  <node id='-126' visible='true' lat='48.1177563' lon='-1.6344077' />
+  <node id='-124' visible='true' lat='48.1178509' lon='-1.634465'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-122' visible='true' lat='48.1161225' lon='-1.6335872' />
+  <node id='-120' visible='true' lat='48.1173719' lon='-1.7047591'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-118' visible='true' lat='48.1172116' lon='-1.7047361' />
+  <node id='-116' visible='true' lat='48.1170165' lon='-1.7046886'>
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </node>
+  <node id='-114' visible='true' lat='48.1176973' lon='-1.7045524'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-112' visible='true' lat='48.1178774' lon='-1.7046072' />
+  <node id='-110' visible='true' lat='48.1123934' lon='-1.6433456'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-108' visible='true' lat='48.1125254' lon='-1.6427362' />
+  <node id='-106' visible='true' lat='48.112705' lon='-1.6415754' />
+  <node id='-104' visible='true' lat='48.1127305' lon='-1.6414985' />
+  <node id='-102' visible='true' lat='48.1127615' lon='-1.6414354'>
+    <tag k='highway' v='traffic_signals' />
+  </node>
+  <node id='-100' visible='true' lat='48.1128031' lon='-1.6413838' />
+  <node id='-98' visible='true' lat='48.1100406' lon='-1.6702117' />
+  <node id='-96' visible='true' lat='48.110049' lon='-1.6701474' />
+  <node id='-94' visible='true' lat='48.1100489' lon='-1.669672'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-92' visible='true' lat='48.1100488' lon='-1.6695661' />
+  <node id='-90' visible='true' lat='48.1100813' lon='-1.6655313' />
+  <node id='-88' visible='true' lat='48.1100809' lon='-1.6641456' />
+  <node id='-86' visible='true' lat='48.110081' lon='-1.6641005'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-84' visible='true' lat='48.1100842' lon='-1.6630037'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-82' visible='true' lat='48.1100865' lon='-1.6621882'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-80' visible='true' lat='48.1100885' lon='-1.6615221'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-78' visible='true' lat='48.1100933' lon='-1.6598843'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-76' visible='true' lat='48.1101076' lon='-1.6541562' />
+  <node id='-74' visible='true' lat='48.1101535' lon='-1.6533915' />
+  <node id='-72' visible='true' lat='48.1102382' lon='-1.6527519' />
+  <node id='-70' visible='true' lat='48.1102629' lon='-1.6525731'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-68' visible='true' lat='48.1103531' lon='-1.6519551' />
+  <node id='-66' visible='true' lat='48.110459' lon='-1.6513483' />
+  <node id='-64' visible='true' lat='48.1105835' lon='-1.6507608' />
+  <node id='-62' visible='true' lat='48.1106719' lon='-1.6503588' />
+  <node id='-60' visible='true' lat='48.1108949' lon='-1.6494433' />
+  <node id='-58' visible='true' lat='48.1112443' lon='-1.6480159' />
+  <node id='-56' visible='true' lat='48.111574' lon='-1.6466769'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-54' visible='true' lat='48.1116071' lon='-1.6465453' />
+  <node id='-52' visible='true' lat='48.1117041' lon='-1.6461503' />
+  <node id='-50' visible='true' lat='48.1312671' lon='-1.6916501' />
+  <node id='-48' visible='true' lat='48.1313935' lon='-1.6916884' />
+  <node id='-46' visible='true' lat='48.1316169' lon='-1.6917439' />
+  <node id='-44' visible='true' lat='48.1316827' lon='-1.6917594'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-42' visible='true' lat='48.1304028' lon='-1.6921043' />
+  <node id='-40' visible='true' lat='48.1303119' lon='-1.6921403' />
+  <node id='-38' visible='true' lat='48.129362' lon='-1.6925048'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-36' visible='true' lat='48.1292819' lon='-1.6925373' />
+  <node id='-34' visible='true' lat='48.1290964' lon='-1.692617' />
+  <node id='-32' visible='true' lat='48.1289449' lon='-1.6927472' />
+  <node id='-30' visible='true' lat='48.1285071' lon='-1.6931271' />
+  <node id='-28' visible='true' lat='48.1283699' lon='-1.6932393' />
+  <node id='-26' visible='true' lat='48.128224' lon='-1.6933545'>
+    <tag k='highway' v='crossing' />
+  </node>
+  <node id='-24' visible='true' lat='48.110047' lon='-1.6694106' />
+  <node id='-22' visible='true' lat='48.1100466' lon='-1.6693689'>
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-20' visible='true' lat='48.1100457' lon='-1.6692929' />
+  <node id='-18' visible='true' lat='48.110124' lon='-1.6566555'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-16' visible='true' lat='48.1101821' lon='-1.6572646' />
+  <node id='-14' visible='true' lat='48.110171' lon='-1.6578748' />
+  <node id='-12' visible='true' lat='48.1101055' lon='-1.6583447'>
+    <tag k='crossing' v='uncontrolled' />
+    <tag k='highway' v='crossing' />
+    <tag k='source' v='Bing' />
+  </node>
+  <node id='-10' visible='true' lat='48.1100657' lon='-1.6672799' />
+  <way id='-1554' visible='true'>
+    <nd ref='-1242' />
+    <nd ref='-1240' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Place de Bretagne' />
+    <tag k='name:br' v='Plasenn Breizh' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1552' visible='true'>
+    <nd ref='-1238' />
+    <nd ref='-1236' />
+    <tag k='access' v='designated' />
+    <tag k='bridge' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1550' visible='true'>
+    <nd ref='-1234' />
+    <nd ref='-1232' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Passage de Strasbourg' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1548' visible='true'>
+    <nd ref='-1230' />
+    <nd ref='-1228' />
+    <nd ref='-1226' />
+    <nd ref='-1224' />
+    <nd ref='-1222' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='foot' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='horse' v='no' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1546' visible='true'>
+    <nd ref='-1220' />
+    <nd ref='-1218' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Boulevard Marbeuf' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1544' visible='true'>
+    <nd ref='-1216' />
+    <nd ref='-1214' />
+    <tag k='bridge' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1542' visible='true'>
+    <nd ref='-1212' />
+    <nd ref='-1210' />
+    <tag k='bridge' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1540' visible='true'>
+    <nd ref='-1208' />
+    <nd ref='-1206' />
+    <tag k='highway' v='tertiary' />
+  </way>
+  <way id='-1538' visible='true'>
+    <nd ref='-1204' />
+    <nd ref='-1202' />
+    <nd ref='-1200' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Rue Jacques Léonard' />
+  </way>
+  <way id='-1536' visible='true'>
+    <nd ref='-1198' />
+    <nd ref='-1196' />
+    <nd ref='-1194' />
+    <nd ref='-1192' />
+    <tag k='cycleway' v='track' />
+    <tag k='highway' v='secondary' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1534' visible='true'>
+    <nd ref='-1190' />
+    <nd ref='-1188' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue de Cucillé' />
+  </way>
+  <way id='-1532' visible='true'>
+    <nd ref='-1190' />
+    <nd ref='-1186' />
+    <nd ref='-1184' />
+    <nd ref='-1182' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue de Cucillé' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1530' visible='true'>
+    <nd ref='-1240' />
+    <nd ref='-1180' />
+    <nd ref='-1178' />
+    <nd ref='-1298' />
+    <nd ref='-1176' />
+    <nd ref='-1174' />
+    <nd ref='-1172' />
+    <nd ref='-1170' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Quai Lamennais' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1528' visible='true'>
+    <nd ref='-1232' />
+    <nd ref='-1168' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='layer' v='-1' />
+    <tag k='name' v='Passage de Strasbourg' />
+    <tag k='psv' v='yes' />
+    <tag k='tunnel' v='yes' />
+  </way>
+  <way id='-1526' visible='true'>
+    <nd ref='-1166' />
+    <nd ref='-1164' />
+    <nd ref='-1162' />
+    <nd ref='-1160' />
+    <nd ref='-1238' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1524' visible='true'>
+    <nd ref='-1158' />
+    <nd ref='-1156' />
+    <tag k='highway' v='secondary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Avenue de la Touraudais' />
+    <tag k='source:maxspeed' v='FR:urban' />
+  </way>
+  <way id='-1522' visible='true'>
+    <nd ref='-1154' />
+    <nd ref='-1152' />
+    <tag k='access' v='designated' />
+    <tag k='bridge' v='yes' />
+    <tag k='highway' v='residential' />
+    <tag k='layer' v='1' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1520' visible='true'>
+    <nd ref='-1152' />
+    <nd ref='-1150' />
+    <nd ref='-1148' />
+    <nd ref='-1146' />
+    <nd ref='-1144' />
+    <nd ref='-1142' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='residential' />
+    <tag k='oneway' v='yes' />
+    <tag k='wikipedia' v='fr:Quai Émile-Zola' />
+  </way>
+  <way id='-1518' visible='true'>
+    <nd ref='-1140' />
+    <nd ref='-1138' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='bridge' v='yes' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='layer' v='1' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Pont de Bretagne' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1516' visible='true'>
+    <nd ref='-1136' />
+    <nd ref='-1134' />
+    <nd ref='-1132' />
+    <nd ref='-1130' />
+    <nd ref='-1128' />
+    <nd ref='-1126' />
+    <nd ref='-1124' />
+    <nd ref='-1122' />
+    <nd ref='-1120' />
+    <nd ref='-1118' />
+    <nd ref='-1116' />
+    <nd ref='-1114' />
+    <nd ref='-1112' />
+    <nd ref='-1110' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1514' visible='true'>
+    <nd ref='-1108' />
+    <nd ref='-1106' />
+    <nd ref='-1104' />
+    <nd ref='-1102' />
+    <nd ref='-1100' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Allée de Beaulieu' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1512' visible='true'>
+    <nd ref='-1098' />
+    <nd ref='-1096' />
+    <nd ref='-1094' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Boulevard Marbeuf' />
+  </way>
+  <way id='-1510' visible='true'>
+    <nd ref='-1236' />
+    <nd ref='-1154' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1508' visible='true'>
+    <nd ref='-1092' />
+    <nd ref='-1090' />
+    <nd ref='-1088' />
+    <nd ref='-1086' />
+    <nd ref='-1084' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Allée de Beaulieu' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1506' visible='true'>
+    <nd ref='-1082' />
+    <nd ref='-1080' />
+    <nd ref='-1078' />
+    <nd ref='-1076' />
+    <nd ref='-1074' />
+    <nd ref='-1072' />
+    <nd ref='-1070' />
+    <nd ref='-1068' />
+    <nd ref='-1066' />
+    <nd ref='-1064' />
+    <nd ref='-1062' />
+    <nd ref='-1060' />
+    <nd ref='-1058' />
+    <nd ref='-1056' />
+    <nd ref='-1054' />
+    <nd ref='-1052' />
+    <nd ref='-1050' />
+    <nd ref='-1048' />
+    <nd ref='-1082' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Avenue Gaston Berger' />
+  </way>
+  <way id='-1504' visible='true'>
+    <nd ref='-1218' />
+    <nd ref='-1046' />
+    <tag k='highway' v='unclassified' />
+  </way>
+  <way id='-1502' visible='true'>
+    <nd ref='-1044' />
+    <nd ref='-1042' />
+    <nd ref='-1040' />
+    <nd ref='-1074' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1500' visible='true'>
+    <nd ref='-1038' />
+    <nd ref='-1036' />
+    <nd ref='-1034' />
+    <nd ref='-1032' />
+    <nd ref='-1030' />
+    <nd ref='-1028' />
+    <nd ref='-1026' />
+    <nd ref='-1024' />
+    <nd ref='-1022' />
+    <nd ref='-1020' />
+    <nd ref='-1018' />
+    <nd ref='-1016' />
+    <nd ref='-1014' />
+    <nd ref='-1012' />
+    <nd ref='-1010' />
+    <nd ref='-1008' />
+    <nd ref='-1006' />
+    <nd ref='-1004' />
+    <nd ref='-1038' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Place Recteur Henri Le Moal' />
+  </way>
+  <way id='-1498' visible='true'>
+    <nd ref='-1002' />
+    <nd ref='-1000' />
+    <nd ref='-998' />
+    <nd ref='-996' />
+    <nd ref='-994' />
+    <tag k='access' v='destination' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Place de la République' />
+    <tag k='name:br' v='Plasenn ar Republik' />
+    <tag k='psv' v='yes' />
+    <tag k='wikipedia' v='fr:Place de la République (Rennes)' />
+  </way>
+  <way id='-1496' visible='true'>
+    <nd ref='-992' />
+    <nd ref='-990' />
+    <nd ref='-988' />
+    <nd ref='-1212' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1494' visible='true'>
+    <nd ref='-986' />
+    <nd ref='-984' />
+    <nd ref='-982' />
+    <nd ref='-980' />
+    <nd ref='-978' />
+    <nd ref='-976' />
+    <nd ref='-974' />
+    <nd ref='-972' />
+    <nd ref='-992' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1492' visible='true'>
+    <nd ref='-970' />
+    <nd ref='-968' />
+    <tag k='access' v='destination' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Place de la République' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1490' visible='true'>
+    <nd ref='-966' />
+    <nd ref='-964' />
+    <nd ref='-962' />
+    <nd ref='-960' />
+    <nd ref='-958' />
+    <nd ref='-956' />
+    <nd ref='-954' />
+    <nd ref='-952' />
+    <nd ref='-950' />
+    <nd ref='-948' />
+    <nd ref='-946' />
+    <nd ref='-944' />
+    <nd ref='-942' />
+    <nd ref='-940' />
+    <nd ref='-938' />
+    <nd ref='-936' />
+    <nd ref='-934' />
+    <nd ref='-932' />
+    <nd ref='-930' />
+    <nd ref='-928' />
+    <nd ref='-926' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='lanes' v='psv' />
+    <tag k='maxspeed' v='30' />
+    <tag k='name' v='Mail François Mitterrand' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1488' visible='true'>
+    <nd ref='-924' />
+    <nd ref='-922' />
+    <tag k='bridge' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1486' visible='true'>
+    <nd ref='-920' />
+    <nd ref='-918' />
+    <nd ref='-916' />
+    <nd ref='-914' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='residential' />
+    <tag k='maxspeed' v='30' />
+    <tag k='name' v='Quai Émile Zola' />
+    <tag k='name:br' v='Kae Émile Zola' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='opposite_lane' />
+    <tag k='wikipedia' v='fr:Quai Émile-Zola' />
+  </way>
+  <way id='-1484' visible='true'>
+    <nd ref='-914' />
+    <nd ref='-912' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1482' visible='true'>
+    <nd ref='-910' />
+    <nd ref='-908' />
+    <tag k='bridge' v='yes' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1480' visible='true'>
+    <nd ref='-908' />
+    <nd ref='-906' />
+    <nd ref='-924' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1478' visible='true'>
+    <nd ref='-904' />
+    <nd ref='-1220' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Boulevard Marbeuf' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1476' visible='true'>
+    <nd ref='-902' />
+    <nd ref='-900' />
+    <nd ref='-898' />
+    <nd ref='-896' />
+    <nd ref='-894' />
+    <nd ref='-892' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue du Bois Labbé' />
+  </way>
+  <way id='-1474' visible='true'>
+    <nd ref='-890' />
+    <nd ref='-888' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-1472' visible='true'>
+    <nd ref='-888' />
+    <nd ref='-886' />
+    <nd ref='-884' />
+    <nd ref='-882' />
+    <nd ref='-880' />
+    <nd ref='-902' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue du Bois Labbé' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1470' visible='true'>
+    <nd ref='-878' />
+    <nd ref='-876' />
+    <nd ref='-1142' />
+    <nd ref='-920' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Quai Émile Zola' />
+    <tag k='name:br' v='Kae Émile Zola' />
+    <tag k='psv' v='yes' />
+    <tag k='wikipedia' v='fr:Quai Émile-Zola' />
+  </way>
+  <way id='-1468' visible='true'>
+    <nd ref='-922' />
+    <nd ref='-874' />
+    <nd ref='-872' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1466' visible='true'>
+    <nd ref='-870' />
+    <nd ref='-868' />
+    <nd ref='-866' />
+    <nd ref='-864' />
+    <nd ref='-862' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Rue d&apos;Alsace' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1464' visible='true'>
+    <nd ref='-1092' />
+    <nd ref='-1158' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Avenue de la Touraudais' />
+  </way>
+  <way id='-1462' visible='true'>
+    <nd ref='-926' />
+    <nd ref='-860' />
+    <nd ref='-858' />
+    <nd ref='-1140' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='foot' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Pont de Bretagne' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1460' visible='true'>
+    <nd ref='-856' />
+    <nd ref='-854' />
+    <nd ref='-852' />
+    <nd ref='-850' />
+    <nd ref='-848' />
+    <nd ref='-846' />
+    <nd ref='-844' />
+    <nd ref='-842' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1458' visible='true'>
+    <nd ref='-840' />
+    <nd ref='-838' />
+    <nd ref='-870' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-1456' visible='true'>
+    <nd ref='-836' />
+    <nd ref='-834' />
+    <nd ref='-832' />
+    <nd ref='-830' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Avenue du Sergent Maginot' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009' />
+  </way>
+  <way id='-1454' visible='true'>
+    <nd ref='-828' />
+    <nd ref='-826' />
+    <nd ref='-824' />
+    <nd ref='-822' />
+    <nd ref='-856' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1452' visible='true'>
+    <nd ref='-842' />
+    <nd ref='-820' />
+    <nd ref='-818' />
+    <nd ref='-816' />
+    <nd ref='-814' />
+    <nd ref='-812' />
+    <nd ref='-810' />
+    <nd ref='-808' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1450' visible='true'>
+    <nd ref='-808' />
+    <nd ref='-806' />
+    <nd ref='-804' />
+    <nd ref='-802' />
+    <nd ref='-800' />
+    <nd ref='-798' />
+    <nd ref='-796' />
+    <nd ref='-794' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Boulevard Saint-Jean-Baptiste de la Salle' />
+    <tag k='oneway' v='yes' />
+    <tag k='ref:FR:FANTOIR' v='352388698F' />
+  </way>
+  <way id='-1448' visible='true'>
+    <nd ref='-1046' />
+    <nd ref='-792' />
+    <nd ref='-790' />
+    <nd ref='-788' />
+    <nd ref='-786' />
+    <nd ref='-784' />
+    <nd ref='-782' />
+    <nd ref='-780' />
+    <nd ref='-778' />
+    <nd ref='-776' />
+    <nd ref='-774' />
+    <nd ref='-772' />
+    <nd ref='-770' />
+    <nd ref='-768' />
+    <nd ref='-766' />
+    <nd ref='-764' />
+    <nd ref='-828' />
+    <tag k='highway' v='secondary' />
+    <tag k='name' v='Boulevard Saint-Jean-Baptiste de la Salle' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1446' visible='true'>
+    <nd ref='-794' />
+    <nd ref='-762' />
+    <nd ref='-904' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Rue Capitaine Palicot' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1444' visible='true'>
+    <nd ref='-760' />
+    <nd ref='-1216' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue de Saint-Brieuc' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1442' visible='true'>
+    <nd ref='-862' />
+    <nd ref='-758' />
+    <nd ref='-756' />
+    <nd ref='-754' />
+    <nd ref='-752' />
+    <nd ref='-890' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Rue d&apos;Alsace' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1440' visible='true'>
+    <nd ref='-902' />
+    <nd ref='-750' />
+    <nd ref='-748' />
+    <nd ref='-746' />
+    <nd ref='-840' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue du Bois Labbé' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='Bing' />
+  </way>
+  <way id='-1438' visible='true'>
+    <nd ref='-1010' />
+    <nd ref='-744' />
+    <nd ref='-742' />
+    <nd ref='-740' />
+    <nd ref='-738' />
+    <nd ref='-736' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Place Recteur Henri Le Moal' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1436' visible='true'>
+    <nd ref='-734' />
+    <nd ref='-732' />
+    <nd ref='-730' />
+    <nd ref='-728' />
+    <nd ref='-726' />
+    <nd ref='-724' />
+    <nd ref='-736' />
+    <nd ref='-722' />
+    <nd ref='-720' />
+    <nd ref='-718' />
+    <nd ref='-716' />
+    <nd ref='-714' />
+    <nd ref='-712' />
+    <nd ref='-710' />
+    <nd ref='-708' />
+    <nd ref='-706' />
+    <nd ref='-704' />
+    <nd ref='-734' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Place Recteur Henri Le Moal' />
+  </way>
+  <way id='-1434' visible='true'>
+    <nd ref='-1020' />
+    <nd ref='-702' />
+    <nd ref='-700' />
+    <nd ref='-698' />
+    <nd ref='-696' />
+    <nd ref='-694' />
+    <nd ref='-692' />
+    <nd ref='-690' />
+    <nd ref='-688' />
+    <nd ref='-686' />
+    <nd ref='-684' />
+    <nd ref='-682' />
+    <nd ref='-680' />
+    <nd ref='-678' />
+    <nd ref='-676' />
+    <nd ref='-674' />
+    <nd ref='-672' />
+    <nd ref='-670' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+  </way>
+  <way id='-1432' visible='true'>
+    <nd ref='-668' />
+    <nd ref='-666' />
+    <nd ref='-664' />
+    <nd ref='-662' />
+    <nd ref='-660' />
+    <nd ref='-658' />
+    <nd ref='-656' />
+    <nd ref='-654' />
+    <nd ref='-652' />
+    <nd ref='-650' />
+    <nd ref='-648' />
+    <nd ref='-646' />
+    <nd ref='-644' />
+    <nd ref='-642' />
+    <nd ref='-640' />
+    <nd ref='-638' />
+    <nd ref='-636' />
+    <nd ref='-634' />
+    <nd ref='-632' />
+    <nd ref='-630' />
+    <nd ref='-628' />
+    <nd ref='-626' />
+    <nd ref='-668' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Rond-Point de la Robiquette' />
+  </way>
+  <way id='-1430' visible='true'>
+    <nd ref='-728' />
+    <nd ref='-624' />
+    <nd ref='-622' />
+    <nd ref='-620' />
+    <nd ref='-618' />
+    <nd ref='-1038' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Place Recteur Henri Le Moal' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1428' visible='true'>
+    <nd ref='-706' />
+    <nd ref='-616' />
+    <nd ref='-614' />
+    <nd ref='-612' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Rue d&apos;Alsace' />
+  </way>
+  <way id='-1426' visible='true'>
+    <nd ref='-610' />
+    <nd ref='-608' />
+    <nd ref='-612' />
+    <nd ref='-606' />
+    <nd ref='-610' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1424' visible='true'>
+    <nd ref='-610' />
+    <nd ref='-604' />
+    <nd ref='-602' />
+    <nd ref='-600' />
+    <nd ref='-598' />
+    <nd ref='-596' />
+    <nd ref='-594' />
+    <nd ref='-592' />
+    <nd ref='-590' />
+    <nd ref='-862' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Rue d&apos;Alsace' />
+  </way>
+  <way id='-1422' visible='true'>
+    <nd ref='-588' />
+    <nd ref='-586' />
+    <nd ref='-584' />
+    <nd ref='-582' />
+    <nd ref='-580' />
+    <nd ref='-578' />
+    <nd ref='-576' />
+    <nd ref='-574' />
+    <nd ref='-572' />
+    <nd ref='-570' />
+    <nd ref='-568' />
+    <nd ref='-566' />
+    <nd ref='-564' />
+    <nd ref='-562' />
+    <nd ref='-892' />
+    <nd ref='-560' />
+    <nd ref='-558' />
+    <nd ref='-556' />
+    <nd ref='-588' />
+    <tag k='created_by' v='JOSM' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1420' visible='true'>
+    <nd ref='-912' />
+    <nd ref='-554' />
+    <nd ref='-552' />
+    <nd ref='-910' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Quai de Richemont' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1418' visible='true'>
+    <nd ref='-588' />
+    <nd ref='-550' />
+    <nd ref='-548' />
+    <nd ref='-546' />
+    <nd ref='-544' />
+    <nd ref='-542' />
+    <nd ref='-540' />
+    <nd ref='-538' />
+    <nd ref='-536' />
+    <nd ref='-534' />
+    <nd ref='-532' />
+    <nd ref='-530' />
+    <nd ref='-528' />
+    <nd ref='-526' />
+    <nd ref='-524' />
+    <nd ref='-522' />
+    <nd ref='-520' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue de Cucillé' />
+  </way>
+  <way id='-1416' visible='true'>
+    <nd ref='-520' />
+    <nd ref='-518' />
+    <nd ref='-516' />
+    <nd ref='-514' />
+    <nd ref='-512' />
+    <nd ref='-510' />
+    <nd ref='-508' />
+    <nd ref='-506' />
+    <nd ref='-504' />
+    <nd ref='-1182' />
+    <nd ref='-502' />
+    <nd ref='-500' />
+    <nd ref='-498' />
+    <nd ref='-496' />
+    <nd ref='-494' />
+    <nd ref='-492' />
+    <nd ref='-520' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1414' visible='true'>
+    <nd ref='-1222' />
+    <nd ref='-490' />
+    <nd ref='-1234' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='foot' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='horse' v='no' />
+    <tag k='maxspeed' v='50' />
+    <tag k='motor_vehicle' v='designated' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='-1412' visible='true'>
+    <nd ref='-508' />
+    <nd ref='-488' />
+    <nd ref='-486' />
+    <nd ref='-1190' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue de Cucillé' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1410' visible='true'>
+    <nd ref='-484' />
+    <nd ref='-482' />
+    <nd ref='-480' />
+    <nd ref='-478' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1408' visible='true'>
+    <nd ref='-476' />
+    <nd ref='-474' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1406' visible='true'>
+    <nd ref='-472' />
+    <nd ref='-470' />
+    <nd ref='-468' />
+    <tag k='highway' v='service' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1404' visible='true'>
+    <nd ref='-466' />
+    <nd ref='-464' />
+    <nd ref='-462' />
+    <nd ref='-460' />
+    <nd ref='-458' />
+    <nd ref='-456' />
+    <nd ref='-454' />
+    <nd ref='-452' />
+    <nd ref='-450' />
+    <nd ref='-448' />
+    <nd ref='-446' />
+    <nd ref='-444' />
+    <nd ref='-442' />
+    <nd ref='-440' />
+    <nd ref='-438' />
+    <nd ref='-436' />
+    <nd ref='-434' />
+    <nd ref='-466' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Rond-Point de la Préfecture' />
+  </way>
+  <way id='-1402' visible='true'>
+    <nd ref='-1094' />
+    <nd ref='-432' />
+    <nd ref='-430' />
+    <nd ref='-428' />
+    <nd ref='-904' />
+    <tag k='cycleway:left' v='lane' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Boulevard Marbeuf' />
+  </way>
+  <way id='-1400' visible='true'>
+    <nd ref='-426' />
+    <nd ref='-424' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Passage Sergent Maginot' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1398' visible='true'>
+    <nd ref='-966' />
+    <nd ref='-422' />
+    <nd ref='-420' />
+    <nd ref='-418' />
+    <nd ref='-416' />
+    <nd ref='-414' />
+    <nd ref='-478' />
+    <tag k='access' v='destination' />
+    <tag k='highway' v='primary' />
+    <tag k='maxspeed' v='30' />
+    <tag k='name' v='Mail François Mitterrand' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='opposite_lane' />
+  </way>
+  <way id='-1396' visible='true'>
+    <nd ref='-412' />
+    <nd ref='-410' />
+    <nd ref='-408' />
+    <nd ref='-406' />
+    <nd ref='-404' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1394' visible='true'>
+    <nd ref='-1206' />
+    <nd ref='-402' />
+    <nd ref='-400' />
+    <nd ref='-398' />
+    <tag k='highway' v='tertiary' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1392' visible='true'>
+    <nd ref='-396' />
+    <nd ref='-394' />
+    <tag k='bridge' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1390' visible='true'>
+    <nd ref='-392' />
+    <nd ref='-390' />
+    <nd ref='-1208' />
+    <tag k='highway' v='tertiary' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1388' visible='true'>
+    <nd ref='-394' />
+    <nd ref='-484' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1386' visible='true'>
+    <nd ref='-1170' />
+    <nd ref='-388' />
+    <tag k='highway' v='residential' />
+    <tag k='name' v='Quai Lamennais' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='opposite_lane' />
+  </way>
+  <way id='-1384' visible='true'>
+    <nd ref='-386' />
+    <nd ref='-384' />
+    <nd ref='-382' />
+    <nd ref='-380' />
+    <nd ref='-378' />
+    <nd ref='-376' />
+    <nd ref='-374' />
+    <nd ref='-372' />
+    <nd ref='-370' />
+    <nd ref='-368' />
+    <nd ref='-366' />
+    <nd ref='-364' />
+    <nd ref='-362' />
+    <nd ref='-360' />
+    <nd ref='-358' />
+    <nd ref='-356' />
+    <nd ref='-354' />
+    <nd ref='-352' />
+    <nd ref='-350' />
+    <nd ref='-386' />
+    <tag k='highway' v='secondary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1382' visible='true'>
+    <nd ref='-348' />
+    <nd ref='-346' />
+    <nd ref='-344' />
+    <nd ref='-342' />
+    <nd ref='-340' />
+    <nd ref='-338' />
+    <nd ref='-336' />
+    <nd ref='-334' />
+    <nd ref='-332' />
+    <nd ref='-330' />
+    <nd ref='-328' />
+    <nd ref='-326' />
+    <nd ref='-392' />
+    <nd ref='-324' />
+    <nd ref='-398' />
+    <nd ref='-322' />
+    <nd ref='-320' />
+    <nd ref='-318' />
+    <nd ref='-348' />
+    <tag k='highway' v='secondary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1380' visible='true'>
+    <nd ref='-376' />
+    <nd ref='-316' />
+    <nd ref='-314' />
+    <nd ref='-312' />
+    <nd ref='-310' />
+    <nd ref='-308' />
+    <nd ref='-306' />
+    <nd ref='-304' />
+    <nd ref='-302' />
+    <nd ref='-348' />
+    <tag k='highway' v='secondary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Avenue des Buttes de Coësmes' />
+  </way>
+  <way id='-1378' visible='true'>
+    <nd ref='-300' />
+    <nd ref='-298' />
+    <nd ref='-296' />
+    <nd ref='-294' />
+    <nd ref='-292' />
+    <nd ref='-290' />
+    <nd ref='-288' />
+    <nd ref='-286' />
+    <nd ref='-284' />
+    <nd ref='-282' />
+    <nd ref='-280' />
+    <nd ref='-356' />
+    <tag k='highway' v='secondary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='name' v='Avenue des Buttes de Coësmes' />
+  </way>
+  <way id='-1376' visible='true'>
+    <nd ref='-278' />
+    <nd ref='-276' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1374' visible='true'>
+    <nd ref='-474' />
+    <nd ref='-278' />
+    <tag k='bridge' v='yes' />
+    <tag k='highway' v='primary' />
+    <tag k='layer' v='1' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1372' visible='true'>
+    <nd ref='-1138' />
+    <nd ref='-274' />
+    <nd ref='-272' />
+    <nd ref='-270' />
+    <nd ref='-268' />
+    <nd ref='-1242' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Pont de Bretagne' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1370' visible='true'>
+    <nd ref='-388' />
+    <nd ref='-266' />
+    <nd ref='-264' />
+    <nd ref='-1002' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Quai Lamennais' />
+    <tag k='name:br' v='Kae Lamennais' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1368' visible='true'>
+    <nd ref='-262' />
+    <nd ref='-260' />
+    <nd ref='-1156' />
+    <nd ref='-258' />
+    <tag k='highway' v='secondary' />
+    <tag k='maxspeed' v='50' />
+    <tag k='oneway' v='yes' />
+    <tag k='source:maxspeed' v='FR:urban' />
+  </way>
+  <way id='-1366' visible='true'>
+    <nd ref='-1192' />
+    <nd ref='-1110' />
+    <tag k='access' v='designated' />
+    <tag k='cycleway' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1364' visible='true'>
+    <nd ref='-256' />
+    <nd ref='-254' />
+    <nd ref='-252' />
+    <nd ref='-250' />
+    <tag k='access' v='no' />
+    <tag k='highway' v='secondary_link' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1362' visible='true'>
+    <nd ref='-1110' />
+    <nd ref='-256' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1360' visible='true'>
+    <nd ref='-1206' />
+    <nd ref='-248' />
+    <nd ref='-246' />
+    <nd ref='-244' />
+    <nd ref='-242' />
+    <nd ref='-240' />
+    <nd ref='-238' />
+    <nd ref='-236' />
+    <nd ref='-234' />
+    <nd ref='-232' />
+    <nd ref='-230' />
+    <nd ref='-228' />
+    <nd ref='-226' />
+    <nd ref='-224' />
+    <nd ref='-1108' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Allée de Beaulieu' />
+  </way>
+  <way id='-1358' visible='true'>
+    <nd ref='-250' />
+    <nd ref='-222' />
+    <nd ref='-220' />
+    <nd ref='-218' />
+    <nd ref='-216' />
+    <nd ref='-214' />
+    <nd ref='-212' />
+    <nd ref='-210' />
+    <nd ref='-208' />
+    <nd ref='-206' />
+    <nd ref='-204' />
+    <nd ref='-202' />
+    <nd ref='-262' />
+    <nd ref='-200' />
+    <nd ref='-198' />
+    <nd ref='-258' />
+    <nd ref='-1198' />
+    <nd ref='-196' />
+    <nd ref='-194' />
+    <nd ref='-192' />
+    <nd ref='-250' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='secondary' />
+    <tag k='junction' v='roundabout' />
+    <tag k='name' v='Rond-Point de la Touraudais' />
+  </way>
+  <way id='-1356' visible='true'>
+    <nd ref='-190' />
+    <nd ref='-188' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1354' visible='true'>
+    <nd ref='-994' />
+    <nd ref='-970' />
+    <tag k='access' v='destination' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Place de la République' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1352' visible='true'>
+    <nd ref='-1210' />
+    <nd ref='-1098' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue de Saint-Brieuc' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1350' visible='true'>
+    <nd ref='-760' />
+    <nd ref='-1098' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Boulevard Marbeuf' />
+  </way>
+  <way id='-1348' visible='true'>
+    <nd ref='-968' />
+    <nd ref='-186' />
+    <nd ref='-878' />
+    <tag k='access' v='destination' />
+    <tag k='bicycle' v='yes' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Place de la République' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1346' visible='true'>
+    <nd ref='-468' />
+    <nd ref='-184' />
+    <nd ref='-476' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1344' visible='true'>
+    <nd ref='-1214' />
+    <nd ref='-182' />
+    <nd ref='-180' />
+    <nd ref='-178' />
+    <nd ref='-176' />
+    <nd ref='-174' />
+    <nd ref='-172' />
+    <nd ref='-170' />
+    <nd ref='-168' />
+    <nd ref='-190' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='lanes' v='2' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1342' visible='true'>
+    <nd ref='-166' />
+    <nd ref='-164' />
+    <nd ref='-162' />
+    <nd ref='-160' />
+    <nd ref='-158' />
+    <nd ref='-156' />
+    <nd ref='-154' />
+    <nd ref='-152' />
+    <nd ref='-150' />
+    <nd ref='-148' />
+    <nd ref='-146' />
+    <nd ref='-144' />
+    <nd ref='-142' />
+    <nd ref='-300' />
+    <nd ref='-140' />
+    <nd ref='-138' />
+    <nd ref='-136' />
+    <nd ref='-166' />
+    <tag k='highway' v='secondary' />
+    <tag k='junction' v='roundabout' />
+  </way>
+  <way id='-1340' visible='true'>
+    <nd ref='-670' />
+    <nd ref='-134' />
+    <nd ref='-132' />
+    <nd ref='-1054' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </way>
+  <way id='-1338' visible='true'>
+    <nd ref='-1084' />
+    <nd ref='-130' />
+    <nd ref='-128' />
+    <nd ref='-126' />
+    <nd ref='-124' />
+    <nd ref='-1108' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Allée de Beaulieu' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1336' visible='true'>
+    <nd ref='-1100' />
+    <nd ref='-1294' />
+    <nd ref='-122' />
+    <nd ref='-1158' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Allée de Beaulieu' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1334' visible='true'>
+    <nd ref='-1082' />
+    <nd ref='-120' />
+    <nd ref='-118' />
+    <nd ref='-1044' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </way>
+  <way id='-1332' visible='true'>
+    <nd ref='-1044' />
+    <nd ref='-116' />
+    <nd ref='-856' />
+    <tag k='created_by' v='JOSM' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </way>
+  <way id='-1330' visible='true'>
+    <nd ref='-1062' />
+    <nd ref='-114' />
+    <nd ref='-112' />
+    <nd ref='-670' />
+    <tag k='highway' v='tertiary' />
+    <tag k='name' v='Avenue Gaston Berger' />
+    <tag k='oneway' v='yes' />
+    <tag k='source' v='cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008' />
+  </way>
+  <way id='-1328' visible='true'>
+    <nd ref='-404' />
+    <nd ref='-110' />
+    <nd ref='-108' />
+    <nd ref='-106' />
+    <nd ref='-104' />
+    <nd ref='-102' />
+    <nd ref='-100' />
+    <nd ref='-1136' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1326' visible='true'>
+    <nd ref='-276' />
+    <nd ref='-986' />
+    <tag k='cycleway' v='lane' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1324' visible='true'>
+    <nd ref='-1166' />
+    <nd ref='-98' />
+    <nd ref='-96' />
+    <nd ref='-94' />
+    <nd ref='-92' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1322' visible='true'>
+    <nd ref='-90' />
+    <nd ref='-88' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1320' visible='true'>
+    <nd ref='-424' />
+    <nd ref='-90' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='layer' v='-1' />
+    <tag k='psv' v='yes' />
+    <tag k='tunnel' v='yes' />
+  </way>
+  <way id='-1318' visible='true'>
+    <nd ref='-88' />
+    <nd ref='-86' />
+    <nd ref='-84' />
+    <nd ref='-82' />
+    <nd ref='-80' />
+    <nd ref='-78' />
+    <nd ref='-1230' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+    <tag k='source' v='Bing 2014 ; terrain' />
+  </way>
+  <way id='-1316' visible='true'>
+    <nd ref='-872' />
+    <nd ref='-1166' />
+    <tag k='access' v='designated' />
+    <tag k='highway' v='unclassified' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1314' visible='true'>
+    <nd ref='-188' />
+    <nd ref='-396' />
+    <tag k='highway' v='primary' />
+    <tag k='name' v='Rue Louis Guilloux' />
+    <tag k='oneway' v='yes' />
+  </way>
+  <way id='-1312' visible='true'>
+    <nd ref='-1168' />
+    <nd ref='-76' />
+    <nd ref='-74' />
+    <nd ref='-72' />
+    <nd ref='-70' />
+    <nd ref='-68' />
+    <nd ref='-66' />
+    <nd ref='-64' />
+    <nd ref='-62' />
+    <nd ref='-60' />
+    <nd ref='-58' />
+    <nd ref='-56' />
+    <nd ref='-54' />
+    <nd ref='-52' />
+    <nd ref='-412' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1310' visible='true'>
+    <nd ref='-50' />
+    <nd ref='-48' />
+    <nd ref='-46' />
+    <nd ref='-44' />
+    <nd ref='-650' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Rue Jacques Léonard' />
+  </way>
+  <way id='-1308' visible='true'>
+    <nd ref='-1200' />
+    <nd ref='-42' />
+    <nd ref='-40' />
+    <nd ref='-38' />
+    <nd ref='-36' />
+    <tag k='access' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Rue Jacques Léonard' />
+    <tag k='psv' v='yes' />
+  </way>
+  <way id='-1306' visible='true'>
+    <nd ref='-36' />
+    <nd ref='-34' />
+    <nd ref='-32' />
+    <nd ref='-30' />
+    <nd ref='-28' />
+    <nd ref='-26' />
+    <nd ref='-444' />
+    <tag k='highway' v='unclassified' />
+    <tag k='name' v='Rue Jacques Léonard' />
+  </way>
+  <way id='-1304' visible='true'>
+    <nd ref='-92' />
+    <nd ref='-24' />
+    <nd ref='-22' />
+    <nd ref='-20' />
+    <tag k='highway' v='unclassified' />
+  </way>
+  <way id='-1302' visible='true'>
+    <nd ref='-1234' />
+    <nd ref='-18' />
+    <nd ref='-16' />
+    <nd ref='-14' />
+    <nd ref='-12' />
+    <nd ref='-1230' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='foot' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='horse' v='no' />
+    <tag k='maxspeed' v='50' />
+    <tag k='motor_vehicle' v='designated' />
+    <tag k='oneway' v='yes' />
+    <tag k='psv' v='yes' />
+    <tag k='surface' v='asphalt' />
+  </way>
+  <way id='-1300' visible='true'>
+    <nd ref='-20' />
+    <nd ref='-10' />
+    <nd ref='-426' />
+    <tag k='access' v='designated' />
+    <tag k='bicycle' v='no' />
+    <tag k='highway' v='unclassified' />
+    <tag k='psv' v='yes' />
+  </way>
+  <relation id='-2667' action='modify' visible='true'>
+    <member type='relation' ref='-1556' role='' />
+    <member type='relation' ref='-1558' role='' />
+    <tag k='name' v='Bus Ligne 4' />
+    <tag k='route_master' v='bus' />
+    <tag k='type' v='route_master' />
+  </relation>
+  <relation id='-1558' action='modify' visible='true'>
+    <member type='node' ref='-1278' role='platform' />
+    <member type='node' ref='-1264' role='platform' />
+    <member type='node' ref='-1298' role='platform' />
+    <member type='node' ref='-1260' role='platform' />
+    <member type='node' ref='-1272' role='platform' />
+    <member type='node' ref='-1252' role='platform' />
+    <member type='node' ref='-1250' role='platform' />
+    <member type='node' ref='-1256' role='platform' />
+    <member type='node' ref='-1266' role='platform' />
+    <member type='node' ref='-1274' role='platform' />
+    <member type='node' ref='-1290' role='platform' />
+    <member type='node' ref='-1292' role='platform' />
+    <member type='node' ref='-1284' role='platform' />
+    <member type='node' ref='-1286' role='platform' />
+    <member type='way' ref='-1432' role='' />
+    <member type='way' ref='-1310' role='' />
+    <member type='way' ref='-1538' role='' />
+    <member type='way' ref='-1308' role='' />
+    <member type='way' ref='-1306' role='' />
+    <member type='way' ref='-1404' role='' />
+    <member type='way' ref='-1412' role='' />
+    <member type='way' ref='-1532' role='' />
+    <member type='way' ref='-1534' role='' />
+    <member type='way' ref='-1416' role='' />
+    <member type='way' ref='-1418' role='' />
+    <member type='way' ref='-1422' role='' />
+    <member type='way' ref='-1476' role='' />
+    <member type='way' ref='-1458' role='' />
+    <member type='way' ref='-1440' role='' />
+    <member type='way' ref='-1472' role='' />
+    <member type='way' ref='-1474' role='' />
+    <member type='way' ref='-1442' role='' />
+    <member type='way' ref='-1466' role='' />
+    <member type='way' ref='-1424' role='' />
+    <member type='way' ref='-1426' role='' />
+    <member type='way' ref='-1428' role='' />
+    <member type='way' ref='-1436' role='' />
+    <member type='way' ref='-1430' role='' />
+    <member type='way' ref='-1500' role='' />
+    <member type='way' ref='-1434' role='' />
+    <member type='way' ref='-1340' role='' />
+    <member type='way' ref='-1506' role='' />
+    <member type='way' ref='-1334' role='' />
+    <member type='way' ref='-1332' role='' />
+    <member type='way' ref='-1460' role='' />
+    <member type='way' ref='-1452' role='' />
+    <member type='way' ref='-1450' role='' />
+    <member type='way' ref='-1446' role='' />
+    <member type='way' ref='-1402' role='' />
+    <member type='way' ref='-1512' role='' />
+    <member type='way' ref='-1350' role='' />
+    <member type='way' ref='-1444' role='' />
+    <member type='way' ref='-1544' role='' />
+    <member type='way' ref='-1344' role='' />
+    <member type='way' ref='-1356' role='' />
+    <member type='way' ref='-1314' role='' />
+    <member type='way' ref='-1392' role='' />
+    <member type='way' ref='-1388' role='' />
+    <member type='way' ref='-1410' role='' />
+    <member type='way' ref='-1398' role='' />
+    <member type='way' ref='-1490' role='' />
+    <member type='way' ref='-1462' role='' />
+    <member type='way' ref='-1518' role='' />
+    <member type='way' ref='-1372' role='' />
+    <member type='way' ref='-1554' role='' />
+    <member type='way' ref='-1530' role='' />
+    <member type='way' ref='-1386' role='' />
+    <member type='way' ref='-1370' role='' />
+    <member type='way' ref='-1498' role='' />
+    <member type='way' ref='-1354' role='' />
+    <member type='way' ref='-1492' role='' />
+    <member type='way' ref='-1348' role='' />
+    <member type='way' ref='-1470' role='' />
+    <member type='way' ref='-1486' role='' />
+    <member type='way' ref='-1484' role='' />
+    <member type='way' ref='-1420' role='' />
+    <member type='way' ref='-1482' role='' />
+    <member type='way' ref='-1480' role='' />
+    <member type='way' ref='-1488' role='' />
+    <member type='way' ref='-1468' role='' />
+    <member type='way' ref='-1316' role='' />
+    <member type='way' ref='-1324' role='' />
+    <member type='way' ref='-1304' role='' />
+    <member type='way' ref='-1300' role='' />
+    <member type='way' ref='-1400' role='' />
+    <member type='way' ref='-1320' role='' />
+    <member type='way' ref='-1322' role='' />
+    <member type='way' ref='-1318' role='' />
+    <member type='way' ref='-1548' role='' />
+    <member type='way' ref='-1302' role='' />
+    <member type='way' ref='-1414' role='' />
+    <member type='way' ref='-1550' role='' />
+    <member type='way' ref='-1528' role='' />
+    <member type='way' ref='-1312' role='' />
+    <member type='way' ref='-1396' role='' />
+    <member type='way' ref='-1456' role='' />
+    <member type='way' ref='-1328' role='' />
+    <member type='way' ref='-1516' role='' />
+    <member type='way' ref='-1362' role='' />
+    <member type='way' ref='-1364' role='' />
+    <member type='way' ref='-1358' role='' />
+    <member type='way' ref='-1368' role='' />
+    <member type='way' ref='-1524' role='' />
+    <member type='way' ref='-1464' role='' />
+    <member type='way' ref='-1508' role='' />
+    <member type='way' ref='-1338' role='' />
+    <member type='way' ref='-1360' role='' />
+    <member type='way' ref='-1394' role='' />
+    <member type='way' ref='-1382' role='' />
+    <member type='way' ref='-1380' role='' />
+    <member type='way' ref='-1384' role='' />
+    <member type='way' ref='-1378' role='' />
+    <tag k='colour' v='#6D1F80' />
+    <tag k='description' v='Beauregard / Beaulieu Atalante' />
+    <tag k='direction' v='Beaulieu' />
+    <tag k='name' v='Bus Rennes Ligne 4 Direction Beaulieu' />
+    <tag k='network' v='fr_star' />
+    <tag k='operator' v='STAR' />
+    <tag k='ref' v='4' />
+    <tag k='route' v='bus' />
+    <tag k='type' v='route' />
+    <tag k='url' v='http://www.star.fr/_Include/wpFichiers/1/1/GestionDoc/926/L4-290x245.pdf' />
+  </relation>
+  <relation id='-1556' action='modify' visible='true'>
+    <member type='node' ref='-1286' role='platform' />
+    <member type='node' ref='-1282' role='platform' />
+    <member type='node' ref='-1288' role='platform' />
+    <member type='node' ref='-1268' role='platform' />
+    <member type='node' ref='-1258' role='platform' />
+    <member type='node' ref='-1256' role='platform' />
+    <member type='node' ref='-1254' role='platform' />
+    <member type='node' ref='-1244' role='platform' />
+    <member type='node' ref='-1296' role='platform' />
+    <member type='node' ref='-1270' role='platform' />
+    <member type='node' ref='-1248' role='platform' />
+    <member type='node' ref='-1298' role='platform' />
+    <member type='node' ref='-1280' role='platform' />
+    <member type='node' ref='-1262' role='platform' />
+    <member type='node' ref='-1276' role='platform' />
+    <member type='way' ref='-1342' role='' />
+    <member type='way' ref='-1378' role='' />
+    <member type='way' ref='-1384' role='' />
+    <member type='way' ref='-1380' role='' />
+    <member type='way' ref='-1382' role='' />
+    <member type='way' ref='-1390' role='' />
+    <member type='way' ref='-1540' role='' />
+    <member type='way' ref='-1360' role='' />
+    <member type='way' ref='-1514' role='' />
+    <member type='way' ref='-1336' role='' />
+    <member type='way' ref='-1524' role='' />
+    <member type='way' ref='-1368' role='' />
+    <member type='way' ref='-1358' role='' />
+    <member type='way' ref='-1364' role='' />
+    <member type='way' ref='-1362' role='' />
+    <member type='way' ref='-1516' role='' />
+    <member type='way' ref='-1328' role='' />
+    <member type='way' ref='-1312' role='' />
+    <member type='way' ref='-1396' role='' />
+    <member type='way' ref='-1528' role='' />
+    <member type='way' ref='-1550' role='' />
+    <member type='way' ref='-1302' role='' />
+    <member type='way' ref='-1414' role='' />
+    <member type='way' ref='-1548' role='' />
+    <member type='way' ref='-1318' role='' />
+    <member type='way' ref='-1322' role='' />
+    <member type='way' ref='-1320' role='' />
+    <member type='way' ref='-1400' role='' />
+    <member type='way' ref='-1300' role='' />
+    <member type='way' ref='-1304' role='' />
+    <member type='way' ref='-1324' role='' />
+    <member type='way' ref='-1316' role='' />
+    <member type='way' ref='-1468' role='' />
+    <member type='way' ref='-1488' role='' />
+    <member type='way' ref='-1480' role='' />
+    <member type='way' ref='-1482' role='' />
+    <member type='way' ref='-1420' role='' />
+    <member type='way' ref='-1484' role='' />
+    <member type='way' ref='-1486' role='' />
+    <member type='way' ref='-1470' role='' />
+    <member type='way' ref='-1348' role='' />
+    <member type='way' ref='-1492' role='' />
+    <member type='way' ref='-1354' role='' />
+    <member type='way' ref='-1498' role='' />
+    <member type='way' ref='-1370' role='' />
+    <member type='way' ref='-1386' role='' />
+    <member type='way' ref='-1530' role='' />
+    <member type='way' ref='-1554' role='' />
+    <member type='way' ref='-1372' role='' />
+    <member type='way' ref='-1518' role='' />
+    <member type='way' ref='-1462' role='' />
+    <member type='way' ref='-1490' role='' />
+    <member type='way' ref='-1406' role='' />
+    <member type='way' ref='-1346' role='' />
+    <member type='way' ref='-1408' role='' />
+    <member type='way' ref='-1374' role='' />
+    <member type='way' ref='-1376' role='' />
+    <member type='way' ref='-1326' role='' />
+    <member type='way' ref='-1494' role='' />
+    <member type='way' ref='-1496' role='' />
+    <member type='way' ref='-1542' role='' />
+    <member type='way' ref='-1352' role='' />
+    <member type='way' ref='-1512' role='' />
+    <member type='way' ref='-1402' role='' />
+    <member type='way' ref='-1478' role='' />
+    <member type='way' ref='-1546' role='' />
+    <member type='way' ref='-1504' role='' />
+    <member type='way' ref='-1448' role='' />
+    <member type='way' ref='-1454' role='' />
+    <member type='way' ref='-1332' role='' />
+    <member type='way' ref='-1502' role='' />
+    <member type='way' ref='-1506' role='' />
+    <member type='way' ref='-1330' role='' />
+    <member type='way' ref='-1434' role='' />
+    <member type='way' ref='-1500' role='' />
+    <member type='way' ref='-1438' role='' />
+    <member type='way' ref='-1436' role='' />
+    <member type='way' ref='-1428' role='' />
+    <member type='way' ref='-1426' role='' />
+    <member type='way' ref='-1424' role='' />
+    <member type='way' ref='-1442' role='' />
+    <member type='way' ref='-1466' role='' />
+    <member type='way' ref='-1474' role='' />
+    <member type='way' ref='-1472' role='' />
+    <member type='way' ref='-1458' role='' />
+    <member type='way' ref='-1440' role='' />
+    <member type='way' ref='-1476' role='' />
+    <member type='way' ref='-1422' role='' />
+    <member type='way' ref='-1418' role='' />
+    <member type='way' ref='-1416' role='' />
+    <member type='way' ref='-1412' role='' />
+    <member type='way' ref='-1532' role='' />
+    <member type='way' ref='-1534' role='' />
+    <member type='way' ref='-1404' role='' />
+    <member type='way' ref='-1306' role='' />
+    <member type='way' ref='-1308' role='' />
+    <member type='way' ref='-1538' role='' />
+    <member type='way' ref='-1310' role='' />
+    <member type='way' ref='-1432' role='' />
+    <member type='way' ref='-1520' role='' />
+    <member type='way' ref='-1522' role='' />
+    <member type='way' ref='-1510' role='' />
+    <member type='way' ref='-1552' role='' />
+    <member type='way' ref='-1526' role='' />
+    <member type='way' ref='-1366' role='' />
+    <member type='way' ref='-1536' role='' />
+    <tag k='colour' v='#6D1F80' />
+    <tag k='description' v='Beauregard / Beaulieu Atalante' />
+    <tag k='direction' v='Beauregard' />
+    <tag k='name' v='Bus Rennes Ligne 4 Direction Beauregard' />
+    <tag k='network' v='fr_star' />
+    <tag k='operator' v='STAR' />
+    <tag k='ref' v='4' />
+    <tag k='route' v='bus' />
+    <tag k='type' v='route' />
+    <tag k='url' v='http://www.star.fr/_Include/wpFichiers/1/1/GestionDoc/926/L4-290x245.pdf' />
+  </relation>
+</osm>

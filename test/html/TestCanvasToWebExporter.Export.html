@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic sigma.js example</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		#container {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+	<script src="./sigma.min.js"></script>
+	<script>
+		var s = new sigma('container');
+		s.graph.addNode({
+		id: 'n0',
+		label: 'v2',
+		x: 0,
+		y: 0,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n1',
+		label: 'v6',
+		x: 0,
+		y: 2,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n2',
+		label: 'v5',
+		x: 0,
+		y: 3,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n3',
+		label: 'v1',
+		x: 0,
+		y: 1,
+		size: 10,
+		color: '#-16777216'
+		}).addNode({
+		id: 'n4',
+		label: 'v4',
+		x: 0,
+		y: 4,
+		size: 10,
+		color: '#-16777216'
+		}).addEdge({
+		id: 'e0',
+		label: 'e3',
+		source: 'n3',
+		target: 'n1',
+		size: 4,
+		color: '#-65536'
+		}).addEdge({
+		id: 'e1',
+		label: 'e4',
+		source: 'n0',
+		target: 'n3',
+		size: 4,
+		color: '#-65536'
+		}).addEdge({
+		id: 'e2',
+		label: 'e1',
+		source: 'n3',
+		target: 'n4',
+		size: 4,
+		color: '#-65536'
+		}).addEdge({
+		id: 'e3',
+		label: 'e2',
+		source: 'n3',
+		target: 'n2',
+		size: 4,
+		color: '#-65536'
+		});
+		s.refresh();
+	</script>
+</body>
+</html>
