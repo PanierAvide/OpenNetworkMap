@@ -19,6 +19,7 @@ OpenNetworkMap uses the following libraries:
 * BasicOSMParser - OpenStreetMap data parser - Adrien Pavie - https://github.com/PanierAvide/BasicOSMParser
 * Batik - SVG Java toolkit - The Apache Foundation - https://xmlgraphics.apache.org/batik/
 * JUnit - Unit testing framework - JUnit Team - http://junit.org/
+* OSBCP CSS Parser - CSS parser - Christoffer Pettersson - https://github.com/corgrath/osbcp-css-parser
 * SigmaJS - Graph drawing for web pages - Alexis Jacomy - http://sigmajs.org/
 
 License

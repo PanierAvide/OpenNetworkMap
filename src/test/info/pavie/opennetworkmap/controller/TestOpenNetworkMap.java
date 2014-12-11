@@ -19,10 +19,10 @@
 
 package info.pavie.opennetworkmap.controller;
 
-import info.pavie.opennetworkmap.controller.OpenNetworkMap;
-import info.pavie.opennetworkmap.controller.exporter.CanvasExporter;
-import info.pavie.opennetworkmap.controller.exporter.CanvasToSVGExporter;
-import info.pavie.opennetworkmap.controller.exporter.CanvasToWebExporter;
+import info.pavie.opennetworkmap.controller.converter.GridConverter;
+import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
+import info.pavie.opennetworkmap.controller.exporter.NetworkExporter;
+import info.pavie.opennetworkmap.controller.exporter.SVGExporter;
 import info.pavie.opennetworkmap.controller.standardizer.BusLineStandardizer;
 import info.pavie.opennetworkmap.controller.standardizer.DetailedElectricityStandardizer;
 import info.pavie.opennetworkmap.controller.standardizer.ElectricityStandardizer;
@@ -43,16 +43,18 @@ public class TestOpenNetworkMap {
 	private OpenNetworkMap onm1;
 	private File osmFile1, osmFile2, osmFile3, osmFile4, osmFile5, osmFile6, osmFile7;
 	private NetworkStandardizer ns1, ns2, ns3, ns4;
+	private NetworkConverter nc1;
 	private File css1, css2, css3;
-	private CanvasExporter ce1, ce2;
+	private NetworkExporter ce1/*, ce2*/;
 	private File out1, out2, out3, out4, out5, out6, out7, out8;
 	
 //SETUP
 	@Before
 	public void setUp() throws Exception {
 		onm1 = new OpenNetworkMap();
-		ce1 = new CanvasToSVGExporter();
-		ce2 = new CanvasToWebExporter();
+		ce1 = new SVGExporter();
+//		ce2 = new CanvasToWebExporter();
+		nc1 = new GridConverter();
 
 		//Village detailed power network
 		osmFile1 = new File("test/xml/bleruais.osm");
@@ -102,12 +104,12 @@ public class TestOpenNetworkMap {
 //TESTS
 	@Test
 	public void testProcessVillagePower() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile1, ns1, css1, ce1, out1);
+		onm1.process(osmFile1, ns1, nc1, css1, ce1, out1);
 	}
 	
 	@Test
 	public void testProcessRegionPower() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile2, ns2, css2, ce1, out2);
+		onm1.process(osmFile2, ns2, nc1, css2, ce1, out2);
 	}
 	
 //	@Test
@@ -115,38 +117,38 @@ public class TestOpenNetworkMap {
 //		onm1.process(osmFile5, ns2, css2, ce1, out5);
 //	}
 	
-	@Test
-	public void testProcessFrancePower() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile5, ns2, css2, ce1, out5);
-	}
+//	@Test
+//	public void testProcessFrancePower() throws FileNotFoundException, SAXException, IOException, Exception {
+//		onm1.process(osmFile5, ns2, nc1, css2, ce1, out5);
+//	}
 	
 	@Test
 	public void testProcessLondonSubwayLight() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile4, ns3, css3, ce1, out4);
+		onm1.process(osmFile4, ns3, nc1, css3, ce1, out4);
 	}
 	
 	@Test
 	public void testProcessLondonSubway() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile3, ns3, css3, ce1, out3);
+		onm1.process(osmFile3, ns3, nc1, css3, ce1, out3);
 	}
 	
 	@Test
 	public void testProcessRennesSubway() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile5, ns3, css3, ce1, out5);
+		onm1.process(osmFile5, ns3, nc1, css3, ce1, out5);
 	}
 	
 	@Test
 	public void testProcessRennesBus() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile6, ns4, css3, ce1, out6);
+		onm1.process(osmFile6, ns4, nc1, css3, ce1, out6);
 	}
 	
 	@Test
 	public void testProcessRennesBusLight() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile7, ns4, css3, ce1, out7);
+		onm1.process(osmFile7, ns4, nc1, css3, ce1, out7);
 	}
 	
-	@Test
-	public void testProcessRennesBusLightWeb() throws FileNotFoundException, SAXException, IOException, Exception {
-		onm1.process(osmFile7, ns4, css3, ce2, out8);
-	}
+//	@Test
+//	public void testProcessRennesBusLightWeb() throws FileNotFoundException, SAXException, IOException, Exception {
+//		onm1.process(osmFile7, ns4, nc1, css3, ce2, out8);
+//	}
 }

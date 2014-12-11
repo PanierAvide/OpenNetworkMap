@@ -19,98 +19,19 @@
 
 package info.pavie.opennetworkmap.controller.converter;
 
-import info.pavie.opennetworkmap.model.draw.network.Canvas;
+import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
 import info.pavie.opennetworkmap.model.network.Network;
-import info.pavie.opennetworkmap.model.network.Vertex;
-import info.pavie.opennetworkmap.util.RWFile;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.HashSet;
-import java.util.Set;
-
-import com.osbcp.cssparser.CSSParser;
 
 /**
- * This class converts standards {@link Network}s into {@link Canvas}es.
+ * A network converter will convert a {@link Network} into a {@link RepresentableNetwork}.
+ * This allows to create representations of given network (to export them later).
  */
-public class NetworkConverter {
-//ATTRIBUTES
-	private Set<Vertex> visitedVertices;
-	
+public interface NetworkConverter {
 //OTHER METHODS
 	/**
-	 * Converts standards {@link Network}s into {@link Canvas}es.
+	 * Creates a representation of the given network (to make it exportable)
 	 * @param n The network
-	 * @param f The CSS file to use
-	 * @return The canvas
-	 * @throws Exception Error during CSS parsing
-	 * @throws FileNotFoundException CSS file not found
+	 * @return The representable network
 	 */
-	public Canvas convert(Network n, File f) throws FileNotFoundException, Exception {
-		if(f == null || !f.exists()) {
-			throw new NullPointerException("You must give a CSS file");
-		}
-		
-		if(n.getVertices().size() == 0) {
-			throw new RuntimeException("The given network is empty");
-		}
-		
-//		System.out.println("Network edges: "+n.getEdges().size());
-//		System.out.println("Network vertices: "+n.getVertices().size());
-		
-		Set<Vertex> vertices = n.getVertices();
-		Canvas result = null;
-		visitedVertices = new HashSet<Vertex>();
-		
-		do {
-			Vertex start = vertices.iterator().next();
-			result = addVertexToCanvas(null, start, result);
-			vertices.removeAll(visitedVertices);
-		} while(vertices.size() > 0);
-		
-		result.setLastLayerDone();
-		result.defineStyle(CSSParser.parse(RWFile.readTextFile(f)));
-		
-//		System.out.println("Canvas edges: "+result.getEdgesPositions().size());
-//		System.out.println("Canvas vertices: "+result.getVerticesPositions().size());
-//		System.out.println(result);
-		
-		return result;
-	}
-	
-	/**
-	 * Adds the next vertex in the canvas, next to "from" vertex.
-	 * Then calls recursively itself to add following vertices.
-	 * @param from The already contained vertex
-	 * @param next The next vertex to add
-	 * @param c The canvas
-	 * @return The edited canvas
-	 */
-	private Canvas addVertexToCanvas(Vertex from, Vertex v, Canvas c) {
-		//Create canvas if not defined
-		if(c == null) {
-			c = new Canvas(v);
-		}
-		//Create new layer
-		else if(from == null) {
-			c.setLastLayerDone();
-			c.addLayer(v);
-		}
-		//Add next vertex else
-		else {
-			c.add(v, from);
-		}
-		
-		//Add following vertices (with depth first search)
-		visitedVertices.add(v);
-		
-		for(Vertex next : v.getLinkedVertices()) {
-			if(!visitedVertices.contains(next)) {
-				c = addVertexToCanvas(v, next, c);
-			}
-		}
-		
-		return c;
-	}
+	RepresentableNetwork createRepresentation(Network n);
 }

@@ -19,13 +19,17 @@
 
 package info.pavie.opennetworkmap;
 
-import info.pavie.opennetworkmap.controller.converter.TestNetworkConverter;
-import info.pavie.opennetworkmap.controller.exporter.TestCanvasToSVGExporter;
+import info.pavie.opennetworkmap.controller.converter.TestGridConverter;
+import info.pavie.opennetworkmap.controller.exporter.TestSVGExporter;
 import info.pavie.opennetworkmap.controller.standardizer.TestDetailedElectricityStandardizer;
 import info.pavie.opennetworkmap.controller.standardizer.TestElectricityStandardizer;
-import info.pavie.opennetworkmap.model.draw.TestCanvas;
-import info.pavie.opennetworkmap.model.draw.TestFlexibleGrid;
-import info.pavie.opennetworkmap.model.draw.TestLayer;
+import info.pavie.opennetworkmap.model.draw.TestRepresentableEdge;
+import info.pavie.opennetworkmap.model.draw.TestRepresentableVertex;
+import info.pavie.opennetworkmap.model.draw.network.TestCanvas;
+import info.pavie.opennetworkmap.model.draw.network.TestFlexibleGrid;
+import info.pavie.opennetworkmap.model.draw.network.TestLayer;
+import info.pavie.opennetworkmap.model.draw.style.TestNetworkStyle;
+import info.pavie.opennetworkmap.model.draw.style.TestTagBasedRule;
 import info.pavie.opennetworkmap.model.network.TestEdge;
 import info.pavie.opennetworkmap.model.network.TestNetwork;
 import info.pavie.opennetworkmap.model.network.TestVertex;
@@ -35,8 +39,8 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-		TestNetworkConverter.class,
-		TestCanvasToSVGExporter.class,
+		TestGridConverter.class,
+		TestSVGExporter.class,
 		TestDetailedElectricityStandardizer.class,
 		TestCanvas.class,
 		TestNetwork.class,
@@ -44,7 +48,11 @@ import org.junit.runners.Suite;
 		TestEdge.class,
 		TestFlexibleGrid.class,
 		TestLayer.class,
-		TestElectricityStandardizer.class
+		TestElectricityStandardizer.class,
+		TestRepresentableVertex.class,
+		TestRepresentableEdge.class,
+		TestTagBasedRule.class,
+		TestNetworkStyle.class
 		})
 public class TestSuite {
   //nothing

@@ -46,6 +46,29 @@ public class RepresentableEdge {
 	 * @param end The representable vertex corresponding to the end vertex
 	 */
 	public RepresentableEdge(Edge e, RepresentableVertex start, RepresentableVertex end) {
+		/*
+		 * Check given parameters
+		 */
+		//Are they defined ?
+		if(e == null) {
+			throw new NullPointerException("Undefined edge");
+		}
+		if(start == null) {
+			throw new NullPointerException("No start vertex defined");
+		}
+		if(end == null) {
+			throw new NullPointerException("No end vertex defined");
+		}
+		
+		//Are they correct ?
+		if(!e.getStartVertex().equals(start.getVertex())) {
+			throw new RuntimeException("The given representable start vertex isn't the start vertex of this edge");
+		}
+		if(!e.getEndVertex().equals(end.getVertex())) {
+			throw new RuntimeException("The given representable end vertex isn't the end vertex of this edge");
+		}
+		
+		//Set attributes
 		this.start = start;
 		this.end = end;
 		this.e = e;
@@ -71,5 +94,13 @@ public class RepresentableEdge {
 	 */
 	public Edge getEdge() {
 		return e;
+	}
+	
+	/**
+	 * Get the direction of the edge in this representation, in radians
+	 * @return The direction, in radians (0 = West to East)
+	 */
+	public double getDirection() {
+		return Math.atan2(end.getX()-start.getX(), end.getY()-start.getY());
 	}
 }

@@ -25,9 +25,10 @@ import static org.junit.Assert.fail;
 import info.pavie.basicosmparser.model.Element;
 import info.pavie.basicosmparser.model.Node;
 import info.pavie.basicosmparser.model.Way;
+import info.pavie.opennetworkmap.controller.converter.GridConverter;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
-import info.pavie.opennetworkmap.controller.exporter.CanvasToSVGExporter;
-import info.pavie.opennetworkmap.controller.standardizer.ElectricityStandardizer;
+import info.pavie.opennetworkmap.controller.exporter.NetworkStyleReader;
+import info.pavie.opennetworkmap.controller.exporter.SVGExporter;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;
@@ -278,10 +279,11 @@ public class TestElectricityStandardizer {
 			}
 		}
 		
-		NetworkConverter nc = new NetworkConverter();
-		CanvasToSVGExporter exporter = new CanvasToSVGExporter();
+		NetworkConverter nc = new GridConverter();
+		SVGExporter exporter = new SVGExporter();
 		try {
-			exporter.export(nc.convert(result, new File("style/power.onmcss")), new File("test/svg/TestElectricityStandardizer.TwoLinesBetweenStations.svg"));
+			NetworkStyleReader nsr = new NetworkStyleReader();
+			exporter.export(nc.createRepresentation(result), nsr.readStyleFile(new File("style/power.onmcss")), new File("test/svg/TestElectricityStandardizer.TwoLinesBetweenStations.svg"));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

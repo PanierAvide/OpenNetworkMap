@@ -20,6 +20,7 @@
 package info.pavie.opennetworkmap.model.draw;
 
 import info.pavie.opennetworkmap.model.network.Network;
+import info.pavie.opennetworkmap.model.network.Vertex;
 
 import java.util.Set;
 
@@ -40,4 +41,10 @@ public interface RepresentableNetwork {
 	 * @return The set of the representable edges
 	 */
 	Set<RepresentableEdge> getRepresentableEdges();
+	
+	/**
+	 * @param v The vertex to find
+	 * @return The representation of the given vertex
+	 */
+	RepresentableVertex getRepresentableVertex(Vertex v);
 }

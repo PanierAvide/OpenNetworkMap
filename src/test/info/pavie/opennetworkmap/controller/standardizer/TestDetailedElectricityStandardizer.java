@@ -25,9 +25,9 @@ import info.pavie.basicosmparser.controller.OSMParser;
 import info.pavie.basicosmparser.model.Element;
 import info.pavie.basicosmparser.model.Node;
 import info.pavie.basicosmparser.model.Way;
+import info.pavie.opennetworkmap.controller.converter.GridConverter;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
-import info.pavie.opennetworkmap.controller.standardizer.DetailedElectricityStandardizer;
-import info.pavie.opennetworkmap.model.draw.network.Canvas;
+import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;
@@ -176,8 +176,8 @@ public class TestDetailedElectricityStandardizer {
 	public void testStandardizeVillage() throws Exception {
 		OSMParser p1 = new OSMParser();
 		result = s1.standardize(p1.parse(new File("test/xml/bleruais.osm")));
-		NetworkConverter nc1 = new NetworkConverter();
-		Canvas c1 = nc1.convert(result, new File("style/default.onmcss"));
+		NetworkConverter nc1 = new GridConverter();
+		RepresentableNetwork c1 = nc1.createRepresentation(result);
 //		System.out.println(c1);
 	}
 }

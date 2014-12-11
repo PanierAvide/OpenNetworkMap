@@ -22,24 +22,15 @@ package info.pavie.opennetworkmap.model.draw.network;
 import info.pavie.opennetworkmap.model.draw.RepresentableEdge;
 import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
 import info.pavie.opennetworkmap.model.draw.RepresentableVertex;
-import info.pavie.opennetworkmap.model.draw.style.TagBasedRule;
-import info.pavie.opennetworkmap.model.network.Component;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.osbcp.cssparser.PropertyValue;
-import com.osbcp.cssparser.Rule;
-
-//TODO Use completely the new Representable* scheme
 /**
  * A canvas is an editable table where you can insert {@link Network} vertices.
  * It is a grid of different {@link Layer}s, which allows to insert disconnected graphs.
@@ -51,13 +42,15 @@ public class Canvas implements RepresentableNetwork {
 	private FlexibleGrid<Layer> grid;
 	/** The last added layer **/
 	private Layer lastLayer, pastLayer;
-	/** The canvas style rules **/
-	private List<TagBasedRule> styleRules;
+//	/** The canvas style rules **/
+//	private List<TagBasedRule> styleRules;
 	/** The vertices positions **/
 	private Map<Vertex,int[]> verticesPositions;
 	/** The edges positions **/
 	private Map<Edge,int[]> edgesPositions;
-
+	/** Associates a vertex to its representation **/
+	private Map<Vertex,RepresentableVertex> representableVertices;
+	
 //CONSTRUCTOR
 	/**
 	 * Creates a new canvas, with one vertex
@@ -66,20 +59,49 @@ public class Canvas implements RepresentableNetwork {
 	public Canvas(Vertex v) {
 		lastLayer = new Layer(v);
 		grid = new FlexibleGrid<Layer>(lastLayer);
-		styleRules = new ArrayList<TagBasedRule>();
+//		styleRules = new ArrayList<TagBasedRule>();
 	}
 
 //ACCESSORS
 	@Override
 	public Set<RepresentableVertex> getRepresentableVertices() {
-		// TODO Auto-generated method stub
-		return null;
+		Map<Vertex,int[]> vertPos = getVerticesPositions();
+		representableVertices = new HashMap<Vertex,RepresentableVertex>();
+		
+		Set<RepresentableVertex> vertices = new HashSet<RepresentableVertex>(vertPos.size());
+		for(Vertex v : vertPos.keySet()) {
+			int[] pos = vertPos.get(v);
+			RepresentableVertex rv = new RepresentableVertex(v, pos[0], pos[1]);
+			vertices.add(rv);
+			representableVertices.put(v, rv);
+		}
+		
+		return vertices;
 	}
 
 	@Override
 	public Set<RepresentableEdge> getRepresentableEdges() {
-		// TODO Auto-generated method stub
-		return null;
+		Set<RepresentableEdge> edges = new HashSet<RepresentableEdge>();
+		Map<Edge,int[]> edgesPos = getEdgesPositions();
+		
+		getRepresentableVertices();
+		
+		for(Edge e : edgesPos.keySet()) { 
+			edges.add(
+					new RepresentableEdge(
+							e,
+							representableVertices.get(e.getStartVertex()),
+							representableVertices.get(e.getEndVertex()))
+					);
+		}
+		
+		return edges;
+	}
+	
+	@Override
+	public RepresentableVertex getRepresentableVertex(Vertex v) {
+		getRepresentableVertices();
+		return representableVertices.get(v);
 	}
 	
 	/**
@@ -179,63 +201,6 @@ public class Canvas implements RepresentableNetwork {
 	}
 	
 	/**
-	 * Returns the applyable properties for a given component
-	 * @param c The component
-	 * @return The style properties
-	 */
-	public Map<String,String> getComponentStyle(Component c) {
-		//Search applyable rules
-		boolean isApplyable;
-		Iterator<String> ite;
-		String key;
-		Map<String,String> style = new HashMap<String,String>(0);
-		
-		for(TagBasedRule tbr : styleRules) {
-			isApplyable = true;
-			ite = tbr.getSelectorTags().keySet().iterator();
-			
-			//Look for needed tags
-			while(ite.hasNext() && isApplyable) {
-				key = ite.next();
-				isApplyable = c.getTags().containsKey(key) && isTagValueValid(tbr.getSelectorTags().get(key), c.getTags().get(key));
-			}
-			
-			//Set style
-			if(isApplyable) {
-				for(PropertyValue p : tbr.getProperties()) {
-					style.put(p.getProperty(), p.getValue());
-				}
-			}
-		}
-		
-		//Replace fill color value by color tag if defined
-		if(c.getTags().containsKey("colour")) {
-			style.put("fill", c.getTags().get("colour"));
-		}
-		
-		return style;
-	}
-	
-	/**
-	 * @return The style rules for canvas
-	 */
-	public Map<String,String> getCanvasStyle() {
-		Map<String,String> style = new HashMap<String,String>(0);
-		
-		for(TagBasedRule tbr : styleRules) {
-			//Set style
-			if(tbr.getSelectorTags().get("grid") != null 
-					&& tbr.getSelectorTags().get("grid").equals("yes")) {
-				for(PropertyValue p : tbr.getProperties()) {
-					style.put(p.getProperty(), p.getValue());
-				}
-			}
-		}
-		
-		return style;
-	}
-	
-	/**
 	 * Get the direction of an edge in this canvas, in radians
 	 * @param e The edge
 	 * @return The direction, in radians (0 = West to East)
@@ -249,24 +214,24 @@ public class Canvas implements RepresentableNetwork {
 		return angleRad;
 	}
 	
-	/**
-	 * Is the value valid compared to the rule value ?
-	 * @param rule The rule value (null for any value)
-	 * @param actual The actual value
-	 * @return True if actual value accepted, false else
-	 */
-	private boolean isTagValueValid(String rule, String actual) {
-		return rule == null || rule.equals(actual);
-	}
+//	/**
+//	 * Is the value valid compared to the rule value ?
+//	 * @param rule The rule value (null for any value)
+//	 * @param actual The actual value
+//	 * @return True if actual value accepted, false else
+//	 */
+//	private boolean isTagValueValid(String rule, String actual) {
+//		return rule == null || rule.equals(actual);
+//	}
 	
 //MODIFIERS
-	/**
-	 * Sets the style rules to use in this canvas.
-	 * @param rules The CSS rules
-	 */
-	public void defineStyle(List<Rule> rules) {
-		styleRules = TagBasedRule.parseRules(rules);
-	}
+//	/**
+//	 * Sets the style rules to use in this canvas.
+//	 * @param rules The CSS rules
+//	 */
+//	public void defineStyle(List<Rule> rules) {
+//		styleRules = TagBasedRule.parseRules(rules);
+//	}
 	
 	/**
 	 * Adds a vertex at the given direction of an already contained vertex.

@@ -22,9 +22,11 @@ package info.pavie.opennetworkmap.controller;
 import info.pavie.basicosmparser.controller.OSMParser;
 import info.pavie.basicosmparser.model.Element;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
-import info.pavie.opennetworkmap.controller.exporter.CanvasExporter;
+import info.pavie.opennetworkmap.controller.exporter.NetworkExporter;
+import info.pavie.opennetworkmap.controller.exporter.NetworkStyleReader;
 import info.pavie.opennetworkmap.controller.standardizer.NetworkStandardizer;
-import info.pavie.opennetworkmap.model.draw.network.Canvas;
+import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
+import info.pavie.opennetworkmap.model.draw.style.NetworkStyle;
 import info.pavie.opennetworkmap.model.network.Network;
 
 import java.io.File;
@@ -44,6 +46,7 @@ public class OpenNetworkMap {
 	 * Processes OSM data to create a network file
 	 * @param osmData The OSM data XML file
 	 * @param standardizer The network standardizer to use (depends of your needs)
+	 * @param converter The network converter to use (depends of your needs)
 	 * @param css The CSS file to use
 	 * @param exporter The exporter to use (depends of wanted output format)
 	 * @param output The output file
@@ -53,7 +56,7 @@ public class OpenNetworkMap {
 	 * @throws IOException If an error occurs during export
 	 * @throws Exception If an error occurs during network conversion
 	 */
-	public boolean process(File osmData, NetworkStandardizer standardizer, File css, CanvasExporter exporter, File output) throws SAXException, FileNotFoundException, IOException, Exception {
+	public boolean process(File osmData, NetworkStandardizer standardizer, NetworkConverter converter, File css, NetworkExporter exporter, File output) throws SAXException, FileNotFoundException, IOException, Exception {
 		//Parse data
 		System.out.println("-Parse OSM data");
 		OSMParser parser = new OSMParser();
@@ -64,12 +67,16 @@ public class OpenNetworkMap {
 		Network standardNetwork = standardizer.standardize(osmElements);
 		
 		//Convert network into canvas
-		System.out.println("-Convert network into canvas");
-		NetworkConverter converter = new NetworkConverter();
-		Canvas createdCanvas = converter.convert(standardNetwork, css);
+		System.out.println("-Make network representable");
+		RepresentableNetwork createdCanvas = converter.createRepresentation(standardNetwork);
+		
+		//Read style rules
+		System.out.println("-Read style rules from CSS");
+		NetworkStyleReader nsr = new NetworkStyleReader();
+		NetworkStyle style = nsr.readStyleFile(css);
 		
 		//Export canvas
 		System.out.println("-Create output file");
-		return exporter.export(createdCanvas, output);
+		return exporter.export(createdCanvas, style, output);
 	}
 }
