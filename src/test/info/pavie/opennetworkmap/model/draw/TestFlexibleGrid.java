@@ -20,7 +20,7 @@
 package info.pavie.opennetworkmap.model.draw;
 
 import static org.junit.Assert.assertEquals;
-import info.pavie.opennetworkmap.model.draw.FlexibleGrid;
+import info.pavie.opennetworkmap.model.draw.network.FlexibleGrid;
 import info.pavie.opennetworkmap.model.network.Vertex;
 
 import java.util.Map;

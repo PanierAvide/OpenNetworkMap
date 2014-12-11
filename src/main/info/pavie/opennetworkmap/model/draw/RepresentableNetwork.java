@@ -19,32 +19,25 @@
 
 package info.pavie.opennetworkmap.model.draw;
 
+import info.pavie.opennetworkmap.model.network.Network;
+
+import java.util.Set;
+
 /**
- * Occurs when a parsing error appears
+ * A representable network is a {@link Network} which can be drawn on a plane surface.
+ * Each element of the network has defined coordinates which can used to draw the network.
+ * This interface allows to use different algorithms for network representations, see implementations for details.
+ * @author Adrien PAVIE
  */
-public class ParseException extends Exception {
-//ATTRIBUTES
-	private static final long serialVersionUID = 6153692906730735259L;
-
-//CONSTRUCTORS
-	public ParseException() {
-		super();
-	}
-
-	public ParseException(String message) {
-		super(message);
-	}
-
-	public ParseException(Throwable cause) {
-		super(cause);
-	}
-
-	public ParseException(String message, Throwable cause) {
-		super(message, cause);
-	}
-
-	public ParseException(String message, Throwable cause,
-			boolean enableSuppression, boolean writableStackTrace) {
-		super(message, cause, enableSuppression, writableStackTrace);
-	}
+public interface RepresentableNetwork {
+//ACCESSORS
+	/**
+	 * @return The set of the representable vertices
+	 */
+	Set<RepresentableVertex> getRepresentableVertices();
+	
+	/**
+	 * @return The set of the representable edges
+	 */
+	Set<RepresentableEdge> getRepresentableEdges();
 }

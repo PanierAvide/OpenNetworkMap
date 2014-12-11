@@ -19,7 +19,7 @@
 
 package info.pavie.opennetworkmap.controller.converter;
 
-import info.pavie.opennetworkmap.model.draw.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.Canvas;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;
 import info.pavie.opennetworkmap.util.RWFile;

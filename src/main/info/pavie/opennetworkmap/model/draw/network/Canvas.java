@@ -17,8 +17,12 @@
 	along with OpenNetworkMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package info.pavie.opennetworkmap.model.draw;
+package info.pavie.opennetworkmap.model.draw.network;
 
+import info.pavie.opennetworkmap.model.draw.RepresentableEdge;
+import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
+import info.pavie.opennetworkmap.model.draw.RepresentableVertex;
+import info.pavie.opennetworkmap.model.draw.style.TagBasedRule;
 import info.pavie.opennetworkmap.model.network.Component;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;
@@ -26,19 +30,22 @@ import info.pavie.opennetworkmap.model.network.Vertex;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import com.osbcp.cssparser.PropertyValue;
 import com.osbcp.cssparser.Rule;
 
+//TODO Use completely the new Representable* scheme
 /**
  * A canvas is an editable table where you can insert {@link Network} vertices.
  * It is a grid of different {@link Layer}s, which allows to insert disconnected graphs.
  * It allows to create a schematic representation of the network in a simple way.
  */
-public class Canvas {
+public class Canvas implements RepresentableNetwork {
 //ATTRIBUTES
 	/** The canvas grid **/
 	private FlexibleGrid<Layer> grid;
@@ -63,6 +70,18 @@ public class Canvas {
 	}
 
 //ACCESSORS
+	@Override
+	public Set<RepresentableVertex> getRepresentableVertices() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Set<RepresentableEdge> getRepresentableEdges() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	/**
 	 * Returns the wanted vertex.
 	 * Don't forget to call once setLastLayerDone() before calling this method.

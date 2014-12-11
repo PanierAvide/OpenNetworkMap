@@ -27,7 +27,7 @@ import info.pavie.basicosmparser.model.Node;
 import info.pavie.basicosmparser.model.Way;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
 import info.pavie.opennetworkmap.controller.standardizer.DetailedElectricityStandardizer;
-import info.pavie.opennetworkmap.model.draw.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.Canvas;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;

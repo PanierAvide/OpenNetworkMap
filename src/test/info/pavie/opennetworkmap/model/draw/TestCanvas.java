@@ -22,7 +22,7 @@ package info.pavie.opennetworkmap.model.draw;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.fail;
-import info.pavie.opennetworkmap.model.draw.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.Canvas;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Vertex;
 

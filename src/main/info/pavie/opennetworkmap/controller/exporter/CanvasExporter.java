@@ -19,7 +19,7 @@
 
 package info.pavie.opennetworkmap.controller.exporter;
 
-import info.pavie.opennetworkmap.model.draw.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.Canvas;
 
 import java.io.File;
 import java.io.IOException;

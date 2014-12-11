@@ -17,7 +17,7 @@
 	along with OpenNetworkMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package info.pavie.opennetworkmap.model.draw;
+package info.pavie.opennetworkmap.model.draw.style;
 
 import info.pavie.opennetworkmap.model.network.Component;
 

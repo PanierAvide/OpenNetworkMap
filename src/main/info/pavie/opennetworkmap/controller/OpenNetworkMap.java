@@ -24,7 +24,7 @@ import info.pavie.basicosmparser.model.Element;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
 import info.pavie.opennetworkmap.controller.exporter.CanvasExporter;
 import info.pavie.opennetworkmap.controller.standardizer.NetworkStandardizer;
-import info.pavie.opennetworkmap.model.draw.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.Canvas;
 import info.pavie.opennetworkmap.model.network.Network;
 
 import java.io.File;
