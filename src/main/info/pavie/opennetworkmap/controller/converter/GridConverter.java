@@ -20,8 +20,8 @@
 package info.pavie.opennetworkmap.controller.converter;
 
 import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
-import info.pavie.opennetworkmap.model.draw.network.Canvas;
-import info.pavie.opennetworkmap.model.draw.network.FlexibleGrid;
+import info.pavie.opennetworkmap.model.draw.network.grid.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.grid.FlexibleGrid;
 import info.pavie.opennetworkmap.model.network.Network;
 import info.pavie.opennetworkmap.model.network.Vertex;
 

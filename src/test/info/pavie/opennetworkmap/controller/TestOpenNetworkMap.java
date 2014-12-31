@@ -19,7 +19,7 @@
 
 package info.pavie.opennetworkmap.controller;
 
-import info.pavie.opennetworkmap.controller.converter.GridConverter;
+import info.pavie.opennetworkmap.controller.converter.IntervalConverter;
 import info.pavie.opennetworkmap.controller.converter.NetworkConverter;
 import info.pavie.opennetworkmap.controller.exporter.NetworkExporter;
 import info.pavie.opennetworkmap.controller.exporter.SVGExporter;
@@ -54,7 +54,8 @@ public class TestOpenNetworkMap {
 		onm1 = new OpenNetworkMap();
 		ce1 = new SVGExporter();
 //		ce2 = new CanvasToWebExporter();
-		nc1 = new GridConverter();
+//		nc1 = new GridConverter();
+		nc1 = new IntervalConverter();
 
 		//Village detailed power network
 		osmFile1 = new File("test/xml/bleruais.osm");

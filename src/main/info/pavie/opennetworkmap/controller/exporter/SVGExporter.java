@@ -161,8 +161,8 @@ public class SVGExporter implements NetworkExporter {
 			generator.setColor(fillColor);
 			
 			//Fill in function of shape
-			int x = rv.getY()*nodeMargins - nodeWidth/2;
-			int y = -rv.getX()*nodeMargins - nodeWidth/2;
+			int x = rv.getX()*nodeMargins - nodeWidth/2;
+			int y = -rv.getY()*nodeMargins - nodeWidth/2;
 			switch(nodeShape) {
 				case "circle":
 					generator.fillOval(x, y, nodeWidth, nodeWidth);
@@ -291,10 +291,10 @@ public class SVGExporter implements NetworkExporter {
 			/*
 			 * Draw edge
 			 */
-			int x1 = re.getStart().getY()*nodeMargins;
-			int y1 = -re.getStart().getX()*nodeMargins;
-			int x2 = re.getEnd().getY()*nodeMargins;
-			int y2 = -re.getEnd().getX()*nodeMargins;
+			int x1 = re.getStart().getX()*nodeMargins;
+			int y1 = -re.getStart().getY()*nodeMargins;
+			int x2 = re.getEnd().getX()*nodeMargins;
+			int y2 = -re.getEnd().getY()*nodeMargins;
 			
 			//Multiple edges between two nodes rendering
 			Couple cple = new Couple(e.getStartVertex(), e.getEndVertex());

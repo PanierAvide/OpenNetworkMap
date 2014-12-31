@@ -26,7 +26,7 @@ import info.pavie.basicosmparser.controller.OSMParser;
 import info.pavie.opennetworkmap.controller.exporter.SVGExporter;
 import info.pavie.opennetworkmap.controller.standardizer.DetailedElectricityStandardizer;
 import info.pavie.opennetworkmap.model.draw.RepresentableNetwork;
-import info.pavie.opennetworkmap.model.draw.network.Canvas;
+import info.pavie.opennetworkmap.model.draw.network.grid.Canvas;
 import info.pavie.opennetworkmap.model.draw.style.NetworkStyle;
 import info.pavie.opennetworkmap.model.network.Edge;
 import info.pavie.opennetworkmap.model.network.Network;

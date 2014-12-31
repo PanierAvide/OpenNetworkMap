@@ -20,14 +20,16 @@
 package info.pavie.opennetworkmap;
 
 import info.pavie.opennetworkmap.controller.converter.TestGridConverter;
+import info.pavie.opennetworkmap.controller.converter.TestIntervalConverter;
 import info.pavie.opennetworkmap.controller.exporter.TestSVGExporter;
 import info.pavie.opennetworkmap.controller.standardizer.TestDetailedElectricityStandardizer;
 import info.pavie.opennetworkmap.controller.standardizer.TestElectricityStandardizer;
 import info.pavie.opennetworkmap.model.draw.TestRepresentableEdge;
 import info.pavie.opennetworkmap.model.draw.TestRepresentableVertex;
-import info.pavie.opennetworkmap.model.draw.network.TestCanvas;
-import info.pavie.opennetworkmap.model.draw.network.TestFlexibleGrid;
-import info.pavie.opennetworkmap.model.draw.network.TestLayer;
+import info.pavie.opennetworkmap.model.draw.TestSimpleRepresentableNetwork;
+import info.pavie.opennetworkmap.model.draw.network.grid.TestCanvas;
+import info.pavie.opennetworkmap.model.draw.network.grid.TestFlexibleGrid;
+import info.pavie.opennetworkmap.model.draw.network.grid.TestLayer;
 import info.pavie.opennetworkmap.model.draw.style.TestNetworkStyle;
 import info.pavie.opennetworkmap.model.draw.style.TestTagBasedRule;
 import info.pavie.opennetworkmap.model.network.TestEdge;
@@ -52,7 +54,9 @@ import org.junit.runners.Suite;
 		TestRepresentableVertex.class,
 		TestRepresentableEdge.class,
 		TestTagBasedRule.class,
-		TestNetworkStyle.class
+		TestNetworkStyle.class,
+		TestSimpleRepresentableNetwork.class,
+		TestIntervalConverter.class
 		})
 public class TestSuite {
   //nothing

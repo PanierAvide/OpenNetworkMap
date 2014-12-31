@@ -17,10 +17,10 @@
 	along with OpenNetworkMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package info.pavie.opennetworkmap.model.draw.network;
+package info.pavie.opennetworkmap.model.draw.network.grid;
 
 import static org.junit.Assert.assertEquals;
-import info.pavie.opennetworkmap.model.draw.network.FlexibleGrid;
+import info.pavie.opennetworkmap.model.draw.network.grid.FlexibleGrid;
 import info.pavie.opennetworkmap.model.network.Vertex;
 
 import java.util.Map;

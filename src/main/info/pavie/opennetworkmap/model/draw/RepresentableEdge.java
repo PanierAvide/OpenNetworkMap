@@ -101,6 +101,6 @@ public class RepresentableEdge {
 	 * @return The direction, in radians (0 = West to East)
 	 */
 	public double getDirection() {
-		return Math.atan2(end.getX()-start.getX(), end.getY()-start.getY());
+		return Math.atan2(end.getY()-start.getY(), end.getX()-start.getX());
 	}
 }

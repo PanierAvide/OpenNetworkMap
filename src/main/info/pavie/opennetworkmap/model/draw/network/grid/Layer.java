@@ -17,7 +17,7 @@
 	along with OpenNetworkMap. If not, see <http://www.gnu.org/licenses/>.
  */
 
-package info.pavie.opennetworkmap.model.draw.network;
+package info.pavie.opennetworkmap.model.draw.network.grid;
 
 import info.pavie.opennetworkmap.model.draw.Spatializable;
 import info.pavie.opennetworkmap.model.network.Vertex;
