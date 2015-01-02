@@ -35,19 +35,29 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-//TODO Reduce indexes of coordinates (to simplify representation)
+//TODO Avoid collisions during simplification
 /**
  * This converter is based on an algorithm which sorts nodes in a Cartesian coordinate plane.
  * Then these nodes are grouped by rows and columns depending of their proximity.
  * @author Adrien PAVIE
  */
 public class IntervalConverter implements NetworkConverter {
+//CONSTANTS
+	/** This percentage (from 0 to 100) defines the range to merge following coordinates. **/
+	private static final double REDUCE_PERCENT = 1;
+	
 //ATTRIBUTES
 	/** The list of X coordinates, sorted **/
 	private List<Double> sortedXCoordinates;
 	
 	/** The list of Y coordinates, sorted **/
 	private List<Double> sortedYCoordinates;
+	
+	/** The map of X coordinates to representable X indexes **/
+	private Map<Double,Integer> indexesXCoordinates;
+	
+	/** The map of Y coordinates to representable Y indexes **/
+	private Map<Double,Integer> indexesYCoordinates;
 
 //OTHER METHODS
 	@Override
@@ -63,8 +73,10 @@ public class IntervalConverter implements NetworkConverter {
 		for(Vertex v : n.getVertices()) {
 			rVertex = new RepresentableVertex(
 					v,
-					sortedXCoordinates.indexOf(v.getLongitude()),
-					sortedYCoordinates.indexOf(v.getLatitude())
+					indexesXCoordinates.get(v.getLongitude()),
+					indexesYCoordinates.get(v.getLatitude())
+//					sortedXCoordinates.indexOf(v.getLongitude()),
+//					sortedYCoordinates.indexOf(v.getLatitude())
 					);
 			mapVertices.put(v, rVertex);
 		}
@@ -108,5 +120,38 @@ public class IntervalConverter implements NetworkConverter {
 		//Sort lists
 		Collections.sort(sortedXCoordinates);
 		Collections.sort(sortedYCoordinates);
+		
+		//Create map to simplify graph representation
+		indexesXCoordinates = new HashMap<Double,Integer>(sortedXCoordinates.size());
+		indexesYCoordinates = new HashMap<Double,Integer>(sortedYCoordinates.size());
+		indexesXCoordinates.put(sortedXCoordinates.get(0), 0);
+		indexesYCoordinates.put(sortedYCoordinates.get(0), 0);
+		
+		//Define coordinates interval
+		double xInterval = sortedXCoordinates.get(sortedXCoordinates.size()-1) - sortedXCoordinates.get(0);
+		double yInterval = sortedYCoordinates.get(sortedYCoordinates.size()-1) - sortedYCoordinates.get(0);
+
+		//Reduce coordinates
+		for(int i=1; i < sortedXCoordinates.size(); i++) {
+			//Reduce X coordinates
+			double currentX = sortedXCoordinates.get(i);
+			double prevX = sortedXCoordinates.get(i-1);
+			
+			if((currentX-prevX)/xInterval*100 <= REDUCE_PERCENT) {
+				indexesXCoordinates.put(currentX, indexesXCoordinates.get(prevX));
+			} else {
+				indexesXCoordinates.put(currentX, indexesXCoordinates.get(prevX)+1);
+			}
+			
+			//Reduce Y coordinates
+			double currentY = sortedYCoordinates.get(i);
+			double prevY = sortedYCoordinates.get(i-1);
+			
+			if((currentY-prevY)/yInterval*100 <= REDUCE_PERCENT) {
+				indexesYCoordinates.put(currentY, indexesYCoordinates.get(prevY));
+			} else {
+				indexesYCoordinates.put(currentY, indexesYCoordinates.get(prevY)+1);
+			}
+		}
 	}
 }
